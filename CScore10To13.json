@@ -1,0 +1,841 @@
+{
+  "results": [
+    {
+      "name": "Wispr Flow: AI Voice-to-Text",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Voice-to-text is a core AI capability. Modern speech models (Whisper, etc.) plus LLM-based post-processing for punctuation, formatting, and context-aware correction directly define this app's quality ceiling. Entirely dependent on AI model advances.",
+      "key_drivers": ["Speech recognition models", "LLM-based text formatting"],
+      "disruption_type": "automation",
+      "changes_made": "Score unchanged. Disruption type adjusted from replacement → automation because the app augments human input rather than replacing a human role entirely."
+    },
+    {
+      "name": "Dropbox: Secure Cloud Storage",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "Core value is reliable file hosting infrastructure. AI can add semantic search, auto-tagging, and document summarization as features, but the fundamental storage-and-sync utility is unaffected by generative AI.",
+      "key_drivers": ["Semantic file search", "Auto-tagging and summarization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "AppLock Pro - App Lock & Guard",
+      "ai_impact_score": 1,
+      "confidence": "high",
+      "reasoning": "App locking is a simple OS-level utility using PIN/pattern/fingerprint. No meaningful surface area for generative AI enhancement or disruption.",
+      "key_drivers": ["Device-level security", "Static access control"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Alarm Clock",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Core function is triggering a sound at a set time—a solved, deterministic task. AI could offer marginal improvements like adaptive wake times based on sleep patterns, but the utility remains fundamentally simple.",
+      "key_drivers": ["Predictive scheduling"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "QuickBooks Workforce",
+      "ai_impact_score": 3,
+      "confidence": "medium",
+      "reasoning": "Primarily a utility for employees to view pay stubs and track time. The data is structured and company-controlled. AI can assist with support queries or auto-fill time entries, but the core value is access to payroll data, not content generation.",
+      "key_drivers": ["Support automation", "Time entry assistance"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Google Tasks",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Task management benefits from AI-powered auto-prioritization, natural language task creation, and context-aware reminders via Google's ecosystem integration. However, the core CRUD operations remain simple.",
+      "key_drivers": ["Automated prioritization", "NLP task creation"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "GTL | GettingOut",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Value is entirely derived from providing regulated communication access in correctional facilities. The app's worth comes from its institutional contracts and compliance infrastructure, not from task complexity that AI could improve.",
+      "key_drivers": ["Regulated communications access"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Alarmy - Alarm Clock & Sleep",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Primary function is forcing users awake via puzzles and challenges. Sleep-tracking components might benefit from ML-based sleep stage analysis, but the core alarm mechanic is unaffected by generative AI.",
+      "key_drivers": ["Sleep pattern ML", "Adaptive alarm timing"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Link to Windows",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "An infrastructure bridge between phone and PC. AI can enhance it with smart reply suggestions or cross-device context sharing, but the core mirroring/sync mechanism is protocol-driven and unchanged by AI.",
+      "key_drivers": ["Smart replies", "Cross-device context sharing"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Word Document: DOCX, PDF, XLSX",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Document editing apps face significant pressure from AI-native capabilities: auto-drafting, summarization, grammar correction, and smart formatting. Users increasingly expect AI assistance integrated into document workflows.",
+      "key_drivers": ["Text generation", "Document summarization", "AI grammar correction"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "File Master - Clean & Manager",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "File cleaning and cache management rely on OS APIs and deterministic heuristics. Minimal surface area for generative AI integration.",
+      "key_drivers": ["Heuristic-based cleanup"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Wallet - Digital Wallet Card",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Stores barcodes and loyalty cards offline—a static data retrieval task. No meaningful room for generative AI or agentic automation beyond minor OCR for card scanning.",
+      "key_drivers": ["OCR card scanning"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "QR & Barcode Scanner",
+      "ai_impact_score": 1,
+      "confidence": "high",
+      "reasoning": "Barcode scanning is a solved computer vision problem handled by standard libraries (ZXing, ML Kit). Modern generative AI adds no value to this deterministic decoding task.",
+      "key_drivers": ["Standard computer vision"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Chat AI: Ask Agent Anything",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Entirely AI-native: a multi-model chatbot wrapper whose value is 100% derived from underlying LLM capabilities. Highly exposed to model commoditization and competition from first-party AI apps (ChatGPT, Gemini).",
+      "key_drivers": ["Frontier LLM capabilities", "Model commoditization risk"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PDF Reader - PDF Converter",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "PDF handling is being disrupted by 'chat with your PDF' features. LLMs can summarize, extract tables, answer questions about document content—shifting value from rendering to understanding.",
+      "key_drivers": ["Document Q&A", "Semantic search"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "EasyClean - File Cleaner",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Basic device maintenance using heuristic rules for junk detection. No meaningful value-add from generative AI.",
+      "key_drivers": ["Rule-based file classification"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Chat Smith: AI Chatbot & Agent",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Multi-purpose AI assistant wrapper (chat, image generation, math solving, writing). Entire value proposition depends on external model APIs. Extremely exposed to model commoditization and first-party alternatives.",
+      "key_drivers": ["LLM API dependence", "Multimodal generation"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Notepad, Notes, Easy Notebook",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Simple note-taking apps face competitive pressure from AI-enhanced alternatives offering auto-summarization, smart tagging, and content drafting. Users increasingly expect these capabilities as table stakes.",
+      "key_drivers": ["Auto-formatting", "Content drafting"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Authenticator App",
+      "ai_impact_score": 1,
+      "confidence": "high",
+      "reasoning": "2FA token generation is a deterministic cryptographic process (TOTP/HOTP). Neither requires nor benefits from generative AI capabilities.",
+      "key_drivers": ["Cryptographic protocols"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PDF Reader, Editor & Scanner",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "PDF apps are transitioning from static viewers to intelligent document assistants. LLMs enable document Q&A, automated data extraction, and OCR post-processing that fundamentally changes the user workflow.",
+      "key_drivers": ["Vision-language OCR", "Document conversation"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "DeepSeek - AI Assistant",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Official AI assistant from a frontier model lab. Its entire product is a conversational AI interface powered by DeepSeek's own models. Fully AI-native with no non-AI value layer.",
+      "key_drivers": ["Frontier AI research", "Conversational interface"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PDF Reader \u2013 PDF Viewer",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "A basic PDF viewer that faces competitive pressure from AI-enhanced document tools, but its 100M+ installs suggest strong utility for simple viewing. The core rendering function isn't disrupted—it's the adjacent features that shift.",
+      "key_drivers": ["Intelligent summarization", "Semantic search"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because this is primarily a viewer app; the core rendering utility remains intact. AI-enhanced competitors create pressure but don't replace the viewing function itself."
+    },
+    {
+      "name": "Translate - Translator",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Translation is one of the most directly AI-disrupted domains. LLMs now handle nuanced, context-aware translation across text, voice, and camera inputs with quality rivaling professional translators for most use cases.",
+      "key_drivers": ["LLM translation quality", "Real-time multimodal translation"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Docusign - Upload & Sign Docs",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "The digital signature workflow itself is a regulatory/compliance function unchanged by AI. However, AI significantly enhances adjacent features: contract review, clause extraction, automated redlining, and risk flagging.",
+      "key_drivers": ["Contract analysis", "Automated redlining"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Speechify \u2013 Text to Speech",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "TTS is a core generative AI capability. Neural voice synthesis (emotional intonation, zero-shot cloning) directly determines this app's quality. The product's competitiveness is entirely shaped by advances in audio generation models.",
+      "key_drivers": ["Neural voice synthesis", "Zero-shot voice cloning"],
+      "disruption_type": "replacement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "GitHub",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "GitHub's mobile app is for triaging notifications, reviewing PRs, and commenting—workflow tasks heavily enhanced by AI (Copilot code review, automated issue labeling, PR summaries). However, GitHub's core value is its repository hosting and developer network effect, which AI enhances but doesn't replace.",
+      "key_drivers": ["AI-assisted code review", "Automated PR summaries", "Copilot integration"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 9 → 8 and disruption_type from mixed → enhancement. The mobile app is primarily for notification triage and PR review, not full coding. GitHub's network effect and repository infrastructure provide strong insulation. AI enhances the workflow but doesn't threaten the platform itself."
+    },
+    {
+      "name": "All Translate: Photo, PDF, DOC",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Multimodal translation (photo, PDF, document, voice) is directly powered by advances in vision-language models and neural machine translation. LLMs now handle these modalities natively with high accuracy.",
+      "key_drivers": ["Multimodal translation", "Vision-language models"],
+      "disruption_type": "automation",
+      "changes_made": "Disruption type adjusted from replacement → automation. The app still requires user intent and document input; AI automates the translation process rather than replacing the need for translation tools entirely."
+    },
+    {
+      "name": "Word Office: Docs Reader",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Document reading and editing increasingly incorporates AI summaries, grammar checks, and auto-editing. Users expect these features, creating competitive pressure on basic document readers.",
+      "key_drivers": ["Content generation", "Summarization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Notion: Notes, Tasks, AI",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Notion has deep AI integration (Notion AI) for drafting, summarizing, and organizing content. However, its core value includes the workspace structure, database views, and team collaboration features that exist independent of AI. AI is a powerful enhancement layer, not the entirety of the product.",
+      "key_drivers": ["AI-powered drafting", "Semantic search", "Automated organization"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 9 → 8 and disruption_type from automation → enhancement. Notion's core value is its flexible workspace and database system. AI is a significant feature addition but the product has substantial non-AI value (templates, databases, team collaboration)."
+    },
+    {
+      "name": "OtterAI Transcribe Voice Notes",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Meeting transcription and summarization are prime AI use cases. Otter relies entirely on speech-to-text models, speaker diarization, and NLP summarization—all rapidly advancing AI capabilities.",
+      "key_drivers": ["Speaker diarization", "Meeting summarization", "Speech-to-text"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "MiraClean - File Manager",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Junk file cleaning and notification blocking use deterministic system rules. Minimal opportunity for meaningful generative AI integration.",
+      "key_drivers": ["Rule-based cleanup"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "File Manager",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "File managers could gain semantic file search and auto-organization, but the core file browsing utility is a low-level OS function with limited AI surface area.",
+      "key_drivers": ["Semantic file organization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Planet Free VPN \u2122 Super Proxy",
+      "ai_impact_score": 1,
+      "confidence": "high",
+      "reasoning": "VPNs are network infrastructure tools operating at the protocol level. Generative AI has no meaningful impact on packet tunneling or encryption.",
+      "key_drivers": ["Network protocols"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "MEGA",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "Cloud storage with end-to-end encryption. AI could enhance search and photo categorization, but MEGA's privacy-first architecture actually limits AI integration possibilities. Core value is secure data hosting.",
+      "key_drivers": ["Image tagging", "Semantic search"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Typeless: AI Voice Keyboard",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "AI voice-to-text keyboard that converts speech into polished written text. Directly dependent on speech recognition models and LLM-based text refinement. The product's '6x faster than typing' claim is entirely enabled by AI.",
+      "key_drivers": ["Speech recognition", "LLM text refinement"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Toki - The AI Calendar",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "An AI-first calendar focused on automated time management. AI scheduling, predictive time blocking, and natural language event creation are core features. The product's differentiation is built on AI capabilities.",
+      "key_drivers": ["Auto-scheduling", "Predictive time management"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Yoti - your digital identity",
+      "ai_impact_score": 3,
+      "confidence": "medium",
+      "reasoning": "Digital identity verification uses AI in biometrics (face matching, liveness detection, deepfake detection), but the core value is the cryptographic trust infrastructure and regulatory compliance. AI is a supporting tool, not the product itself.",
+      "key_drivers": ["Biometric verification", "Deepfake detection"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "AI Chat: All in One",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "A pure AI wrapper app providing chat, image generation, and PDF reading via external model APIs. Entire value proposition is derived from underlying AI models. Highly exposed to commoditization and first-party competition.",
+      "key_drivers": ["LLM API dependence", "Multimodal generation"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "All PDF Reader",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Basic document readers face growing pressure from AI assistants that can directly answer questions about uploaded files, reducing the need for manual reading.",
+      "key_drivers": ["Document Q&A"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Ai Browser - Safe Web",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "Web browsing is being reshaped by AI-powered search (Perplexity, Google AI Overviews) that summarizes rather than lists results. However, the browser as a rendering engine for web content retains fundamental utility. Score 8 was slightly high for a small browser app.",
+      "key_drivers": ["AI search engines", "Web summarization"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7. The app has only 880K installs and positions itself as a 'safe browser.' While AI-first search is disruptive to browsing, this app's small scale and basic feature set limit how much AI transformation it can realistically absorb. Disruption type changed from replacement → enhancement."
+    },
+    {
+      "name": "Deep Translate - All Language",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Multi-modal translation (text, voice, photo, document, screen) is fully powered by neural machine translation and increasingly by LLMs. Translation quality and breadth are direct functions of AI model capability.",
+      "key_drivers": ["Neural machine translation", "Multimodal input processing"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Cleanfox: Spam & Email Cleaner",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can significantly improve email classification, spam detection, and automated unsubscription through intent analysis and semantic understanding—surpassing legacy rule-based filters.",
+      "key_drivers": ["Intent detection", "Semantic email classification"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Chatbot AI - Search Assistant",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "An AI-native chatbot with deep research and web browsing capabilities. Its entire product is built on generative text and search integration via external LLM APIs. Maximum exposure to AI model commoditization.",
+      "key_drivers": ["Generative search", "LLM API dependence"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Alarm Clock - Wake Up Gently",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Core function is waking users at a specified time—a deterministic utility task with negligible AI integration potential.",
+      "key_drivers": ["Predictive routines"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Microsoft OneNote: Save Notes",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "OneNote benefits heavily from Microsoft's Copilot integration: AI-powered draft generation, semantic search across notebooks, meeting note summarization, and contextual linking. Deep integration with the Microsoft 365 ecosystem amplifies AI value.",
+      "key_drivers": ["Copilot integration", "AI draft generation", "Semantic search"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "App Lock - Fingerprint Lock",
+      "ai_impact_score": 1,
+      "confidence": "high",
+      "reasoning": "App locking via biometrics/passwords is a deterministic security function fundamentally unrelated to generative AI.",
+      "key_drivers": ["Biometric security"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "ChatGO: AI Chatbot Assistant",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "An LLM wrapper chatbot entirely reliant on external model APIs. Its value proposition is access to AI models, making it maximally exposed to model commoditization and first-party alternatives.",
+      "key_drivers": ["LLM API dependence", "Model commoditization risk"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Calendar 2026",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "A basic calendar app that could benefit from NLP event creation and smart scheduling, but faces long-term displacement by AI-first planners. Current functionality is simple and largely deterministic.",
+      "key_drivers": ["NLP event extraction"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "AI Hub: Photo, Video Generator",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "An AI-native media generation app built entirely on diffusion models and generative video AI. The product has no value without AI—it is the AI. Fully exposed to model improvements and commoditization.",
+      "key_drivers": ["Diffusion models", "Generative video AI"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Notepad - simple notes",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "A deliberately minimal text editor. While AI autocomplete and summarization are becoming standard in note apps, this app's appeal is simplicity, partially insulating it from AI disruption pressure.",
+      "key_drivers": ["Text completion"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PDF Reader Zone",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "PDF reading and editing apps are shifting from manual review to AI-assisted document interaction: Q&A, data extraction, and intelligent summarization are becoming expected features.",
+      "key_drivers": ["Document Q&A", "Semantic extraction"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Microsoft OneDrive",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "Cloud storage backend is highly defensible infrastructure. AI enhances the user experience via Copilot-powered search, smart categorization, and document previews, but the core sync-and-store utility is AI-independent.",
+      "key_drivers": ["Copilot integration", "Semantic search"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "AI Chat\u30fbAsk Chatbot Assistant",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Fully reliant on generative AI models for text, code, and image capabilities. A wrapper app with no proprietary non-AI value layer. Maximum exposure to model commoditization.",
+      "key_drivers": ["Multimodal chatbot APIs", "Model commoditization risk"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Summary - AI Note Taker",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Audio recording, speech-to-text transcription, and meeting summarization are all core AI capabilities. The product's entire value chain—recording → transcribing → summarizing—is powered by AI models.",
+      "key_drivers": ["Speech-to-text", "NLP summarization"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "AI! Chatbot Agent\uff0dAsk & Chat",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "An LLM wrapper providing access to GPT-5, DeepSeek, Gemini, and Grok. Its value is entirely derived from the intelligence of underlying models, with zero proprietary non-AI defensibility.",
+      "key_drivers": ["Multi-model API access", "Chat interface"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Replit: Vibe code with AI Fast",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Replit's 'vibe coding' approach uses AI to build apps, websites, and dashboards from natural language—no coding required. The product is fundamentally AI-native: without AI code generation, it would not exist in its current form.",
+      "key_drivers": ["Text-to-code generation", "Agentic app deployment"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Disruption type adjusted from mixed → new-AI-native-competition. Replit's 'vibe coding' positioning is explicitly AI-native—the product's core promise is building without code via AI."
+    },
+    {
+      "name": "Obsidian",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Personal knowledge management benefits significantly from RAG (retrieval-augmented generation) for querying notes, automated semantic linking between concepts, and AI-powered summarization. However, Obsidian's core value (local-first markdown, plugin ecosystem, graph view) exists independently of AI.",
+      "key_drivers": ["RAG-based note querying", "Semantic graph linking"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "All Document Combo",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "A unified document platform where users increasingly expect AI to auto-read, summarize, and extract structured data from diverse file types. AI adds significant value but the basic viewing functionality persists.",
+      "key_drivers": ["Document conversational intelligence"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Calendar For Android",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "Simple offline calendar that could gain NLP-based event creation, but faces gradual displacement by AI-first scheduling assistants. Current functionality is basic and deterministic.",
+      "key_drivers": ["NLP scheduling"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "App Lock - Applock Fingerprint",
+      "ai_impact_score": 1,
+      "confidence": "high",
+      "reasoning": "App locking via fingerprint, password, or pattern is a deterministic security function with no generative AI surface area.",
+      "key_drivers": ["Static security policies"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "AVG Cleaner \u2013 Storage Cleaner",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "System cleaning uses established heuristic-based file analysis. Generative AI models do not meaningfully improve junk file detection or cache clearing.",
+      "key_drivers": ["Heuristic optimization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PDF Toolkit - Reader",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Document reading tools face growing pressure from AI-powered Q&A and knowledge extraction, shifting user expectations from passive reading to interactive document intelligence.",
+      "key_drivers": ["Knowledge extraction"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Grammarly-AI Writing Assistant",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Grammarly has evolved from deterministic grammar rules to full LLM-powered writing assistance: rewriting, tone adjustment, style adaptation, and generative suggestions. The product's quality is now directly tied to its AI model capabilities.",
+      "key_drivers": ["Generative writing", "Style adaptation", "LLM-powered suggestions"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "ACE Scanner - PDF Scanner App",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Document scanning leverages vision models for OCR, perspective correction, and text extraction. Multimodal transformers now handle messy handwriting and complex layouts much better than traditional OCR, shifting the competitive landscape.",
+      "key_drivers": ["Vision-language models", "Advanced OCR"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Base44: Build Apps with AI",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "An AI-native no-code app builder that converts natural language descriptions into functional applications. Without AI code generation, this product would not exist. Fully defined by AI capabilities.",
+      "key_drivers": ["Text-to-code generation", "Automated UI/UX generation"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Spaces: Follow Businesses",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "A customer engagement platform (Wix-powered) for ordering, booking, and community interaction. AI can improve personalization and automated support chat, but core value is tied to physical business operations and customer relationships.",
+      "key_drivers": ["Personalized matching", "Support chat automation"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Smart Transfer: Copy My Data",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Phone-to-phone data transfer is a protocol-level operation entirely independent of generative AI capabilities.",
+      "key_drivers": ["Network transfer protocols"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Analyze WiFi Launcher",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "WiFi diagnostics rely on real-world RF signal measurement and OS-level network APIs. No meaningful application of generative AI to network topology analysis.",
+      "key_drivers": ["Network diagnostics"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PDF & Launcher for Android",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "A basic PDF reader with launcher functionality. Faces competitive pressure from AI-enhanced document engines but retains utility as a simple, fast reader.",
+      "key_drivers": ["Smart categorization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Capital One Travel",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "Travel booking can be enhanced by AI for conversational trip planning and price prediction. However, the core value is access to travel inventory and Capital One's credit card rewards integration—both AI-independent.",
+      "key_drivers": ["Conversational itineraries", "Pricing predictions"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Clean Utility Toolkit",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "A basic mobile maintenance tool for file cleanup and diagnostics. Rule-based operations with no meaningful AI integration surface.",
+      "key_drivers": ["Rule-based cleaning"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "QR scanner launcher",
+      "ai_impact_score": 1,
+      "confidence": "high",
+      "reasoning": "Standard barcode decoding is a fully solved computer vision task. No surface area for generative AI capabilities.",
+      "key_drivers": ["Standard barcode decoding"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "4K Video Downloader & Player",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Core function is downloading and playing video files—a file acquisition utility. AI could add video summarization or content analysis, but the primary download mechanic is unchanged.",
+      "key_drivers": ["Video summarization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Duck Blast Launcher",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Home screen launchers can incorporate AI-generated wallpapers and smart app usage prediction, but the core launcher mechanic (app grid, shortcuts) is a rigid UI framework.",
+      "key_drivers": ["Generative wallpapers", "Usage prediction"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Hype AI - AI Photo & Video",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "An AI-native media creation app entirely defined by diffusion models and video generation AI. The product has no value without its underlying generative models.",
+      "key_drivers": ["Diffusion model variants", "AI video generation"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Clap To Find Phone:Alarm&Find",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Uses a simple acoustic trigger to locate a device. Entirely decoupled from generative AI capabilities—a basic sound recognition utility.",
+      "key_drivers": ["Audio trigger patterns"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Photo Recover Plus - Restore",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "File recovery is primarily disk scanning and data reconstruction. AI could assist with upscaling or restoring corrupted image fragments, but this is a minor enhancement to the core recovery function.",
+      "key_drivers": ["Generative image upscaling"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Find My Phone by Clap Launcher",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Acoustic trigger for phone location—a simple utilitarian function with no cognitive complexity for AI to improve.",
+      "key_drivers": ["Sound matching"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "TikTok",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "AI is foundational to TikTok: the recommendation algorithm drives engagement, and generative AI enables new creation tools (filters, effects, music). However, the platform's value also rests on its creator network and cultural position, which are non-AI assets.",
+      "key_drivers": ["Deep recommendation systems", "Generative content tools"],
+      "disruption_type": "enhancement",
+      "changes_made": "Disruption type adjusted from mixed → enhancement. AI fundamentally enhances TikTok's existing platform rather than replacing it or creating a new competitive category."
+    },
+    {
+      "name": "Instagram",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "AI powers Instagram's recommendation engine, content moderation, and increasingly its creative tools (AI filters, background generation). But the platform's value is anchored in its social graph and creator ecosystem.",
+      "key_drivers": ["Algorithmic feed curation", "AI visual effects"],
+      "disruption_type": "enhancement",
+      "changes_made": "Disruption type adjusted from mixed → enhancement. AI enhances the existing platform experience rather than replacing or creating a new competitive paradigm."
+    },
+    {
+      "name": "Facebook",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Facebook is heavily augmented by AI for ad targeting, feed ranking, content moderation, and generative features. Its community graph and advertiser relationships provide significant non-AI defensibility.",
+      "key_drivers": ["AI ad optimization", "Feed ranking algorithms", "Content moderation"],
+      "disruption_type": "enhancement",
+      "changes_made": "Disruption type adjusted from mixed → enhancement."
+    },
+    {
+      "name": "PayPal",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "Payment processing is governed by financial regulations, bank APIs, and transaction security. AI assists in fraud detection and customer support automation but doesn't transform the core money-transfer function.",
+      "key_drivers": ["Fraud detection ML", "Support automation"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Walmart",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "E-commerce benefits from AI-powered product search, personalized recommendations, and automated customer service. However, Walmart's core value is physical retail infrastructure, supply chain, and pricing—all largely AI-independent. Score 6 was slightly high.",
+      "key_drivers": ["Semantic product search", "Personalized recommendations"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5. Walmart's primary competitive advantage is physical retail infrastructure and supply chain, not digital features. AI enhances the shopping experience but doesn't transform the core business."
+    },
+    {
+      "name": "CandyJarTV",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "Short-form drama and serialized fiction could face disruption from AI-generated video content, but current AI video quality isn't yet realistic enough for scripted drama. The app's value also includes content curation and its specific audience community.",
+      "key_drivers": ["AI video generation potential", "Script synthesis"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 and disruption_type from replacement → enhancement. AI-generated video is not yet at the quality level needed for compelling scripted drama content. Current impact is more about content recommendation and curation enhancement."
+    },
+    {
+      "name": "Replit",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Duplicate entry for Replit (also in batch 12). AI-powered code authoring and deployment platform. The product's core proposition—building without code—is entirely AI-dependent.",
+      "key_drivers": ["AI code generation", "Agentic deployment"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Disruption type adjusted from mixed → new-AI-native-competition, consistent with the batch 12 entry."
+    },
+    {
+      "name": "Discord",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Discord benefits from AI through bot ecosystems, conversation summarization, and content moderation. However, its core value is the community and communication infrastructure—the social graph and server structure—which are AI-independent.",
+      "key_drivers": ["Bot ecosystems", "Conversation summarization", "Auto-moderation"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6. Discord's primary value is its community infrastructure and social graph. AI enhances moderation and adds bot capabilities, but the core communication function is not fundamentally transformed."
+    },
+    {
+      "name": "Grok",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "xAI's official AI assistant using real-time X (Twitter) data. Entirely AI-native: a frontier LLM interface with real-time data access as its differentiator. No non-AI value layer.",
+      "key_drivers": ["Real-time LLM inference", "Live data integration"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Reddit",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Reddit's core value is its human-generated community content and discussion threads. AI enhances moderation and can power summarization, but the platform's defensibility lies in its community networks and unique data corpus. Exposed as training data source but not directly disrupted.",
+      "key_drivers": ["Moderation AI", "Content summarization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "OnePay",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "A fintech app where value relies on banking infrastructure, transaction rails, and cashback incentives. AI plays a supporting role in fraud detection and customer service but doesn't impact the core banking function.",
+      "key_drivers": ["Fraud detection", "Support automation"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 4 → 3. Mobile banking apps have even less AI surface area than general fintech; the value is entirely in financial infrastructure and regulatory compliance."
+    },
+    {
+      "name": "Uber - Driver",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "The driver app connects labor with real-world logistics. AI enhances route optimization, demand/pricing prediction, and earnings forecasting. Autonomous driving (a distinct but related AI capability) poses longer-term existential disruption to the driver-side app specifically.",
+      "key_drivers": ["Route optimization", "Dynamic pricing algorithms", "Autonomous driving trajectory"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 4 → 5. The driver-side app faces unique AI pressure from autonomous driving developments, which specifically threatens the need for human drivers. This is a more significant AI impact than the original score reflected."
+    },
+    {
+      "name": "Hopenity",
+      "ai_impact_score": 3,
+      "confidence": "low",
+      "reasoning": "A small-scale community connection app. AI could assist with matching and translation, but the human-connection intent and local community focus provide significant insulation from AI disruption. Very small install base limits data for AI features.",
+      "key_drivers": ["Algorithmic matching"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 4 → 3. With only 58K installs and a focus on local human connection, this app has minimal AI surface area and limited data for personalization."
+    },
+    {
+      "name": "Scano Browser",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "A small browser app (5K installs) positioned as having 'smarter browsing tools.' While browsers face AI disruption from agentic browsing and summarization, this app's tiny scale limits its ability to meaningfully integrate advanced AI features.",
+      "key_drivers": ["Web summarization", "Smart browsing features"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 and disruption_type from automation → enhancement. With only 5K installs, the app is too small to build meaningful AI integration. The browser category faces AI pressure, but this specific app's impact is limited."
+    },
+    {
+      "name": "Kitcha",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Recipe planning and meal management are ideal targets for LLMs: generating personalized recipes, adapting for dietary restrictions, creating shopping lists from ingredients, and multimodal ingredient scanning. AI can automate most of the planning workflow.",
+      "key_drivers": ["Generative meal plans", "Multimodal ingredient scanning"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    }
+  ]
+}

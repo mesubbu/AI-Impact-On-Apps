@@ -1,0 +1,904 @@
+{
+  "results": [
+    {
+      "name": "Simply Piano: Learn Piano Fast",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can improve real-time audio pitch detection for feedback accuracy and personalize lesson sequencing based on learner progress. However, piano learning inherently requires physical practice on keys, limiting full disruption.",
+      "key_drivers": ["AI-powered audio feedback", "adaptive lesson personalization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Simple Bible Daily Verse Alarm",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "LLMs can generate personalized prayers and devotional reflections, and the app already integrates AI prayer features. However, the core content (Bible verses) is fixed canonical text, limiting disruption depth.",
+      "key_drivers": ["AI-generated devotionals", "conversational prayer assistant"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "ClassDojo",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "AI can auto-draft parent communications and provide real-time translation, but the core moat is an entrenched school-parent network with institutional lock-in. AI enhances periphery, not the central value.",
+      "key_drivers": ["auto-translation", "message drafting", "institutional network moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Speak: Language Learning",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Conversational language practice is directly addressable by voice AI agents (e.g., GPT-4o voice). However, Speak already integrates AI deeply and has curriculum design moats. Scoring 9 overestimates displacement since Speak itself is adapting to use these models.",
+      "key_drivers": ["voice AI conversation partners", "real-time pronunciation feedback"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 9 → 8 because Speak already integrates AI models and has curriculum/UX moats that prevent easy displacement by generic voice agents"
+    },
+    {
+      "name": "Elevate - Brain Training Games",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI can generate novel puzzles and personalize difficulty curves. However, brain training apps compete on gamification mechanics, streaks, and habit loops—areas where AI adds marginal rather than transformative value.",
+      "key_drivers": ["dynamic puzzle generation", "adaptive difficulty"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5 because the core user experience is gamified challenge mechanics that AI enhances only marginally"
+    },
+    {
+      "name": "Plant App - Plant Identifier",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Core plant identification relies entirely on computer vision, which is being commoditized through multimodal models like Google Lens and GPT-4V. Any smartphone camera app can now identify plants, threatening standalone apps.",
+      "key_drivers": ["vision model commoditization", "multimodal competition from platform players"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 8 → 8 (unchanged), disruption_type changed from automation → new-AI-native-competition because the threat is from multimodal AI apps subsuming this feature, not internal automation"
+    },
+    {
+      "name": "Kahoot! Play & Create Quizzes",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI can auto-generate quizzes from any topic or uploaded materials, reducing creation effort significantly. However, Kahoot's moat is the live, competitive classroom experience and brand trust in K-12 institutions.",
+      "key_drivers": ["AI quiz generation", "content creation automation"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from automation → enhancement because AI enhances the creation workflow but the live competitive format remains Kahoot's defensible value"
+    },
+    {
+      "name": "Minecraft Education",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI NPCs and dynamic in-game tutoring can enhance the educational sandbox, but the core value proposition is the creative, collaborative Minecraft environment backed by Microsoft's institutional distribution.",
+      "key_drivers": ["AI NPCs for in-game tutoring", "Microsoft ecosystem integration"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Buddy.ai: Kids Learning Games",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "As an AI tutor for ages 3-8, it faces competition from more capable foundational voice models. However, child-safety guardrails, COPPA compliance, and age-appropriate UX design are significant moats that generic AI lacks.",
+      "key_drivers": ["voice AI tutoring commoditization", "child-safety regulatory moat"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 9 → 8 because child safety requirements, COPPA compliance, and age-appropriate UX create meaningful barriers that generic AI assistants cannot easily replicate"
+    },
+    {
+      "name": "Babbel - Learn Languages",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Structured language courses face severe disruption from conversational AI that can simulate immersive native-speaker dialogues. Babbel's curated curriculum and linguist-designed content provide some defense, but the gap is narrowing rapidly.",
+      "key_drivers": ["AI conversation simulation", "voice agent language practice"],
+      "disruption_type": "replacement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Epic: Kids' Books & Reading",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI can generate personalized stories and act as a reading companion, but Epic's moat is licensed publisher content (40,000+ books) and institutional school subscriptions. Content licensing is not easily replicated by AI.",
+      "key_drivers": ["AI reading companion", "licensed content moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Driver Written Test: 2026 Test",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "LLMs can generate practice questions and explain traffic laws. However, DMV test prep requires state-specific, officially validated question banks—users need confidence in regulatory accuracy, not just AI-generated approximations.",
+      "key_drivers": ["AI-generated practice questions", "regulatory content accuracy requirement"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 because regulatory test prep requires verified, state-specific content that users trust for accuracy—generic LLM generation alone is insufficient"
+    },
+    {
+      "name": "Quizlet: More than Flashcards",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "AI auto-generates flashcard decks from notes/textbooks and provides Socratic-style tutoring. Quizlet has already integrated AI (Q-Chat), so the impact is both a threat (commoditization) and opportunity (enhancement).",
+      "key_drivers": ["automated deck generation from documents", "AI-powered Socratic tutoring"],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "BetterSpeak: AI Language Tutor",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "A niche AI language tutor directly competing with general-purpose multimodal models (GPT-4o, Gemini) that offer superior conversational ability. Small player with no significant moat beyond early-mover advantage in its niche.",
+      "key_drivers": ["multimodal model commoditization", "no platform or content moat"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "ParentSquare",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "AI can auto-translate school communications and draft messages, but ParentSquare's value is being the verified, district-adopted communication channel. Institutional procurement creates a strong moat.",
+      "key_drivers": ["auto-translation", "institutional procurement moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Lingvano: Sign Language - ASL",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "Video-based AI can now recognize hand gestures and sign language with increasing accuracy. Multimodal models with video understanding could provide real-time sign language tutoring, which would directly compete with structured lesson apps.",
+      "key_drivers": ["video gesture recognition AI", "multimodal tutoring potential"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 7 because advances in real-time video gesture recognition are progressing faster than originally assessed, increasing near-term disruption potential"
+    },
+    {
+      "name": "IXL",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI can generate infinite personalized practice problems and explain concepts dynamically. IXL's moat is its standards-aligned curriculum mapping, teacher dashboards, and institutional adoption in schools.",
+      "key_drivers": ["infinite problem generation", "dynamic concept explanation", "institutional moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Nibble: Your Bite of Knowledge",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Micro-learning content (10-min lessons and quizzes) is straightforward for LLMs to generate at scale. The app's value proposition of curated bite-sized knowledge is directly automatable by AI, with low switching costs for users.",
+      "key_drivers": ["LLM content generation at scale", "low user switching costs"],
+      "disruption_type": "replacement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from automation → replacement because users can get equivalent micro-learning from any LLM chatbot, making the standalone app redundant"
+    },
+    {
+      "name": "Remind: School Communication",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "AI assists with message drafting and auto-translation, but Remind's core value is being an established, school-adopted messaging platform with parent network effects and compliance features.",
+      "key_drivers": ["message drafting", "auto-translation", "network effects moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Langify - AI Language Tutor",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "A small AI language tutor app directly competing with general-purpose voice AI from Google, OpenAI, and others. Lacks significant differentiation—any multimodal AI can replicate conversational Italian tutoring.",
+      "key_drivers": ["general-purpose voice AI competition", "no unique content moat"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Deepstash: Smarter Every Day!",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Extracting key ideas from articles, books, and podcasts is a native LLM capability. Users can achieve the same result by pasting content into ChatGPT or Gemini, directly threatening the app's core value proposition.",
+      "key_drivers": ["LLM summarization capability", "zero-friction alternatives"],
+      "disruption_type": "replacement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Vocabulary - Learn words daily",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI can generate contextual sentences, personalized quizzes, and spaced-repetition schedules for vocabulary learning. The app's structured daily learning format can be replicated by any AI assistant.",
+      "key_drivers": ["AI-generated contextual learning", "spaced-repetition personalization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Yousician: Learn & Play Guitar",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI improves audio recognition for real-time playing feedback, but learning guitar requires physical instrument practice. The app's licensed song library and gamified lesson structure add defensible value beyond what AI tutoring alone provides.",
+      "key_drivers": ["audio recognition improvement", "physical practice requirement"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Simply Guitar - Learn Guitar",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "Similar to Yousician—AI enhances audio analysis for feedback, but the physical nature of guitar learning limits AI disruption. The structured lesson format and song library remain core differentiators.",
+      "key_drivers": ["AI audio analysis", "physical instrument learning limitation"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Starfall",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "Early childhood education app with strong brand trust and established pedagogy. AI can generate interactive content, but parents of 2-6 year olds prioritize trusted, vetted educational brands over AI-generated alternatives. COPPA compliance adds regulatory moat.",
+      "key_drivers": ["brand trust for young children", "regulatory compliance moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because early childhood education has higher safety/trust barriers and parents strongly prefer established, vetted brands for very young children"
+    },
+    {
+      "name": "DMV Permit Practice Test 2026",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "LLMs can generate state-specific practice questions and provide explanations. However, users need verified, regulation-aligned content for high-stakes testing—not AI approximations. The app's value is in curated, officially-accurate question banks.",
+      "key_drivers": ["AI question generation", "regulatory accuracy requirement"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 because users preparing for high-stakes DMV tests require officially validated content, not AI-generated approximations"
+    },
+    {
+      "name": "Canvas By Instructure",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI can automate grading rubrics, summarize student performance, and draft feedback. However, Canvas is a school-mandated LMS with deep institutional procurement lock-in—AI enhances it but cannot displace it.",
+      "key_drivers": ["grading automation", "institutional procurement lock-in"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Khan Academy Kids",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can personalize learning paths and generate age-appropriate content. Khan Academy already has Khanmigo for AI tutoring. Child safety requirements and non-profit brand trust create defensible moats against generic AI alternatives.",
+      "key_drivers": ["AI-personalized learning paths", "child safety and brand trust moats"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Busuu: Learn & Speak Languages",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Structured language courses are severely threatened by conversational AI that simulates native speakers. Busuu's community correction feature from native speakers offers some differentiation, but AI can replicate this increasingly well.",
+      "key_drivers": ["AI conversation simulation", "native speaker community as partial moat"],
+      "disruption_type": "replacement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Learn to Read - Duolingo ABC",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "Voice AI can provide pronunciation correction and reading assistance. However, this is a Duolingo product for ages 3-8 with strong brand, established pedagogy, and child-safety design—areas where generic AI falls short.",
+      "key_drivers": ["voice AI pronunciation feedback", "Duolingo brand and child-safety moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because Duolingo's brand trust, child-safety design, and established distribution for early-age literacy create stronger moats than originally assessed"
+    },
+    {
+      "name": "Praktika – AI Language Tutor",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "An AI-native language tutor directly exposed to commoditization by foundational multimodal models offering equivalent real-time conversational immersion. Lacks significant moats beyond first-mover advantage in the AI tutoring niche.",
+      "key_drivers": ["foundational model commoditization", "low differentiation barriers"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "SmartyMe: Micro Learning App",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "Micro-learning lesson creation can be automated by LLMs. However, the app is small (100K+ installs) and the micro-learning space is already competitive, limiting the incremental impact versus the baseline.",
+      "key_drivers": ["LLM content automation", "competitive micro-learning market"],
+      "disruption_type": "automation",
+      "changes_made": "Score unchanged. Confidence adjusted from high → medium because the app's small scale makes the precise AI impact harder to assess"
+    },
+    {
+      "name": "SplashLearn: Kids Learning App",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can generate infinite adaptive math problems, but game mechanics, colorful animations, and the designed-for-kids experience are the primary value drivers. Educational game UX for young children is harder to replicate with generic AI.",
+      "key_drivers": ["adaptive problem generation", "gamified UX moat for kids"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Talking Tom & Friends: World",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "Conversational AI can make virtual pet interactions more dynamic, but the app's core value is the branded entertainment experience with 3D environments and character IP. AI enhances rather than transforms the play loop.",
+      "key_drivers": ["conversational AI for pet interaction", "branded entertainment moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 6 because this is primarily a branded kids entertainment app where character IP and 3D environments are the core value, not conversational ability"
+    },
+    {
+      "name": "PlantIn Plant Identifier, Care",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Plant identification and disease diagnosis are powered by vision AI, which is being commoditized by multimodal models integrated into smartphone cameras. Google Lens and GPT-4V can replicate core functionality for free.",
+      "key_drivers": ["vision AI commoditization", "platform-level multimodal competition"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score unchanged. Disruption_type changed from automation → new-AI-native-competition because the primary threat is from platform players (Google Lens, multimodal AI) subsuming the feature"
+    },
+    {
+      "name": "Easy Draw: Learn How to Draw",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can provide real-time visual feedback on sketches, suggest improvements, and generate step-by-step tutorials dynamically. Image generation models can also create reference drawings on demand, enhancing the learning experience significantly.",
+      "key_drivers": ["real-time sketch feedback", "AI-generated tutorials and references"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 6 because generative image models and real-time visual feedback AI have progressed significantly, increasing the enhancement potential for drawing education"
+    },
+    {
+      "name": "Woofz - Puppy and Dog Training",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "AI can generate personalized training plans and answer behavioral questions, but dog training is inherently physical. The app guides owners through exercises that require hands-on practice with the animal.",
+      "key_drivers": ["AI training plan generation", "physical interaction requirement"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Bible App for Kids",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "The core content is fixed biblical narratives presented through curated animations. AI can generate interactive elements, but parents prioritize doctrinally accurate, vetted religious content for children over AI-generated alternatives.",
+      "key_drivers": ["fixed canonical content", "parental trust for religious education"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because biblical content is fixed/canonical and parents of young children strongly prefer vetted, doctrinally accurate sources over AI-generated religious content"
+    },
+    {
+      "name": "Learn to Read: Reading.com",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can provide personalized phonics coaching and reading intervention. However, early literacy apps for young children require carefully designed pedagogy, child-safety compliance, and parental trust that generic AI tutors struggle to match.",
+      "key_drivers": ["AI phonics coaching", "pedagogy and trust moats"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because early literacy for young children has high trust barriers and requires carefully validated pedagogy that generic AI cannot easily replicate"
+    },
+    {
+      "name": "Knowunity: AI Study & Homework",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Homework solving and study note generation are core LLM capabilities. Generic AI assistants (ChatGPT, Gemini) directly compete with this app's primary value proposition, and students can easily switch to free alternatives.",
+      "key_drivers": ["LLM homework solving", "zero switching cost to free AI alternatives"],
+      "disruption_type": "replacement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Pimsleur | Language Learning",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Static, pre-recorded audio language courses are particularly vulnerable to interactive voice AI that adapts to the learner in real-time. The Pimsleur method's structured repetition approach can be replicated and improved by AI.",
+      "key_drivers": ["interactive voice AI replacement", "static content vulnerability"],
+      "disruption_type": "replacement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Kiddopia - Kids Learning Games",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI can personalize gameplay difficulty, but the core value is a carefully designed, colorful UX for toddlers. Parents of very young children prioritize safety and vetting, creating a trust moat against AI alternatives.",
+      "key_drivers": ["child-safe UX moat", "adaptive personalization"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Headway - Daily Micro Learning",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Book summarization into key insights is a native LLM capability. Users can achieve the same output by asking ChatGPT to summarize any book, making standalone summary apps highly vulnerable to replacement.",
+      "key_drivers": ["LLM native summarization", "direct competition from free AI tools"],
+      "disruption_type": "replacement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Seek by iNaturalist",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Species identification relies on computer vision, which is being commoditized. However, Seek's integration with iNaturalist's citizen science database and community provides unique ecological data context that generic AI vision lacks.",
+      "key_drivers": ["computer vision commoditization", "citizen science database moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Zutobi: Permit & Driving Prep",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI can generate driving test prep materials, but users need verified, state-specific regulatory content for permit tests. The app's curated, accuracy-validated content provides a trust advantage over generic AI generation.",
+      "key_drivers": ["AI content generation", "regulatory accuracy trust requirement"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 and disruption_type from automation → enhancement because permit test prep requires verified regulatory content, and AI-generated questions may not meet accuracy standards users require"
+    },
+    {
+      "name": "HelloTalk - Learn Languages",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI can correct grammar and simulate native speaker conversations, reducing the need for human language exchange. However, HelloTalk's social community of real native speakers provides authentic cultural exchange that AI cannot fully replicate.",
+      "key_drivers": ["AI grammar correction", "human community moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from mixed → enhancement because the social community of native speakers is the primary value, and AI enhances but doesn't replace this"
+    },
+    {
+      "name": "Baby Shark World for Kids",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "IP-driven kids entertainment where Baby Shark brand recognition is the primary draw. AI can add dynamic interactions, but the brand and licensed characters are the core value proposition.",
+      "key_drivers": ["IP-driven brand moat", "limited AI-relevant functionality"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Confidence adjusted from low → medium because IP-protected kids entertainment apps are clearly resistant to AI disruption"
+    },
+    {
+      "name": "Builda - Create and Play",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "Generative AI can automate drawing suggestions and animate user creations. The creative sandbox format could be significantly enhanced by AI co-creation tools, though the kids-focused play experience remains the core value.",
+      "key_drivers": ["generative AI for drawing/animation", "creative co-pilot potential"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from automation → enhancement because AI assists the creative process rather than fully automating the play experience"
+    },
+    {
+      "name": "LEGO® DUPLO® Marvel",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "A preschool game built entirely on LEGO and Marvel IP. AI has minimal impact on the core tapping/building gameplay designed for toddlers. Brand licensing and character IP are the sole value drivers.",
+      "key_drivers": ["dual IP moat (LEGO + Marvel)", "toddler-simple gameplay"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Confidence adjusted from low → high because it is clearly evident that dual-IP preschool games have minimal AI exposure"
+    },
+    {
+      "name": "AnkiDroid Flashcards",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI can auto-generate flashcard decks from documents and notes. However, AnkiDroid's moat is its open-source spaced-repetition algorithm (SM-2), massive shared deck library, and deeply loyal power-user community (especially medical students).",
+      "key_drivers": ["AI deck auto-generation", "spaced-repetition algorithm and community moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 because AnkiDroid has a deeply loyal power-user community, proven spaced-repetition algorithm, and extensive shared deck library that create meaningful switching costs"
+    },
+    {
+      "name": "Calculator",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "A purely deterministic utility performing mathematical operations. AI adds no meaningful value over basic computation logic. Calculators are one of the least AI-impacted app categories.",
+      "key_drivers": ["deterministic computation", "no AI-relevant functionality"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "brightwheel: Childcare App",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "AI can automate daily reports, invoice generation, and parent messaging. However, brightwheel's value is being the operational backbone of childcare centers with parent/staff network effects and billing integration.",
+      "key_drivers": ["operational workflow automation", "childcare center network moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Speak English with Loora AI",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "An AI English tutor competing directly against rapidly advancing foundational voice models from major players. As a smaller AI-native app with limited proprietary data or curriculum moats, it faces severe commoditization pressure.",
+      "key_drivers": ["foundational voice model competition", "limited proprietary moats"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Pinkfong Baby Shark Phone Game",
+      "ai_impact_score": 3,
+      "confidence": "medium",
+      "reasoning": "A simple early-childhood game centered on Baby Shark/Pinkfong IP. The core experience is character-driven songs and simple interactions for toddlers. AI adds negligible value to this IP-dependent, simple-mechanic experience.",
+      "key_drivers": ["IP-driven content", "toddler-simple interactions"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 4 → 3 because this is a very simple IP-driven toddler game where AI has even less impact than originally assessed"
+    },
+    {
+      "name": "Coursera: Grow your career",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can provide personalized tutoring and adaptive assessments within courses. However, Coursera's moat is university brand partnerships and accredited certifications—credentials that AI tutoring cannot independently provide.",
+      "key_drivers": ["AI tutoring enhancement", "university credential moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Potty with Pull-Ups ft. Disney",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "A potty training tracker with Disney character motivation. The core functionality is simple habit tracking and reward stickers. AI has virtually no relevant application to potty training schedules.",
+      "key_drivers": ["simple tracking utility", "Disney IP motivation"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 3 → 2 and confidence from medium → high because potty training tracking is one of the simplest utilities with clearly near-zero AI relevance"
+    },
+    {
+      "name": "Star Walk 2 Plus: Sky Map View",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI could add a conversational astronomy guide overlay to AR star mapping. However, the core value is the AR sky visualization itself, which relies on positional astronomy databases rather than AI. Conversational enhancement is peripheral.",
+      "key_drivers": ["conversational guide potential", "AR database-driven core"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5 because the core AR sky mapping relies on astronomical databases, not AI, and a conversational guide is a minor feature enhancement"
+    },
+    {
+      "name": "Campus Student",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "An institutional student information portal mandated by schools. AI can summarize assignments or predict grades, but usage is entirely driven by school adoption, not student choice. Institutional lock-in protects completely.",
+      "key_drivers": ["AI summarization features", "institutional mandate moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Confidence adjusted from medium → high because institutional mandate makes this clearly resistant to disruption"
+    },
+    {
+      "name": "PlantNet Plant Identification",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Relies entirely on computer vision for plant identification. Multimodal AI models (Google Lens, GPT-4V) now offer equivalent capability natively, directly threatening single-purpose identification apps.",
+      "key_drivers": ["computer vision commoditization", "multimodal platform competition"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 7 → 8 and disruption_type from enhancement → new-AI-native-competition because PlantNet's entire value proposition (plant identification via photo) is now a commodity feature in platform-level multimodal AI"
+    },
+    {
+      "name": "Learn Python Coding - Mimo",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Coding education faces existential pressure from AI coding assistants that can explain, generate, and debug code interactively. However, Mimo's structured curriculum and gamified progression provide some UX moat for beginners.",
+      "key_drivers": ["AI coding assistant competition", "beginner curriculum moat"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score unchanged. Disruption_type adjusted from mixed → new-AI-native-competition because the primary threat is AI coding assistants (Copilot, ChatGPT) that can teach Python more effectively through interactive dialogue"
+    },
+    {
+      "name": "Blinkist: Book Summaries Daily",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Book summarization is a core LLM capability. Users can get equivalent or better summaries from ChatGPT/Gemini for free. Blinkist's curated editorial quality provides marginal differentiation that is rapidly eroding as LLMs improve.",
+      "key_drivers": ["LLM native summarization", "free alternative availability", "eroding editorial moat"],
+      "disruption_type": "replacement",
+      "changes_made": "Score adjusted from 8 → 9 because the gap between Blinkist's curated summaries and free LLM alternatives has narrowed further, making standalone summary apps increasingly redundant"
+    },
+    {
+      "name": "Picture Insect: Bug Identifier",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Insect identification via photo is directly replicable by multimodal AI models baked into smartphone cameras. Google Lens already identifies insects, and GPT-4V/Gemini can provide detailed species information from photos.",
+      "key_drivers": ["multimodal AI commoditization", "platform-level competition"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 7 → 8 and disruption_type from enhancement → new-AI-native-competition because single-purpose visual identification apps face direct competition from platform multimodal AI"
+    },
+    {
+      "name": "Solvely: AI Math & Homework",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "AI math solving is a commoditized LLM capability. Free alternatives (ChatGPT, Gemini, Wolfram Alpha) offer equivalent or superior math problem-solving, leaving standalone homework solver apps with no defensible moat.",
+      "key_drivers": ["commoditized LLM math solving", "free alternative pressure"],
+      "disruption_type": "replacement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from mixed → replacement because standalone AI homework solvers are being directly replaced by free, general-purpose AI alternatives"
+    },
+    {
+      "name": "Baby Shark Hospital Play: Game",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "A simple kids game built on Baby Shark IP with basic tapping/interaction mechanics. AI has minimal applicability to the simple, character-driven play experience designed for very young children.",
+      "key_drivers": ["IP-driven simple gameplay", "minimal AI-relevant mechanics"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Confidence adjusted from low → high because it is clearly evident that simple IP-driven toddler games have minimal AI exposure"
+    },
+    {
+      "name": "Khan Academy",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Khan Academy has already integrated AI tutoring (Khanmigo) powered by GPT-4. AI significantly enhances personalized learning, but the platform's free educational content, brand trust, and institutional adoption create strong defensibility.",
+      "key_drivers": ["Khanmigo AI tutor integration", "free content and institutional adoption moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Minecraft Education Preview",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can create dynamic educational worlds and intelligent NPC tutors within the sandbox. The core value remains the Minecraft creative environment backed by Microsoft's institutional distribution and educator tools.",
+      "key_drivers": ["AI NPC tutors", "Microsoft institutional distribution"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "IQ Booster: Brain Games & Test",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI can generate cognitive puzzles and adapt difficulty, but brain training games compete primarily on gamification and habit loops. The AI enhancement is incremental rather than transformative for the core engagement model.",
+      "key_drivers": ["adaptive puzzle generation", "gamification-driven engagement"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5 because brain game engagement relies more on gamification mechanics than on the content generation where AI excels"
+    },
+    {
+      "name": "Clever: Brain Training Games",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "Similar to other brain training apps—AI can generate and customize puzzles, but the value lies in the gamified challenge experience and daily engagement loops rather than puzzle content itself.",
+      "key_drivers": ["puzzle generation automation", "gamification moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5 for consistency with similar brain training apps where gamification, not content generation, drives value"
+    },
+    {
+      "name": "Pok Pok | Montessori Preschool",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "A premium Montessori-inspired digital sandbox for ages 2-8. The core value is carefully designed, open-ended tactile toys. Parent trust in curated, child-safe Montessori methodology creates a strong moat against AI alternatives.",
+      "key_drivers": ["Montessori pedagogy trust", "curated child-safe design"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because the Montessori methodology and premium child-safe design create stronger trust barriers than originally assessed"
+    },
+    {
+      "name": "Build Your First Game",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Game development education is impacted by AI coding assistants and asset generators. However, the app teaches fundamentals through guided lessons—the learning journey itself retains value even as AI tools change what's being taught.",
+      "key_drivers": ["AI coding assistant competition", "asset generation tools"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 and disruption_type from mixed → enhancement because the app teaches game development fundamentals, which retains educational value even as AI tools change the development workflow"
+    },
+    {
+      "name": "Google Gemini",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Google's foundational AI assistant is AI itself. It defines the AI frontier and competes directly with other AI platforms. Its existence is inseparable from AI advancement.",
+      "key_drivers": ["is a foundational AI product", "defines AI capability baseline"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Grok - Smartest AI Advisor",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "xAI's AI chatbot where the entire product is an AI model. Competes directly in the foundational AI assistant space with differentiation through X/Twitter data integration and real-time information access.",
+      "key_drivers": ["core AI product", "X platform data integration"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PDF Reader - PDF Viewer",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI features like 'chat with PDF' and summarization enhance a basic viewer utility. However, the core use case remains simple PDF viewing/reading, which doesn't require AI. AI features are add-ons, not the primary value.",
+      "key_drivers": ["AI summarization add-on", "chat with PDF feature"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because the primary use case is basic PDF viewing where AI is an optional enhancement, not a core transformation"
+    },
+    {
+      "name": "WakeBox",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "A simple alarm clock app. AI offers virtually zero enhancement to the core function of setting and triggering alarms. One of the least AI-impacted app categories.",
+      "key_drivers": ["minimal AI relevance", "deterministic alarm functionality"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Google Docs",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "AI (Gemini integration) can draft, edit, rewrite, and summarize documents. Google is actively integrating AI into Docs as a core feature. However, Docs' moat as a collaboration platform means AI enhances rather than replaces it.",
+      "key_drivers": ["AI-powered drafting and editing", "collaboration platform moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from automation → enhancement because AI enhances the document creation workflow within Google's collaboration platform rather than automating away the need for Docs"
+    },
+    {
+      "name": "Perplexity - Ask Anything",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "An AI-native search engine entirely built on generative AI to synthesize answers from multiple sources. The product's existence is predicated on AI capability, making it maximally AI-impacted.",
+      "key_drivers": ["AI-native search product", "RAG-based answer synthesis"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Adobe Acrobat Reader: Edit PDF",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI enables conversational document queries, smart summarization, and content extraction across large PDF sets. Adobe is actively integrating AI Assistant features. The enterprise moat and established workflow integration remain strong.",
+      "key_drivers": ["AI document assistant", "enterprise workflow moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "DuckDuckGo, Duck.ai, & VPN",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI-powered search answers change how users find information, and DDG has added Duck.ai for privacy-focused AI chat. However, the core value proposition is privacy (VPN, tracker blocking), which is orthogonal to AI capabilities.",
+      "key_drivers": ["AI search integration", "privacy-first positioning as moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from mixed → enhancement because the privacy-focused positioning differentiates DDG regardless of AI search trends"
+    },
+    {
+      "name": "HP",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "A hardware companion app for HP printers. AI can enhance OCR scanning and customer support chatbots, but the core utility is printer setup, ink management, and print job control—hardware-tied functions largely unaffected by AI.",
+      "key_drivers": ["hardware-tied utility", "minor OCR and support improvements"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Confidence adjusted from medium → high because hardware companion apps are clearly resistant to AI disruption"
+    },
+    {
+      "name": "Google Sheets",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "AI can auto-generate formulas from natural language, perform data analysis, create charts, and clean data. Google is actively integrating Gemini into Sheets. The collaboration platform moat keeps Sheets relevant despite AI enhancement.",
+      "key_drivers": ["natural language formula generation", "AI-powered data analysis"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from automation → enhancement because AI enhances Sheets' capabilities within Google's collaboration ecosystem rather than automating away the need for spreadsheets"
+    },
+    {
+      "name": "ID.me Authenticator",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "A 2FA security token app. Authentication codes are deterministic cryptographic operations completely unaffected by AI. One of the least AI-impacted app categories alongside calculators and alarm clocks.",
+      "key_drivers": ["cryptographic security standard", "zero AI relevance"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "AI Chatbot - Nova",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "A thin wrapper around LLM APIs with no proprietary model, unique data, or significant UX moat. Directly commoditized by first-party apps from OpenAI, Google, and others that offer the same capability with better model access.",
+      "key_drivers": ["API wrapper commoditization", "first-party AI app competition"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 10 → 9 because while Nova is highly exposed, the 50M+ install base and established user base provide some marginal retention advantage over brand-new alternatives"
+    },
+    {
+      "name": "Smart Home Manager",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "An AT&T Wi-Fi network management app. AI can assist with network troubleshooting diagnostics, but the core value is hardware configuration and ISP account management—functions tied to AT&T's service infrastructure.",
+      "key_drivers": ["AI troubleshooting assistance", "ISP hardware lock-in"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "ScanNow Home",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI significantly enhances OCR accuracy and enables contextual data extraction from scanned documents. However, basic scanning is a commoditized utility, and AI OCR improvements benefit all scanning apps equally.",
+      "key_drivers": ["AI-enhanced OCR", "contextual document extraction"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Accio: Alibaba AI Agent",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "An AI agent designed to automate wholesale product sourcing, trend identification, and supplier matching. The AI is the core product, but Alibaba's supplier network and trade data provide a unique data moat that generic AI agents lack.",
+      "key_drivers": ["AI-powered sourcing automation", "Alibaba supplier data moat"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score unchanged. Disruption_type adjusted from automation → new-AI-native-competition because this is an AI-native product competing in the AI agent space, not merely automating an existing workflow"
+    },
+    {
+      "name": "PDF Reader - All PDF Scanner",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "A basic PDF viewer and editor for local files. AI can add summarization and extraction features, but the primary use case is simple file viewing. With only 100K+ installs, the app has limited scope for AI transformation.",
+      "key_drivers": ["AI summarization potential", "basic utility core"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 5 because this is a basic local PDF viewer with 100K installs—the core use case is simple file viewing where AI adds minimal value compared to dedicated AI-enhanced readers"
+    },
+    {
+      "name": "AT&T",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "A telecom account management app for billing, data usage, and plan management. AI can improve customer support chatbots, but core functions (bill pay, plan changes) are structured transactions unaffected by AI.",
+      "key_drivers": ["customer support chatbot", "structured transaction core"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Confidence adjusted from medium → high because telecom account management is clearly a structured utility with minimal AI exposure"
+    },
+    {
+      "name": "Open Chat - AI bot app",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "A ChatGPT-powered wrapper app with no proprietary model or unique data. First-party ChatGPT and Gemini apps offer identical or superior functionality for free, making wrapper apps highly vulnerable.",
+      "key_drivers": ["API wrapper with no moat", "first-party app competition"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 10 → 9 because while highly exposed, the 10M+ install base provides marginal user retention compared to zero-install alternatives"
+    },
+    {
+      "name": "Microsoft Outlook",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Copilot integration enables email drafting, summarization, and intelligent reply suggestions. However, Outlook's moat is deep enterprise integration (Exchange, Teams, M365 ecosystem), making it the platform through which users access AI rather than a victim of it.",
+      "key_drivers": ["Copilot AI integration", "enterprise ecosystem moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 because Outlook is the enterprise platform integrating AI (Copilot), not being disrupted by it—the enterprise ecosystem moat means AI enhances Outlook rather than threatening it"
+    },
+    {
+      "name": "Google Calendar",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can suggest optimal meeting times and automate scheduling. However, calendar apps are infrastructure utilities with deep ecosystem integration (Google Workspace). AI optimizes scheduling but doesn't fundamentally change the calendar as a coordination tool.",
+      "key_drivers": ["AI scheduling optimization", "ecosystem infrastructure moat"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because calendar apps are infrastructure utilities where AI provides incremental optimization, not fundamental transformation"
+    },
+    {
+      "name": "Beatron - AI Music Maker",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "An AI-native music generation app where generative audio models are the entire product. Competes directly with rapidly advancing music AI from Suno, Udio, and major platforms integrating music generation natively.",
+      "key_drivers": ["generative music AI core", "intense competition from specialized music AI"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score unchanged. Disruption_type adjusted from automation → new-AI-native-competition because this is an AI-native product competing against other AI music generators, not automating a traditional workflow"
+    },
+    {
+      "name": "Rbx Clothes Maker: Skin Editor",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "AI image generation models can create custom game skins and textures from text prompts, potentially replacing manual pixel editing. Roblox itself is integrating AI creation tools, threatening third-party editors.",
+      "key_drivers": ["AI texture/skin generation", "platform-integrated AI tools"],
+      "disruption_type": "automation",
+      "changes_made": "Score adjusted from 6 → 7 because Roblox's own AI creation tools and general AI image generators directly threaten third-party skin editors"
+    },
+    {
+      "name": "Manus AI",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "A generalized AI agent assistant that handles complex, multi-step tasks autonomously. The entire product is AI capability—it competes directly in the AI agent frontier with similar offerings from major platforms.",
+      "key_drivers": ["AI agent core product", "multi-step autonomous task execution"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Google NotebookLM",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "An AI-native research tool using RAG to synthesize answers from user-uploaded sources. The entire product is built on AI capabilities—grounding, summarization, and audio overview generation.",
+      "key_drivers": ["RAG-based AI research", "AI-native product design"],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Document Reader & PDF Editor",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can add summarization and intelligent search to document viewing. However, with 97M installs, the core value is a reliable multi-format file viewer—a basic utility where AI features are add-ons rather than transformative.",
+      "key_drivers": ["AI summarization add-on", "basic file viewing utility core"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because the core use case is basic file viewing across formats, where AI provides optional enhancement rather than core transformation"
+    },
+    {
+      "name": "Gallery",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI enables semantic photo search and automatic organization, but the core value is local media browsing and privacy-focused photo management. AI features are additive rather than transformative for a gallery app.",
+      "key_drivers": ["AI semantic search", "local organization utility"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Google Keep - Notes and lists",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can parse unstructured notes into structured to-dos, suggest categorization, and auto-summarize. Google is integrating Gemini across Workspace. However, Keep's simplicity is its feature—users want quick capture, not AI complexity.",
+      "key_drivers": ["AI note organization", "Gemini Workspace integration"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "CamScanner- scanner, PDF maker",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI significantly improves OCR accuracy, document edge detection, and intelligent information extraction. CamScanner has 500M+ installs and is actively integrating AI features. The scanning workflow is meaningfully enhanced by vision AI.",
+      "key_drivers": ["AI-enhanced OCR and document intelligence", "vision AI integration"],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Google One",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "A cloud storage and backup subscription service. AI features (Gemini Advanced access) are bundled as tier benefits, but the core product is storage infrastructure. AI is a marketing add-on, not a disruption vector.",
+      "key_drivers": ["AI as subscription tier benefit", "storage infrastructure core"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Confidence adjusted from medium → high because storage utility apps are clearly not meaningfully impacted by AI beyond marketing bundling"
+    },
+    {
+      "name": "Google Slides",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "AI can generate entire presentations from outlines, suggest designs, create speaker notes, and auto-format content. Gemini integration in Google Workspace makes AI-assisted presentation creation a core feature.",
+      "key_drivers": ["AI presentation generation", "Gemini Workspace integration"],
+      "disruption_type": "enhancement",
+      "changes_made": "Score unchanged. Disruption_type adjusted from automation → enhancement because AI enhances Slides within Google's Workspace ecosystem rather than automating away the need for presentation tools"
+    }
+  ]
+}

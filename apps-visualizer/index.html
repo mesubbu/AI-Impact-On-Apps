@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Play Store App AI Impact Visualizer</title>
+<meta name="description" content="Interactive treemap visualizing the AI impact scores of ~318 Play Store apps across 22 categories, colored by AI impact, disruption type, and confidence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0a0a0f;
+  --bg2: #12121a;
+  --fg: #e0e0e8;
+  --fg2: #888894;
+  --accent: #6366f1;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+#wrapper {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 250px;
+}
+
+#header {
+  padding: 20px 28px 16px;
+  flex-shrink: 0;
+}
+
+.intro {
+  margin-bottom: 18px;
+}
+.intro h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, #e0e0e8, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.intro h1 a {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--fg2);
+  text-decoration: none;
+  -webkit-text-fill-color: var(--fg2);
+}
+.intro h1 a:hover { text-decoration: underline; }
+.intro p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--fg2);
+  margin-bottom: 8px;
+}
+.intro a { color: var(--fg2); }
+.intro strong, .intro b { color: var(--fg); font-weight: 600; }
+
+.stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 28px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.stat-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.stat-section h3 {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--fg2);
+}
+.stat-big {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+.stat-label {
+  font-size: 11px;
+  color: var(--fg2);
+}
+
+.tier-bar { display: flex; flex-direction: column; gap: 3px; }
+.tier-row { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+.tier-color { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.tier-name { flex: 1; color: var(--fg2); white-space: nowrap; }
+.tier-count { text-align: right; white-space: nowrap; }
+.tier-pct { text-align: right; width: 30px; color: var(--fg2); font-size: 11px; }
+
+.histogram { display: flex; align-items: flex-end; gap: 2px; height: 54px; }
+.histogram .bar { flex: 1; border-radius: 1px 1px 0 0; min-height: 1px; transition: height 0.3s ease; }
+.hist-labels { display: flex; justify-content: space-between; font-size: 10px; color: var(--fg2); margin-top: 2px; }
+
+.hbar-chart { display: flex; flex-direction: column; gap: 3px; }
+.hbar-row { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+.hbar-label { width: 100px; flex-shrink: 0; color: var(--fg2); font-size: 11px; text-align: right; }
+.hbar-track { flex: 1; height: 12px; background: rgba(255,255,255,0.04); border-radius: 2px; overflow: hidden; min-width: 36px; }
+.hbar-fill { height: 100%; border-radius: 2px; transition: width 0.3s ease; }
+.hbar-val { width: 30px; flex-shrink: 0; font-size: 11px; color: var(--fg); text-align: right; }
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.color-toggle {
+  display: flex;
+  gap: 4px;
+}
+.color-toggle button {
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--fg2);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.color-toggle button.active {
+  background: rgba(99,102,241,0.15);
+  color: var(--fg);
+  border-color: rgba(99,102,241,0.4);
+}
+.color-toggle button:hover:not(.active) {
+  background: rgba(255,255,255,0.04);
+}
+
+.gradient-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--fg2);
+}
+.gradient-legend canvas { border-radius: 2px; }
+
+.category-legend {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 11px;
+  color: var(--fg2);
+}
+.cat-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.cat-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+canvas#canvas {
+  display: block;
+  cursor: default;
+}
+
+#tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 380px;
+  opacity: 0;
+  transition: opacity 0.12s;
+  z-index: 20;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+}
+#tooltip.visible { opacity: 1; }
+#tooltip .tt-title { font-weight: 600; font-size: 14px; margin-bottom: 4px; color: #fff; }
+#tooltip .tt-category { font-size: 11px; color: var(--accent); margin-bottom: 6px; }
+#tooltip .tt-highlight { font-size: 12px; margin-bottom: 8px; }
+#tooltip .tt-stats { display: grid; grid-template-columns: auto auto; gap: 2px 12px; font-size: 12px; }
+#tooltip .tt-stats .label { color: var(--fg2); }
+#tooltip .tt-stats .value { color: var(--fg); text-align: right; }
+#tooltip .tt-drivers { font-size: 11px; color: var(--fg2); margin-top: 8px; line-height: 1.4; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 8px; }
+#tooltip .tt-rationale { font-size: 11px; color: var(--fg2); margin-top: 4px; line-height: 1.4; }
+
+.badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+<div id="header">
+  <div class="intro">
+    <h1>Play Store App AI Impact Visualizer</h1>
+    <p>This research tool visualizes <b>318 Play Store apps</b> across <b>22 categories</b>, each scored for AI impact on a <b>1–10 scale</b>. Each rectangle's <b>area</b> is proportional to equal weight within its category group. <b>Color</b> shows the selected metric — toggle between AI impact score, disruption type, and confidence level. Click any tile to search for it on the Play Store.</p>
+    <p><b>AI Impact Score</b> measures how significantly AI is expected to reshape or disrupt each app's core value proposition — considering automation potential, enhancement opportunities, and competitive pressure from AI-native alternatives.</p>
+  </div>
+
+  <div class="controls-row">
+    <div class="stat-section">
+      <h3>Layer</h3>
+      <div class="color-toggle" id="colorToggle">
+        <button data-mode="score" class="active">AI Impact Score</button>
+        <button data-mode="disruption">Disruption Type</button>
+        <button data-mode="confidence">Confidence</button>
+      </div>
+    </div>
+    <div class="gradient-legend" id="gradientLegendWrap">
+      <span id="legendLow">Low</span>
+      <canvas id="gradientLegend" width="80" height="8"></canvas>
+      <span id="legendHigh">High</span>
+    </div>
+    <div class="category-legend" id="categoryLegend" style="display:none;"></div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-section">
+      <h3>Total apps</h3>
+      <div class="stat-big" id="statTotalApps">&mdash;</div>
+    </div>
+    <div class="stat-section" id="block2"></div>
+    <div class="stat-section" id="block3"></div>
+    <div class="stat-section" id="block4"></div>
+    <div class="stat-section" id="block5"></div>
+    <div class="stat-section" id="block6"></div>
+    <div class="stat-section" id="block7"></div>
+  </div>
+</div>
+
+<canvas id="canvas"></canvas>
+</div>
+
+<div id="tooltip">
+  <div class="tt-title"></div>
+  <div class="tt-category"></div>
+  <div class="tt-highlight"></div>
+  <div class="tt-stats"></div>
+  <div class="tt-drivers"></div>
+  <div class="tt-rationale"></div>
+</div>
+
+<script>
+
+// ── Color scales ────────────────────────────────────────────────────────
+
+let colorMode = "score";
+
+function boostContrast(t) {
+  const c = (t - 0.5) * 2;
+  const b = Math.sign(c) * Math.pow(Math.abs(c), 0.55);
+  return b / 2 + 0.5;
+}
+
+function greenRedCSS(t, alpha) {
+  t = boostContrast(Math.max(0, Math.min(1, t)));
+  let r, g, b;
+  if (t < 0.5) {
+    const s = t / 0.5;
+    r = Math.round(30 + s * 200);
+    g = Math.round(180 - s * 20);
+    b = Math.round(40 - s * 20);
+  } else {
+    const s = (t - 0.5) / 0.5;
+    r = Math.round(230 + s * 25);
+    g = Math.round(160 - s * 130);
+    b = Math.round(20 - s * 5);
+  }
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+// Score color: 1=green (low impact) → 10=red (high impact)
+function scoreColor(v, a) {
+  if (v == null) return `rgba(128,128,128,${a})`;
+  return greenRedCSS((v - 1) / 9, a);
+}
+
+// Disruption type colors
+const DISRUPTION_COLORS = {
+  "enhancement":                "rgba(99,102,241,ALPHA)",    // indigo
+  "automation":                 "rgba(239,68,68,ALPHA)",     // red
+  "replacement":                "rgba(245,158,11,ALPHA)",    // amber
+  "new-AI-native-competition":  "rgba(16,185,129,ALPHA)",    // emerald
+};
+function disruptionColor(type, a) {
+  const tpl = DISRUPTION_COLORS[type];
+  return tpl ? tpl.replace("ALPHA", a) : `rgba(128,128,128,${a})`;
+}
+
+// Confidence colors
+function confidenceColor(conf, a) {
+  if (conf === "high") return `rgba(34,197,94,${a})`;     // green
+  if (conf === "medium") return `rgba(234,179,8,${a})`;   // yellow
+  if (conf === "low") return `rgba(239,68,68,${a})`;      // red
+  return `rgba(128,128,128,${a})`;
+}
+
+function tileColorCSS(d, alpha) {
+  if (colorMode === "score") return scoreColor(d.score, alpha);
+  if (colorMode === "disruption") return disruptionColor(d.disruption_type, alpha);
+  if (colorMode === "confidence") return confidenceColor(d.confidence, alpha);
+  return `rgba(128,128,128,${alpha})`;
+}
+
+function tileSubInfo(r) {
+  if (colorMode === "score") {
+    return r.score + "/10 · " + r.category;
+  }
+  if (colorMode === "disruption") {
+    const labels = { "enhancement": "Enhancement", "automation": "Automation", "replacement": "Replacement", "new-AI-native-competition": "AI-Native" };
+    return (labels[r.disruption_type] || r.disruption_type) + " · " + r.score + "/10";
+  }
+  if (colorMode === "confidence") {
+    return r.confidence.charAt(0).toUpperCase() + r.confidence.slice(1) + " · " + r.score + "/10";
+  }
+  return "";
+}
+
+// ── Squarified treemap layout ──────────────────────────────────────────
+
+function squarify(items, x, y, w, h) {
+  if (items.length === 0) return [];
+  if (items.length === 1) return [{ ...items[0], rx: x, ry: y, rw: w, rh: h }];
+  const total = items.reduce((s, d) => s + d.value, 0);
+  if (total === 0) return [];
+  const results = [];
+  let remaining = [...items], cx = x, cy = y, cw = w, ch = h;
+  while (remaining.length > 0) {
+    const remTotal = remaining.reduce((s, d) => s + d.value, 0);
+    const vertical = cw >= ch;
+    const side = vertical ? ch : cw;
+    let row = [remaining[0]], rowSum = remaining[0].value;
+    for (let i = 1; i < remaining.length; i++) {
+      const candidate = [...row, remaining[i]];
+      const candidateSum = rowSum + remaining[i].value;
+      if (worstAspect(candidate, candidateSum, side, remTotal, vertical ? cw : ch) <
+          worstAspect(row, rowSum, side, remTotal, vertical ? cw : ch)) {
+        row = candidate; rowSum = candidateSum;
+      } else break;
+    }
+    const rowFraction = rowSum / remTotal;
+    const rowThickness = vertical ? cw * rowFraction : ch * rowFraction;
+    let offset = 0;
+    for (const item of row) {
+      const itemFraction = item.value / rowSum;
+      const itemLength = side * itemFraction;
+      if (vertical) results.push({ ...item, rx: cx, ry: cy + offset, rw: rowThickness, rh: itemLength });
+      else results.push({ ...item, rx: cx + offset, ry: cy, rw: itemLength, rh: rowThickness });
+      offset += itemLength;
+    }
+    if (vertical) { cx += rowThickness; cw -= rowThickness; }
+    else { cy += rowThickness; ch -= rowThickness; }
+    remaining = remaining.slice(row.length);
+  }
+  return results;
+}
+
+function worstAspect(row, rowSum, side, totalArea, availableExtent) {
+  const rowExtent = availableExtent * (rowSum / totalArea);
+  if (rowExtent === 0) return Infinity;
+  let worst = 0;
+  for (const item of row) {
+    const itemLen = side * (item.value / rowSum);
+    if (itemLen === 0) continue;
+    const aspect = Math.max(rowExtent / itemLen, itemLen / rowExtent);
+    if (aspect > worst) worst = aspect;
+  }
+  return worst;
+}
+
+// ── Rendering ──────────────────────────────────────────────────────────
+
+let data = [];
+let rects = [];
+let hovered = null;
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+let dpr = window.devicePixelRatio || 1;
+const MARGIN = 12, GAP = 1.5;
+
+function layout() {
+  const wrapper = document.getElementById("wrapper");
+  const w = wrapper.clientWidth;
+  const h = Math.round(w * 3 / 4);
+  canvas.width = w * dpr; canvas.height = h * dpr;
+  canvas.style.width = w + "px"; canvas.style.height = h + "px";
+  const tx = MARGIN, ty = MARGIN, tw = w - MARGIN * 2, th = h - MARGIN * 2;
+  const byCategory = {};
+  for (const d of data) { if (!byCategory[d.category]) byCategory[d.category] = []; byCategory[d.category].push(d); }
+  const categories = Object.keys(byCategory).map(cat => ({
+    cat, items: byCategory[cat].sort((a, b) => b.score - a.score),
+    value: byCategory[cat].length,
+  })).sort((a, b) => b.value - a.value);
+  const catRects = squarify(categories, tx, ty, tw, th);
+  rects = [];
+  for (const cr of catRects) {
+    const items = cr.items.map(d => ({ ...d, value: 1 }));
+    const innerRects = squarify(items, cr.rx + GAP, cr.ry + GAP, cr.rw - GAP * 2, cr.rh - GAP * 2);
+    for (const ir of innerRects) rects.push(ir);
+  }
+}
+
+function draw() {
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = "#0a0a0f";
+  ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
+  for (const r of rects) {
+    const isHovered = r === hovered;
+    const g = GAP / 2, rx = r.rx + g, ry = r.ry + g, rw = r.rw - g * 2, rh = r.rh - g * 2;
+    if (rw <= 0 || rh <= 0) continue;
+    ctx.fillStyle = tileColorCSS(r, isHovered ? 0.8 : 0.5);
+    ctx.fillRect(rx, ry, rw, rh);
+    if (isHovered) { ctx.strokeStyle = "#fff"; ctx.lineWidth = 2; ctx.strokeRect(rx, ry, rw, rh); }
+    if (rw > 50 && rh > 18) {
+      ctx.save(); ctx.beginPath(); ctx.rect(rx + 4, ry + 2, rw - 8, rh - 4); ctx.clip();
+      const fontSize = Math.min(13, Math.max(9, Math.min(rw / 10, rh / 3)));
+      ctx.font = `500 ${fontSize}px 'Inter', -apple-system, system-ui, sans-serif`;
+      ctx.fillStyle = isHovered ? "#fff" : "rgba(255,255,255,0.85)";
+      ctx.textBaseline = "top";
+      ctx.fillText(r.name, rx + 5, ry + 4);
+      if (rh > 34 && rw > 60) {
+        ctx.font = `400 ${Math.max(8, fontSize - 2)}px 'Inter', -apple-system, system-ui, sans-serif`;
+        ctx.fillStyle = "rgba(255,255,255,0.5)";
+        ctx.fillText(tileSubInfo(r), rx + 5, ry + 4 + fontSize + 2);
+      }
+      ctx.restore();
+    }
+  }
+}
+
+function hitTest(mx, my) {
+  const rect = canvas.getBoundingClientRect();
+  const cx = mx - rect.left, cy = my - rect.top;
+  for (let i = rects.length - 1; i >= 0; i--) {
+    const r = rects[i];
+    if (cx >= r.rx && cx < r.rx + r.rw && cy >= r.ry && cy < r.ry + r.rh) return r;
+  }
+  return null;
+}
+
+// ── Tooltip ────────────────────────────────────────────────────────────
+
+const DISRUPTION_LABELS = {
+  "enhancement": "Enhancement",
+  "automation": "Automation",
+  "replacement": "Replacement",
+  "new-AI-native-competition": "AI-Native Competition",
+};
+
+function tooltipHighlight(d) {
+  if (colorMode === "score") {
+    const color = scoreColor(d.score, 1);
+    return `<span style="color:${color};font-weight:600;">AI Impact Score: ${d.score}/10</span>` +
+      `<div style="margin-top:3px;height:4px;background:rgba(255,255,255,0.08);border-radius:2px;">` +
+      `<div style="height:100%;width:${d.score * 10}%;background:${color};border-radius:2px;"></div></div>`;
+  } else if (colorMode === "disruption") {
+    const color = disruptionColor(d.disruption_type, 1);
+    return `<span style="color:${color};font-weight:600;">${DISRUPTION_LABELS[d.disruption_type] || d.disruption_type}</span>` +
+      ` <span style="color:var(--fg2);">· Score: ${d.score}/10</span>`;
+  } else if (colorMode === "confidence") {
+    const color = confidenceColor(d.confidence, 1);
+    return `<span style="color:${color};font-weight:600;">Confidence: ${d.confidence.toUpperCase()}</span>` +
+      ` <span style="color:var(--fg2);">· Score: ${d.score}/10</span>`;
+  }
+  return "";
+}
+
+function showTooltip(d, mx, my) {
+  const tt = document.getElementById("tooltip");
+  tt.querySelector(".tt-title").textContent = d.name;
+  tt.querySelector(".tt-category").textContent = d.category;
+  tt.querySelector(".tt-highlight").innerHTML = tooltipHighlight(d);
+  tt.querySelector(".tt-stats").innerHTML = `
+    <span class="label">AI Score</span><span class="value">${d.score}/10</span>
+    <span class="label">Disruption</span><span class="value">${DISRUPTION_LABELS[d.disruption_type] || d.disruption_type}</span>
+    <span class="label">Confidence</span><span class="value">${d.confidence}</span>
+    <span class="label">Category</span><span class="value">${d.category}</span>`;
+
+  // Key drivers
+  if (d.key_drivers && d.key_drivers.length > 0) {
+    tt.querySelector(".tt-drivers").innerHTML =
+      `<b style="color:var(--fg);font-size:11px;">Key Drivers:</b> ` +
+      d.key_drivers.map(k => `<span class="badge" style="background:rgba(99,102,241,0.15);color:#a78bfa;margin:1px 2px;">${k}</span>`).join(" ");
+  } else {
+    tt.querySelector(".tt-drivers").innerHTML = "";
+  }
+
+  tt.querySelector(".tt-rationale").textContent = d.reasoning || "";
+
+  let tx = mx + 16, ty = my - 16;
+  if (tx + 380 > window.innerWidth) tx = mx - 396;
+  if (ty < 10) ty = my + 16;
+  if (ty + 200 > window.innerHeight) ty = my - 200;
+  tt.style.left = tx + "px"; tt.style.top = ty + "px";
+  tt.classList.add("visible");
+}
+function hideTooltip() { document.getElementById("tooltip").classList.remove("visible"); }
+
+// ── Stats helpers ───────────────────────────────────────────────────────
+
+function renderTiers(tiers, total) {
+  return tiers.map(t => `<div class="tier-row">
+    <div class="tier-color" style="background:${t.color}"></div>
+    <span class="tier-name">${t.label}</span>
+    <span class="tier-count">${t.count}</span>
+    <span class="tier-pct">${total > 0 ? (t.count / total * 100).toFixed(0) : 0}%</span>
+  </div>`).join("");
+}
+
+function renderHbars(items) {
+  return items.map(it => `<div class="hbar-row">
+    <span class="hbar-label">${it.label}</span>
+    <div class="hbar-track"><div class="hbar-fill" style="width:${it.pct}%;background:${it.color}"></div></div>
+    <span class="hbar-val">${it.val}</span>
+  </div>`).join("");
+}
+
+// ── Layer-specific stats ────────────────────────────────────────────────
+
+const SCORE_TIERS = [
+  { label: "Minimal (1–2)", lo: 1, hi: 2, mid: 1.5 },
+  { label: "Low (3–4)", lo: 3, hi: 4, mid: 3.5 },
+  { label: "Moderate (5–6)", lo: 5, hi: 6, mid: 5.5 },
+  { label: "High (7–8)", lo: 7, hi: 8, mid: 7.5 },
+  { label: "Critical (9–10)", lo: 9, hi: 10, mid: 9.5 },
+];
+
+function updateStats() {
+  document.getElementById("statTotalApps").textContent = data.length;
+
+  if (colorMode === "score") updateScoreStats();
+  else if (colorMode === "disruption") updateDisruptionStats();
+  else updateConfidenceStats();
+}
+
+function updateScoreStats() {
+  // Avg score
+  const avg = data.reduce((s, d) => s + d.score, 0) / data.length;
+  document.getElementById("block2").innerHTML = `<h3>Avg. Impact Score</h3>
+    <div class="stat-big"><span style="color:${scoreColor(avg, 1)}">${avg.toFixed(1)}</span></div>
+    <div class="stat-label">out of 10</div>`;
+
+  // Histogram 1-10
+  const histogram = new Array(10).fill(0);
+  for (const d of data) histogram[d.score - 1]++;
+  const maxH = Math.max(...histogram);
+  document.getElementById("block3").innerHTML = `<h3>Apps by score</h3>
+    <div class="histogram">${histogram.map((c, i) => `<div class="bar" style="height:${Math.max(2, maxH > 0 ? c / maxH * 100 : 0)}%;background:${scoreColor(i + 1, 0.7)}"></div>`).join("")}</div>
+    <div class="hist-labels"><span>1</span><span>5</span><span>10</span></div>`;
+
+  // Score tiers
+  const tiers = SCORE_TIERS.map(t => {
+    let count = 0;
+    for (const d of data) { if (d.score >= t.lo && d.score <= t.hi) count++; }
+    return { ...t, count, color: scoreColor(t.mid, 1) };
+  });
+  document.getElementById("block4").innerHTML = `<h3>Score tiers</h3><div class="tier-bar">${renderTiers(tiers, data.length)}</div>`;
+
+  // Cross: avg score by disruption type
+  const dtypes = ["enhancement", "automation", "new-AI-native-competition", "replacement"];
+  const byDtype = dtypes.map(dt => {
+    const apps = data.filter(d => d.disruption_type === dt);
+    const avg = apps.length > 0 ? apps.reduce((s, d) => s + d.score, 0) / apps.length : 0;
+    return { label: DISRUPTION_LABELS[dt].replace(" Competition", ""), avg, count: apps.length };
+  });
+  document.getElementById("block5").innerHTML = `<h3>Score by disruption</h3><div class="hbar-chart">${renderHbars(byDtype.map(g => ({
+    label: g.label, val: g.avg.toFixed(1), pct: g.avg / 10 * 100, color: scoreColor(g.avg, 0.8)
+  })))}</div>`;
+
+  // Cross: avg score by confidence
+  const confs = ["high", "medium", "low"];
+  const byConf = confs.map(c => {
+    const apps = data.filter(d => d.confidence === c);
+    const avg = apps.length > 0 ? apps.reduce((s, d) => s + d.score, 0) / apps.length : 0;
+    return { label: c.charAt(0).toUpperCase() + c.slice(1), avg, count: apps.length };
+  });
+  document.getElementById("block6").innerHTML = `<h3>Score by confidence</h3><div class="hbar-chart">${renderHbars(byConf.map(g => ({
+    label: g.label, val: g.avg.toFixed(1), pct: g.avg / 10 * 100, color: scoreColor(g.avg, 0.8)
+  })))}</div>`;
+
+  // High impact count
+  const highImpact = data.filter(d => d.score >= 8).length;
+  document.getElementById("block7").innerHTML = `<h3>High impact (8+)</h3>
+    <div class="stat-big" style="color:${scoreColor(9, 1)}">${highImpact}</div>
+    <div class="stat-label">${(highImpact / data.length * 100).toFixed(0)}% of all apps</div>`;
+}
+
+function updateDisruptionStats() {
+  // Distribution
+  const dtypes = ["enhancement", "automation", "new-AI-native-competition", "replacement"];
+  const counts = {};
+  for (const d of data) counts[d.disruption_type] = (counts[d.disruption_type] || 0) + 1;
+
+  const tiers = dtypes.map(dt => ({
+    label: DISRUPTION_LABELS[dt],
+    count: counts[dt] || 0,
+    color: disruptionColor(dt, 1),
+  }));
+  document.getElementById("block2").innerHTML = `<h3>Disruption breakdown</h3><div class="tier-bar">${renderTiers(tiers, data.length)}</div>`;
+
+  // Avg score per type
+  const byDtype = dtypes.map(dt => {
+    const apps = data.filter(d => d.disruption_type === dt);
+    const avg = apps.length > 0 ? apps.reduce((s, d) => s + d.score, 0) / apps.length : 0;
+    return { label: DISRUPTION_LABELS[dt].replace(" Competition", ""), avg, color: disruptionColor(dt, 0.8) };
+  });
+  document.getElementById("block3").innerHTML = `<h3>Avg score by type</h3><div class="hbar-chart">${renderHbars(byDtype.map(g => ({
+    label: g.label, val: g.avg.toFixed(1), pct: g.avg / 10 * 100, color: g.color
+  })))}</div>`;
+
+  // Top categories by disruption  
+  const catCounts = {};
+  for (const d of data) {
+    if (!catCounts[d.category]) catCounts[d.category] = { enhancement: 0, automation: 0, replacement: 0, "new-AI-native-competition": 0 };
+    catCounts[d.category][d.disruption_type]++;
+  }
+  // Find categories with highest automation+replacement ratio
+  const catRisk = Object.entries(catCounts).map(([cat, c]) => {
+    const total = Object.values(c).reduce((s, v) => s + v, 0);
+    const risk = (c.automation + c.replacement + c["new-AI-native-competition"]) / total;
+    return { cat, risk, total };
+  }).sort((a, b) => b.risk - a.risk).slice(0, 5);
+  document.getElementById("block4").innerHTML = `<h3>Most disrupted categories</h3><div class="hbar-chart">${renderHbars(catRisk.map(g => ({
+    label: g.cat, val: (g.risk * 100).toFixed(0) + "%", pct: g.risk * 100, color: disruptionColor("automation", 0.8)
+  })))}</div>`;
+
+  // Score histogram for automation+replacement apps only
+  const risky = data.filter(d => d.disruption_type === "automation" || d.disruption_type === "replacement");
+  const histogram = new Array(10).fill(0);
+  for (const d of risky) histogram[d.score - 1]++;
+  const maxH = Math.max(...histogram);
+  document.getElementById("block5").innerHTML = `<h3>Automation/Replacement scores</h3>
+    <div class="histogram">${histogram.map((c, i) => `<div class="bar" style="height:${Math.max(2, maxH > 0 ? c / maxH * 100 : 0)}%;background:${scoreColor(i + 1, 0.7)}"></div>`).join("")}</div>
+    <div class="hist-labels"><span>1</span><span>5</span><span>10</span></div>`;
+
+  document.getElementById("block6").innerHTML = "";
+  
+  // Enhancement count
+  document.getElementById("block7").innerHTML = `<h3>Enhancement apps</h3>
+    <div class="stat-big" style="color:${disruptionColor("enhancement", 1)}">${counts["enhancement"] || 0}</div>
+    <div class="stat-label">${((counts["enhancement"] || 0) / data.length * 100).toFixed(0)}% — AI enhances, doesn't replace</div>`;
+}
+
+function updateConfidenceStats() {
+  const confs = ["high", "medium", "low"];
+  const counts = {};
+  for (const d of data) counts[d.confidence] = (counts[d.confidence] || 0) + 1;
+
+  const tiers = confs.map(c => ({
+    label: c.charAt(0).toUpperCase() + c.slice(1),
+    count: counts[c] || 0,
+    color: confidenceColor(c, 1),
+  }));
+  document.getElementById("block2").innerHTML = `<h3>Confidence breakdown</h3><div class="tier-bar">${renderTiers(tiers, data.length)}</div>`;
+
+  // Avg score by confidence
+  const byConf = confs.map(c => {
+    const apps = data.filter(d => d.confidence === c);
+    const avg = apps.length > 0 ? apps.reduce((s, d) => s + d.score, 0) / apps.length : 0;
+    return { label: c.charAt(0).toUpperCase() + c.slice(1), avg, color: confidenceColor(c, 0.8) };
+  });
+  document.getElementById("block3").innerHTML = `<h3>Avg score by confidence</h3><div class="hbar-chart">${renderHbars(byConf.map(g => ({
+    label: g.label, val: g.avg.toFixed(1), pct: g.avg / 10 * 100, color: g.color
+  })))}</div>`;
+
+  // Cross: confidence by disruption type
+  const dtypes = ["enhancement", "automation", "new-AI-native-competition", "replacement"];
+  const confByDtype = dtypes.map(dt => {
+    const apps = data.filter(d => d.disruption_type === dt);
+    const highPct = apps.length > 0 ? apps.filter(d => d.confidence === "high").length / apps.length : 0;
+    return { label: DISRUPTION_LABELS[dt].replace(" Competition", ""), highPct, count: apps.length };
+  });
+  document.getElementById("block4").innerHTML = `<h3>% High confidence by type</h3><div class="hbar-chart">${renderHbars(confByDtype.map(g => ({
+    label: g.label, val: (g.highPct * 100).toFixed(0) + "%", pct: g.highPct * 100, color: confidenceColor("high", 0.8)
+  })))}</div>`;
+
+  // Confidence by score band
+  const scoreBands = [
+    { label: "Score 1–3", lo: 1, hi: 3 },
+    { label: "Score 4–6", lo: 4, hi: 6 },
+    { label: "Score 7–10", lo: 7, hi: 10 },
+  ];
+  const confByScore = scoreBands.map(b => {
+    const apps = data.filter(d => d.score >= b.lo && d.score <= b.hi);
+    const highPct = apps.length > 0 ? apps.filter(d => d.confidence === "high").length / apps.length : 0;
+    return { label: b.label, highPct, count: apps.length };
+  });
+  document.getElementById("block5").innerHTML = `<h3>% High confidence by score</h3><div class="hbar-chart">${renderHbars(confByScore.map(g => ({
+    label: g.label, val: (g.highPct * 100).toFixed(0) + "%", pct: g.highPct * 100, color: confidenceColor("high", 0.8)
+  })))}</div>`;
+
+  document.getElementById("block6").innerHTML = "";
+
+  // High confidence count
+  document.getElementById("block7").innerHTML = `<h3>High confidence</h3>
+    <div class="stat-big" style="color:${confidenceColor("high", 1)}">${counts.high || 0}</div>
+    <div class="stat-label">${((counts.high || 0) / data.length * 100).toFixed(0)}% of assessments</div>`;
+}
+
+// ── Events ──────────────────────────────────────────────────────────────
+
+canvas.addEventListener("mousemove", (e) => {
+  const hit = hitTest(e.clientX, e.clientY);
+  if (hit !== hovered) { hovered = hit; draw(); }
+  if (hovered) { showTooltip(hovered, e.clientX, e.clientY); canvas.style.cursor = "pointer"; }
+  else { hideTooltip(); canvas.style.cursor = "default"; }
+});
+canvas.addEventListener("click", (e) => {
+  const hit = hitTest(e.clientX, e.clientY);
+  if (hit && hit.play_store_url) window.open(hit.play_store_url, "_blank");
+});
+canvas.addEventListener("mouseleave", () => { hovered = null; hideTooltip(); draw(); });
+function resize() { dpr = window.devicePixelRatio || 1; layout(); draw(); }
+
+// ── Legend ──────────────────────────────────────────────────────────────
+
+const LEGEND_CONFIG = {
+  score:      { low: "Low (1)", high: "High (10)" },
+  confidence: { low: "Low", high: "High" },
+};
+
+function updateLegend() {
+  const gradWrap = document.getElementById("gradientLegendWrap");
+  const catLegend = document.getElementById("categoryLegend");
+
+  if (colorMode === "disruption") {
+    // Show category legend instead of gradient
+    gradWrap.style.display = "none";
+    catLegend.style.display = "flex";
+    catLegend.innerHTML = Object.entries(DISRUPTION_LABELS).map(([key, label]) =>
+      `<span class="cat-chip"><span class="cat-dot" style="background:${disruptionColor(key, 1)}"></span>${label}</span>`
+    ).join("");
+  } else {
+    gradWrap.style.display = "flex";
+    catLegend.style.display = "none";
+    const c = document.getElementById("gradientLegend");
+    const gctx = c.getContext("2d");
+    for (let x = 0; x < 80; x++) {
+      const t = x / 79;
+      if (colorMode === "score") {
+        gctx.fillStyle = greenRedCSS(t, 1);
+      } else {
+        // confidence: green to red
+        gctx.fillStyle = greenRedCSS(t, 1);
+      }
+      gctx.fillRect(x, 0, 1, 8);
+    }
+    const cfg = LEGEND_CONFIG[colorMode];
+    document.getElementById("legendLow").textContent = cfg.low;
+    document.getElementById("legendHigh").textContent = cfg.high;
+  }
+}
+
+// ── Layer toggle ─────────────────────────────────────────────────────
+
+document.getElementById("colorToggle").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn || !btn.dataset.mode) return;
+  colorMode = btn.dataset.mode;
+  document.querySelectorAll("#colorToggle button").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  updateStats();
+  updateLegend();
+  draw();
+  requestAnimationFrame(resize);
+});
+
+// ── Load ───────────────────────────────────────────────────────────────
+
+fetch("data.json")
+  .then(r => r.json())
+  .then(d => {
+    data = d;
+    updateStats();
+    updateLegend();
+    resize();
+  });
+
+window.addEventListener("resize", resize);
+</script>
+</body>
+</html>

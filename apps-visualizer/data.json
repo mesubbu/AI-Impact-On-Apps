@@ -1,0 +1,4514 @@
+[
+  {
+    "name": "AI Chat: All in One",
+    "slug": "ai-chat-all-in-one",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "A pure AI wrapper app providing chat, image generation, and PDF reading via external model APIs. Entire value proposition is derived from underlying AI models. Highly exposed to commoditization and first-party competition.",
+    "key_drivers": [
+      "LLM API dependence",
+      "Multimodal generation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AI%20Chat%3A%20All%20in%20One&c=apps"
+  },
+  {
+    "name": "AI Chatbot - Nova",
+    "slug": "ai-chatbot-nova",
+    "category": "AI Assistant",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "A thin wrapper around LLM APIs with no proprietary model, unique data, or significant UX moat. Directly commoditized by first-party apps from OpenAI, Google, and others that offer the same capability with better model access.",
+    "key_drivers": [
+      "API wrapper commoditization",
+      "first-party AI app competition"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AI%20Chatbot%20-%20Nova&c=apps"
+  },
+  {
+    "name": "AI Chat\u30fbAsk Chatbot Assistant",
+    "slug": "ai-chat-ask-chatbot-assistant",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Fully reliant on generative AI models for text, code, and image capabilities. A wrapper app with no proprietary non-AI value layer. Maximum exposure to model commoditization.",
+    "key_drivers": [
+      "Multimodal chatbot APIs",
+      "Model commoditization risk"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AI%20Chat%E3%83%BBAsk%20Chatbot%20Assistant&c=apps"
+  },
+  {
+    "name": "AI Hub: Photo, Video Generator",
+    "slug": "ai-hub-photo-video-generator",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI-native media generation app built entirely on diffusion models and generative video AI. The product has no value without AI\u2014it is the AI. Fully exposed to model improvements and commoditization.",
+    "key_drivers": [
+      "Diffusion models",
+      "Generative video AI"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AI%20Hub%3A%20Photo%2C%20Video%20Generator&c=apps"
+  },
+  {
+    "name": "AI! Chatbot Agent\uff0dAsk & Chat",
+    "slug": "ai-chatbot-agent-ask-chat",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An LLM wrapper providing access to GPT-5, DeepSeek, Gemini, and Grok. Its value is entirely derived from the intelligence of underlying models, with zero proprietary non-AI defensibility.",
+    "key_drivers": [
+      "Multi-model API access",
+      "Chat interface"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AI%21%20Chatbot%20Agent%EF%BC%8DAsk%20%26%20Chat&c=apps"
+  },
+  {
+    "name": "Accio: Alibaba AI Agent",
+    "slug": "accio-alibaba-ai-agent",
+    "category": "AI Assistant",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI agent designed to automate wholesale product sourcing, trend identification, and supplier matching. The AI is the core product, but Alibaba's supplier network and trade data provide a unique data moat that generic AI agents lack.",
+    "key_drivers": [
+      "AI-powered sourcing automation",
+      "Alibaba supplier data moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Accio%3A%20Alibaba%20AI%20Agent&c=apps"
+  },
+  {
+    "name": "Beatron - AI Music Maker",
+    "slug": "beatron-ai-music-maker",
+    "category": "AI Assistant",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI-native music generation app where generative audio models are the entire product. Competes directly with rapidly advancing music AI from Suno, Udio, and major platforms integrating music generation natively.",
+    "key_drivers": [
+      "generative music AI core",
+      "intense competition from specialized music AI"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Beatron%20-%20AI%20Music%20Maker&c=apps"
+  },
+  {
+    "name": "Chat AI: Ask Agent Anything",
+    "slug": "chat-ai-ask-agent-anything",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Entirely AI-native: a multi-model chatbot wrapper whose value is 100% derived from underlying LLM capabilities. Highly exposed to model commoditization and competition from first-party AI apps (ChatGPT, Gemini).",
+    "key_drivers": [
+      "Frontier LLM capabilities",
+      "Model commoditization risk"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Chat%20AI%3A%20Ask%20Agent%20Anything&c=apps"
+  },
+  {
+    "name": "Chat Smith: AI Chatbot & Agent",
+    "slug": "chat-smith-ai-chatbot-agent",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Multi-purpose AI assistant wrapper (chat, image generation, math solving, writing). Entire value proposition depends on external model APIs. Extremely exposed to model commoditization and first-party alternatives.",
+    "key_drivers": [
+      "LLM API dependence",
+      "Multimodal generation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Chat%20Smith%3A%20AI%20Chatbot%20%26%20Agent&c=apps"
+  },
+  {
+    "name": "ChatGO: AI Chatbot Assistant",
+    "slug": "chatgo-ai-chatbot-assistant",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An LLM wrapper chatbot entirely reliant on external model APIs. Its value proposition is access to AI models, making it maximally exposed to model commoditization and first-party alternatives.",
+    "key_drivers": [
+      "LLM API dependence",
+      "Model commoditization risk"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ChatGO%3A%20AI%20Chatbot%20Assistant&c=apps"
+  },
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Pure AI product whose entire value is defined by model capabilities. Subject to intense competition from Gemini, Claude, open-source models, and agentic platforms.",
+    "key_drivers": [
+      "Agentic workflow integration",
+      "Personalization",
+      "Multimodal capabilities"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ChatGPT&c=apps"
+  },
+  {
+    "name": "Chatbot AI - Search Assistant",
+    "slug": "chatbot-ai-search-assistant",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI-native chatbot with deep research and web browsing capabilities. Its entire product is built on generative text and search integration via external LLM APIs. Maximum exposure to AI model commoditization.",
+    "key_drivers": [
+      "Generative search",
+      "LLM API dependence"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Chatbot%20AI%20-%20Search%20Assistant&c=apps"
+  },
+  {
+    "name": "Claude by Anthropic",
+    "slug": "claude-by-anthropic",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Premier LLM application natively exposed to disruption from next-generation models and competing AI platforms. Entire value proposition is the AI model itself.",
+    "key_drivers": [
+      "Large context processing",
+      "Code generation",
+      "Complex reasoning"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Claude%20by%20Anthropic&c=apps"
+  },
+  {
+    "name": "DeepSeek - AI Assistant",
+    "slug": "deepseek-ai-assistant",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Official AI assistant from a frontier model lab. Its entire product is a conversational AI interface powered by DeepSeek's own models. Fully AI-native with no non-AI value layer.",
+    "key_drivers": [
+      "Frontier AI research",
+      "Conversational interface"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=DeepSeek%20-%20AI%20Assistant&c=apps"
+  },
+  {
+    "name": "Google Gemini",
+    "slug": "google-gemini",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Google's foundational AI assistant is AI itself. It defines the AI frontier and competes directly with other AI platforms. Its existence is inseparable from AI advancement.",
+    "key_drivers": [
+      "is a foundational AI product",
+      "defines AI capability baseline"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Gemini&c=apps"
+  },
+  {
+    "name": "Google NotebookLM",
+    "slug": "google-notebooklm",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI-native research tool using RAG to synthesize answers from user-uploaded sources. The entire product is built on AI capabilities\u2014grounding, summarization, and audio overview generation.",
+    "key_drivers": [
+      "RAG-based AI research",
+      "AI-native product design"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20NotebookLM&c=apps"
+  },
+  {
+    "name": "Grok",
+    "slug": "grok",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "xAI's official AI assistant using real-time X (Twitter) data. Entirely AI-native: a frontier LLM interface with real-time data access as its differentiator. No non-AI value layer.",
+    "key_drivers": [
+      "Real-time LLM inference",
+      "Live data integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Grok&c=apps"
+  },
+  {
+    "name": "Grok - Smartest AI Advisor",
+    "slug": "grok-smartest-ai-advisor",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "xAI's AI chatbot where the entire product is an AI model. Competes directly in the foundational AI assistant space with differentiation through X/Twitter data integration and real-time information access.",
+    "key_drivers": [
+      "core AI product",
+      "X platform data integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Grok%20-%20Smartest%20AI%20Advisor&c=apps"
+  },
+  {
+    "name": "Hype AI - AI Photo & Video",
+    "slug": "hype-ai-ai-photo-video",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI-native media creation app entirely defined by diffusion models and video generation AI. The product has no value without its underlying generative models.",
+    "key_drivers": [
+      "Diffusion model variants",
+      "AI video generation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Hype%20AI%20-%20AI%20Photo%20%26%20Video&c=apps"
+  },
+  {
+    "name": "Manus AI",
+    "slug": "manus-ai",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "A generalized AI agent assistant that handles complex, multi-step tasks autonomously. The entire product is AI capability\u2014it competes directly in the AI agent frontier with similar offerings from major platforms.",
+    "key_drivers": [
+      "AI agent core product",
+      "multi-step autonomous task execution"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Manus%20AI&c=apps"
+  },
+  {
+    "name": "Open Chat - AI bot app",
+    "slug": "open-chat-ai-bot-app",
+    "category": "AI Assistant",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "A ChatGPT-powered wrapper app with no proprietary model or unique data. First-party ChatGPT and Gemini apps offer identical or superior functionality for free, making wrapper apps highly vulnerable.",
+    "key_drivers": [
+      "API wrapper with no moat",
+      "first-party app competition"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Open%20Chat%20-%20AI%20bot%20app&c=apps"
+  },
+  {
+    "name": "Perplexity - Ask Anything",
+    "slug": "perplexity-ask-anything",
+    "category": "AI Assistant",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI-native search engine entirely built on generative AI to synthesize answers from multiple sources. The product's existence is predicated on AI capability, making it maximally AI-impacted.",
+    "key_drivers": [
+      "AI-native search product",
+      "RAG-based answer synthesis"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Perplexity%20-%20Ask%20Anything&c=apps"
+  },
+  {
+    "name": "WolframAlpha Classic",
+    "slug": "wolframalpha-classic",
+    "category": "AI Assistant",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "LLMs with code interpreters increasingly handle factual math and physics queries, but WolframAlpha's structured computational engine still offers superior precision for complex symbolic math.",
+    "key_drivers": [
+      "LLM code execution",
+      "Natural language query answering",
+      "Structured computation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=WolframAlpha%20Classic&c=apps"
+  },
+  {
+    "name": "Ai Browser - Safe Web",
+    "slug": "ai-browser-safe-web",
+    "category": "Browser",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Web browsing is being reshaped by AI-powered search (Perplexity, Google AI Overviews) that summarizes rather than lists results. However, the browser as a rendering engine for web content retains fundamental utility. Score 8 was slightly high for a small browser app.",
+    "key_drivers": [
+      "AI search engines",
+      "Web summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Ai%20Browser%20-%20Safe%20Web&c=apps"
+  },
+  {
+    "name": "Brave Private Web Browser, VPN",
+    "slug": "brave-private-web-browser-vpn",
+    "category": "Browser",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI assistants natively integrated into browsers enhance page summarization and queries. Brave's privacy-first positioning limits cloud AI integration depth.",
+    "key_drivers": [
+      "Search summarization",
+      "Native AI assistants",
+      "Web reading comprehension"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Brave%20Private%20Web%20Browser%2C%20VPN&c=apps"
+  },
+  {
+    "name": "DuckDuckGo, Duck.ai, & VPN",
+    "slug": "duckduckgo-duck-ai-vpn",
+    "category": "Browser",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI-powered search answers change how users find information, and DDG has added Duck.ai for privacy-focused AI chat. However, the core value proposition is privacy (VPN, tracker blocking), which is orthogonal to AI capabilities.",
+    "key_drivers": [
+      "AI search integration",
+      "privacy-first positioning as moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=DuckDuckGo%2C%20Duck.ai%2C%20%26%20VPN&c=apps"
+  },
+  {
+    "name": "Firefox Fast & Private Browser",
+    "slug": "firefox-fast-private-browser",
+    "category": "Browser",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI page summarization and privacy-preserving local models add value on top of core web navigation.",
+    "key_drivers": [
+      "AI web search summaries",
+      "Privacy-preserving local models",
+      "Page analysis"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Firefox%20Fast%20%26%20Private%20Browser&c=apps"
+  },
+  {
+    "name": "Google Chrome",
+    "slug": "google-chrome",
+    "category": "Browser",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Chrome integrates LLMs to summarize web content, draft text inputs, and auto-group tabs, materially changing how users digest the web.",
+    "key_drivers": [
+      "AI summaries",
+      "Integrated language models",
+      "Tab grouping"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Chrome&c=apps"
+  },
+  {
+    "name": "Microsoft Edge: AI browser",
+    "slug": "microsoft-edge-ai-browser",
+    "category": "Browser",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Browsers are shifting from passive renderers to active AI-driven navigation engines. Edge with Copilot integration synthesizes pages, executes workflows, and navigates on behalf of users.",
+    "key_drivers": [
+      "Web orchestration agents",
+      "Page summarization",
+      "Conversational search routing"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Microsoft%20Edge%3A%20AI%20browser&c=apps"
+  },
+  {
+    "name": "Neuro Browser \u2013 Fast Video",
+    "slug": "neuro-browser-fast-video",
+    "category": "Browser",
+    "score": 5,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "Specialized video browser where AI adds value through recommendation feeds and dynamic ad-blocking, but remains a basic web portal.",
+    "key_drivers": [
+      "Browsing optimization",
+      "Content recommendation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Neuro%20Browser%20%E2%80%93%20Fast%20Video&c=apps"
+  },
+  {
+    "name": "Opera: Private Web Browser",
+    "slug": "opera-private-web-browser",
+    "category": "Browser",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Opera leans into native AI integration (Aria) for browsing assistance and content generation, expanding traditional browser utility.",
+    "key_drivers": [
+      "Built-in AI assistants",
+      "Tab management",
+      "Content generation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Opera%3A%20Private%20Web%20Browser&c=apps"
+  },
+  {
+    "name": "Scano Browser",
+    "slug": "scano-browser",
+    "category": "Browser",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "A small browser app (5K installs) positioned as having 'smarter browsing tools.' While browsers face AI disruption from agentic browsing and summarization, this app's tiny scale limits its ability to meaningfully integrate advanced AI features.",
+    "key_drivers": [
+      "Web summarization",
+      "Smart browsing features"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Scano%20Browser&c=apps"
+  },
+  {
+    "name": "Tor Browser",
+    "slug": "tor-browser",
+    "category": "Browser",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Tor avoids cloud AI entirely to preserve anonymity. Any AI must be highly constrained and local. Privacy-first architecture severely limits AI integration.",
+    "key_drivers": [
+      "Client-side privacy protection",
+      "Anonymity constraints"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Tor%20Browser&c=apps"
+  },
+  {
+    "name": "UC Browser",
+    "slug": "uc-browser",
+    "category": "Browser",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Browsers rely on AI to personalize news feeds, translate content, and summarize pages for users on varied network connections.",
+    "key_drivers": [
+      "Content recommendation",
+      "Page translation",
+      "Smart summaries"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=UC%20Browser&c=apps"
+  },
+  {
+    "name": "Dropbox: Secure Cloud Storage",
+    "slug": "dropbox-secure-cloud-storage",
+    "category": "Cloud Storage",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core value is reliable file hosting infrastructure. AI can add semantic search, auto-tagging, and document summarization as features, but the fundamental storage-and-sync utility is unaffected by generative AI.",
+    "key_drivers": [
+      "Semantic file search",
+      "Auto-tagging and summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Dropbox%3A%20Secure%20Cloud%20Storage&c=apps"
+  },
+  {
+    "name": "Google One",
+    "slug": "google-one",
+    "category": "Cloud Storage",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A cloud storage and backup subscription service. AI features (Gemini Advanced access) are bundled as tier benefits, but the core product is storage infrastructure. AI is a marketing add-on, not a disruption vector.",
+    "key_drivers": [
+      "AI as subscription tier benefit",
+      "storage infrastructure core"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20One&c=apps"
+  },
+  {
+    "name": "MEGA",
+    "slug": "mega",
+    "category": "Cloud Storage",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Cloud storage with end-to-end encryption. AI could enhance search and photo categorization, but MEGA's privacy-first architecture actually limits AI integration possibilities. Core value is secure data hosting.",
+    "key_drivers": [
+      "Image tagging",
+      "Semantic search"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=MEGA&c=apps"
+  },
+  {
+    "name": "Burner: Second Phone Number",
+    "slug": "burner-second-phone-number",
+    "category": "Communication",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can summarize threads, transcribe voicemails, and auto-reply for temporary numbers. Enhancement is moderate given the app's privacy-focused niche.",
+    "key_drivers": [
+      "Contextual auto-replies",
+      "Voicemail transcription"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Burner%3A%20Second%20Phone%20Number&c=apps"
+  },
+  {
+    "name": "Google Chat",
+    "slug": "google-chat",
+    "category": "Communication",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI deeply integrates into enterprise communication to summarize threads, draft replies, and track action items via Gemini integration.",
+    "key_drivers": [
+      "Thread summarization",
+      "Automated drafting",
+      "Gemini integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Chat&c=apps"
+  },
+  {
+    "name": "Google Voice",
+    "slug": "google-voice",
+    "category": "Communication",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Telephony handling benefits from AI call screening and voicemail transcription. However, the core VoIP utility is infrastructure-dependent, limiting full AI transformation.",
+    "key_drivers": [
+      "Call screening",
+      "Voicemail transcription",
+      "Contextual replies"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Voice&c=apps"
+  },
+  {
+    "name": "LINE: Calls & Messages",
+    "slug": "line-calls-messages",
+    "category": "Communication",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "As a super-app, generative AI enables custom sticker creation, instant chat translation, and complex branded service bots natively.",
+    "key_drivers": [
+      "Generative stickers",
+      "AI customer service bots",
+      "Live translation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=LINE%3A%20Calls%20%26%20Messages&c=apps"
+  },
+  {
+    "name": "Messages",
+    "slug": "messages",
+    "category": "Communication",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Default SMS app using on-device AI for drafting responses and organizing inboxes, providing noticeable quality-of-life improvements.",
+    "key_drivers": [
+      "Message categorization",
+      "Magic compose",
+      "Automated OTP deletion"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Messages&c=apps"
+  },
+  {
+    "name": "Messages - SMS Texting App",
+    "slug": "messages-sms-texting-app",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "Generic SMS client with standard AI text prediction and spam protection. Minimal differentiation in a commoditized market.",
+    "key_drivers": [
+      "Smart replies",
+      "Inbox organization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Messages%20-%20SMS%20Texting%20App&c=apps"
+  },
+  {
+    "name": "Messages for Android",
+    "slug": "messages-for-android",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "Standard SMS app with minor AI improvements in typing speed and inbox organization. Commoditized space with minimal differentiation.",
+    "key_drivers": [
+      "Suggested replies",
+      "Categorization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Messages%20for%20Android&c=apps"
+  },
+  {
+    "name": "Messages: SMS Messaging App",
+    "slug": "messages-sms-messaging-app",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "Standard texting improvements powered by NLP. Commoditized SMS space with limited AI differentiation.",
+    "key_drivers": [
+      "Thread summarization",
+      "Quick responses"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Messages%3A%20SMS%20Messaging%20App&c=apps"
+  },
+  {
+    "name": "Messenger",
+    "slug": "messenger",
+    "category": "Communication",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Meta integrates multimodal AI assistants directly into chat flows, shifting from pure messaging to human-plus-agent interaction.",
+    "key_drivers": [
+      "Synthetic companions",
+      "Generative search integration",
+      "In-stream image creation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Messenger&c=apps"
+  },
+  {
+    "name": "Messenger : Text Messages",
+    "slug": "messenger-text-messages",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "Generic third-party SMS app where AI adds basic drafting and sorting. Limited differentiation potential in a commoditized SMS client market.",
+    "key_drivers": [
+      "Generative replies",
+      "Spam filtering"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Messenger%20%3A%20Text%20Messages&c=apps"
+  },
+  {
+    "name": "Messenger Kids \u2013 The Messaging",
+    "slug": "messenger-kids-the-messaging",
+    "category": "Communication",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI enforces complex safety boundaries for children's chats and provides fun AR filters. Enhancement-focused with strong parental control requirements limiting AI scope.",
+    "key_drivers": [
+      "Content moderation",
+      "Generative AR filters",
+      "Educational chat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Messenger%20Kids%20%E2%80%93%20The%20Messaging&c=apps"
+  },
+  {
+    "name": "Messenger SMS - Text Messages",
+    "slug": "messenger-sms-text-messages",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "Standard SMS interface with parity AI typing and filtering enhancements. Minimal differentiation.",
+    "key_drivers": [
+      "Text generation",
+      "Spam filtering"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Messenger%20SMS%20-%20Text%20Messages&c=apps"
+  },
+  {
+    "name": "SMS Messages App",
+    "slug": "sms-messages-app",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "Standard messaging variant with common AI text enhancements. Minimal differentiation in commoditized SMS market.",
+    "key_drivers": [
+      "Spam filtering",
+      "Reply suggestions"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=SMS%20Messages%20App&c=apps"
+  },
+  {
+    "name": "SMS Messenger",
+    "slug": "sms-messenger",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "SMS apps gain basic AI text prediction and spam filtering, but the core utility is simple point-to-point text delivery constrained by the SMS protocol.",
+    "key_drivers": [
+      "Predictive text",
+      "Smart replies",
+      "Spam filtering"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=SMS%20Messenger&c=apps"
+  },
+  {
+    "name": "Securus Mobile",
+    "slug": "securus-mobile",
+    "category": "Communication",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Prison communication app utilizing AI for security monitoring, voice tone analysis, and call transcription for keyword detection.",
+    "key_drivers": [
+      "Audio transcription",
+      "Behavioral monitoring",
+      "Compliance"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Securus%20Mobile&c=apps"
+  },
+  {
+    "name": "Signal Private Messenger",
+    "slug": "signal-private-messenger",
+    "category": "Communication",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Signal's zero-knowledge privacy mission fundamentally conflicts with cloud AI integration. On-device models offer minor perks like local translation but scope is severely limited.",
+    "key_drivers": [
+      "On-device privacy constraints",
+      "Local feature processing",
+      "Anti-data-mining architecture"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Signal%20Private%20Messenger&c=apps"
+  },
+  {
+    "name": "Telega \uff0d \u043c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440 \u0438 \u0437\u0432\u043e\u043d\u043a\u0438",
+    "slug": "telega",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Standard messaging app where AI bots can add translation and summarization, but the base protocol is commodity messaging with limited differentiation surface.",
+    "key_drivers": [
+      "Chatbot integration",
+      "Text summarization",
+      "Content moderation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Telega%20%EF%BC%8D%20%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%20%D0%B8%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B8&c=apps"
+  },
+  {
+    "name": "Telegram",
+    "slug": "telegram",
+    "category": "Communication",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Telegram's bot ecosystem benefits heavily from AI (moderation, translation, summarization). Core messaging is commodity but the channel/group ecosystem creates defensibility.",
+    "key_drivers": [
+      "AI bot ecosystem",
+      "Chat thread summarization",
+      "Automated moderation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Telegram&c=apps"
+  },
+  {
+    "name": "TextNow: Call + Text Unlimited",
+    "slug": "textnow-call-text-unlimited",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Ad-supported VoIP provider. AI aids voicemail transcription and spam screening, but the core moat is free network access and telecom infrastructure.",
+    "key_drivers": [
+      "Voicemail transcription",
+      "Spam filtering algorithms",
+      "Telecom infrastructure"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=TextNow%3A%20Call%20%2B%20Text%20Unlimited&c=apps"
+  },
+  {
+    "name": "WhatsApp Business",
+    "slug": "whatsapp-business",
+    "category": "Communication",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "SMB customer support over WhatsApp is highly automatable. AI agents can handle booking flows, product inquiries, and conversational commerce, replacing significant manual business owner effort.",
+    "key_drivers": [
+      "Automated customer support",
+      "Conversational commerce",
+      "Lead qualification agents"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=WhatsApp%20Business&c=apps"
+  },
+  {
+    "name": "WhatsApp Messenger",
+    "slug": "whatsapp-messenger",
+    "category": "Communication",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Personal messaging app protected by massive network effects (2B+ users). AI adds translation, smart replies, and summarization but the social graph moat is extremely strong.",
+    "key_drivers": [
+      "Smart replies",
+      "Chat summarization",
+      "In-line AI agents"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=WhatsApp%20Messenger&c=apps"
+  },
+  {
+    "name": "Zangi Private Messenger",
+    "slug": "zangi-private-messenger",
+    "category": "Communication",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Core value is low-bandwidth resilience and encryption for messaging. AI aids translation and text drafting but doesn't transform the fundamental utility.",
+    "key_drivers": [
+      "Real-time translation",
+      "Text drafting"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Zangi%20Private%20Messenger&c=apps"
+  },
+  {
+    "name": "Base44: Build Apps with AI",
+    "slug": "base44-build-apps-with-ai",
+    "category": "Developer Tools",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI-native no-code app builder that converts natural language descriptions into functional applications. Without AI code generation, this product would not exist. Fully defined by AI capabilities.",
+    "key_drivers": [
+      "Text-to-code generation",
+      "Automated UI/UX generation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Base44%3A%20Build%20Apps%20with%20AI&c=apps"
+  },
+  {
+    "name": "Builda - Create and Play",
+    "slug": "builda-create-and-play",
+    "category": "Developer Tools",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Generative AI can automate drawing suggestions and animate user creations. The creative sandbox format could be significantly enhanced by AI co-creation tools, though the kids-focused play experience remains the core value.",
+    "key_drivers": [
+      "generative AI for drawing/animation",
+      "creative co-pilot potential"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Builda%20-%20Create%20and%20Play&c=apps"
+  },
+  {
+    "name": "Emergent AI: Vibe Code Apps",
+    "slug": "emergent-ai-vibe-code-apps",
+    "category": "Developer Tools",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "AI-native no-code app builder facing intense competition from generalized coding agents (Cursor, Devin, Claude artifacts) that can generate complex apps directly.",
+    "key_drivers": [
+      "Code generation",
+      "Text-to-app deployment"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Emergent%20AI%3A%20Vibe%20Code%20Apps&c=apps"
+  },
+  {
+    "name": "GitHub",
+    "slug": "github",
+    "category": "Developer Tools",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "GitHub's mobile app is for triaging notifications, reviewing PRs, and commenting\u2014workflow tasks heavily enhanced by AI (Copilot code review, automated issue labeling, PR summaries). However, GitHub's core value is its repository hosting and developer network effect, which AI enhances but doesn't replace.",
+    "key_drivers": [
+      "AI-assisted code review",
+      "Automated PR summaries",
+      "Copilot integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=GitHub&c=apps"
+  },
+  {
+    "name": "Replit",
+    "slug": "replit",
+    "category": "Developer Tools",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Duplicate entry for Replit (also in batch 12). AI-powered code authoring and deployment platform. The product's core proposition\u2014building without code\u2014is entirely AI-dependent.",
+    "key_drivers": [
+      "AI code generation",
+      "Agentic deployment"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Replit&c=apps"
+  },
+  {
+    "name": "Replit: Vibe code with AI Fast",
+    "slug": "replit-vibe-code-with-ai-fast",
+    "category": "Developer Tools",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Replit's 'vibe coding' approach uses AI to build apps, websites, and dashboards from natural language\u2014no coding required. The product is fundamentally AI-native: without AI code generation, it would not exist in its current form.",
+    "key_drivers": [
+      "Text-to-code generation",
+      "Agentic app deployment"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Replit%3A%20Vibe%20code%20with%20AI%20Fast&c=apps"
+  },
+  {
+    "name": "ACE Scanner - PDF Scanner App",
+    "slug": "ace-scanner-pdf-scanner-app",
+    "category": "Documents",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Document scanning leverages vision models for OCR, perspective correction, and text extraction. Multimodal transformers now handle messy handwriting and complex layouts much better than traditional OCR, shifting the competitive landscape.",
+    "key_drivers": [
+      "Vision-language models",
+      "Advanced OCR"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ACE%20Scanner%20-%20PDF%20Scanner%20App&c=apps"
+  },
+  {
+    "name": "Adobe Acrobat Reader: Edit PDF",
+    "slug": "adobe-acrobat-reader-edit-pdf",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI enables conversational document queries, smart summarization, and content extraction across large PDF sets. Adobe is actively integrating AI Assistant features. The enterprise moat and established workflow integration remain strong.",
+    "key_drivers": [
+      "AI document assistant",
+      "enterprise workflow moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Adobe%20Acrobat%20Reader%3A%20Edit%20PDF&c=apps"
+  },
+  {
+    "name": "Adobe Scan AI PDF Scanner, OCR",
+    "slug": "adobe-scan-ai-pdf-scanner-ocr",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI transforms scanning by intelligently structuring extracted data and repairing visual artifacts. Adobe's brand and ecosystem integration provide defensibility.",
+    "key_drivers": [
+      "Image-to-text enhancement",
+      "Document structuring"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Adobe%20Scan%20AI%20PDF%20Scanner%2C%20OCR&c=apps"
+  },
+  {
+    "name": "All Document Combo",
+    "slug": "all-document-combo",
+    "category": "Documents",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "A unified document platform where users increasingly expect AI to auto-read, summarize, and extract structured data from diverse file types. AI adds significant value but the basic viewing functionality persists.",
+    "key_drivers": [
+      "Document conversational intelligence"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=All%20Document%20Combo&c=apps"
+  },
+  {
+    "name": "All Document Reader:PDF Viewer",
+    "slug": "all-document-reader-pdf-viewer",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Document viewing is enhanced by AI extraction and summarization. However, dedicated viewers still serve offline, annotation, and multi-format needs.",
+    "key_drivers": [
+      "Document interaction",
+      "AI-assisted reading"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=All%20Document%20Reader%3APDF%20Viewer&c=apps"
+  },
+  {
+    "name": "All PDF Reader",
+    "slug": "all-pdf-reader",
+    "category": "Documents",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Basic document readers face growing pressure from AI assistants that can directly answer questions about uploaded files, reducing the need for manual reading.",
+    "key_drivers": [
+      "Document Q&A"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=All%20PDF%20Reader&c=apps"
+  },
+  {
+    "name": "CamScanner- scanner, PDF maker",
+    "slug": "camscanner-scanner-pdf-maker",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI significantly improves OCR accuracy, document edge detection, and intelligent information extraction. CamScanner has 500M+ installs and is actively integrating AI features. The scanning workflow is meaningfully enhanced by vision AI.",
+    "key_drivers": [
+      "AI-enhanced OCR and document intelligence",
+      "vision AI integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=CamScanner-%20scanner%2C%20PDF%20maker&c=apps"
+  },
+  {
+    "name": "Document Reader & PDF Editor",
+    "slug": "document-reader-pdf-editor",
+    "category": "Documents",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can add summarization and intelligent search to document viewing. However, with 97M installs, the core value is a reliable multi-format file viewer\u2014a basic utility where AI features are add-ons rather than transformative.",
+    "key_drivers": [
+      "AI summarization add-on",
+      "basic file viewing utility core"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Document%20Reader%20%26%20PDF%20Editor&c=apps"
+  },
+  {
+    "name": "Image to PDF - PDF Converter",
+    "slug": "image-to-pdf-pdf-converter",
+    "category": "Documents",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Narrow file conversion utility at strong risk of being replaced by native OS integrations and AI assistants that handle file manipulations natively.",
+    "key_drivers": [
+      "OS level integration",
+      "Agentic file handling",
+      "Workflow summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Image%20to%20PDF%20-%20PDF%20Converter&c=apps"
+  },
+  {
+    "name": "Keep PDF - PDF Reader",
+    "slug": "keep-pdf-pdf-reader",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Static PDF readers face pressure from AI-powered document understanding, but dedicated readers still serve offline viewing, annotation, and form needs.",
+    "key_drivers": [
+      "Document summarization",
+      "Knowledge extraction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Keep%20PDF%20-%20PDF%20Reader&c=apps"
+  },
+  {
+    "name": "PDF & Launcher for Android",
+    "slug": "pdf-launcher-for-android",
+    "category": "Documents",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A basic PDF reader with launcher functionality. Faces competitive pressure from AI-enhanced document engines but retains utility as a simple, fast reader.",
+    "key_drivers": [
+      "Smart categorization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20%26%20Launcher%20for%20Android&c=apps"
+  },
+  {
+    "name": "PDF Reader",
+    "slug": "pdf-reader",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Static PDF reading is enhanced by AI summarization and semantic search, but dedicated readers still serve offline viewing, annotation, and form-filling needs that general AI assistants don't replace.",
+    "key_drivers": [
+      "Document summarization",
+      "Semantic search",
+      "QA extraction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20Reader&c=apps"
+  },
+  {
+    "name": "PDF Reader - All PDF Scanner",
+    "slug": "pdf-reader-all-pdf-scanner",
+    "category": "Documents",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "A basic PDF viewer and editor for local files. AI can add summarization and extraction features, but the primary use case is simple file viewing. With only 100K+ installs, the app has limited scope for AI transformation.",
+    "key_drivers": [
+      "AI summarization potential",
+      "basic utility core"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20Reader%20-%20All%20PDF%20Scanner&c=apps"
+  },
+  {
+    "name": "PDF Reader - PDF Converter",
+    "slug": "pdf-reader-pdf-converter",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "PDF handling is being disrupted by 'chat with your PDF' features. LLMs can summarize, extract tables, answer questions about document content\u2014shifting value from rendering to understanding.",
+    "key_drivers": [
+      "Document Q&A",
+      "Semantic search"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20Reader%20-%20PDF%20Converter&c=apps"
+  },
+  {
+    "name": "PDF Reader - PDF Viewer",
+    "slug": "pdf-reader-pdf-viewer",
+    "category": "Documents",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI features like 'chat with PDF' and summarization enhance a basic viewer utility. However, the core use case remains simple PDF viewing/reading, which doesn't require AI. AI features are add-ons, not the primary value.",
+    "key_drivers": [
+      "AI summarization add-on",
+      "chat with PDF feature"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20Reader%20-%20PDF%20Viewer&c=apps"
+  },
+  {
+    "name": "PDF Reader Zone",
+    "slug": "pdf-reader-zone",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "PDF reading and editing apps are shifting from manual review to AI-assisted document interaction: Q&A, data extraction, and intelligent summarization are becoming expected features.",
+    "key_drivers": [
+      "Document Q&A",
+      "Semantic extraction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20Reader%20Zone&c=apps"
+  },
+  {
+    "name": "PDF Reader \u2013 PDF Viewer",
+    "slug": "pdf-reader-pdf-viewer",
+    "category": "Documents",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A basic PDF viewer that faces competitive pressure from AI-enhanced document tools, but its 100M+ installs suggest strong utility for simple viewing. The core rendering function isn't disrupted\u2014it's the adjacent features that shift.",
+    "key_drivers": [
+      "Intelligent summarization",
+      "Semantic search"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20Reader%20%E2%80%93%20PDF%20Viewer&c=apps"
+  },
+  {
+    "name": "PDF Reader, Editor & Scanner",
+    "slug": "pdf-reader-editor-scanner",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "PDF apps are transitioning from static viewers to intelligent document assistants. LLMs enable document Q&A, automated data extraction, and OCR post-processing that fundamentally changes the user workflow.",
+    "key_drivers": [
+      "Vision-language OCR",
+      "Document conversation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20Reader%2C%20Editor%20%26%20Scanner&c=apps"
+  },
+  {
+    "name": "PDF Toolkit - Reader",
+    "slug": "pdf-toolkit-reader",
+    "category": "Documents",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Document reading tools face growing pressure from AI-powered Q&A and knowledge extraction, shifting user expectations from passive reading to interactive document intelligence.",
+    "key_drivers": [
+      "Knowledge extraction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PDF%20Toolkit%20-%20Reader&c=apps"
+  },
+  {
+    "name": "TapScanner",
+    "slug": "tapscanner",
+    "category": "Documents",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Document scanning is increasingly commoditized by native OS camera AI features and multimodal assistants. TapScanner's standalone utility faces significant pressure.",
+    "key_drivers": [
+      "Document understanding",
+      "OCR commoditization",
+      "Multimodal reasoning"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=TapScanner&c=apps"
+  },
+  {
+    "name": "Word Document: DOCX, PDF, XLSX",
+    "slug": "word-document-docx-pdf-xlsx",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Document editing apps face significant pressure from AI-native capabilities: auto-drafting, summarization, grammar correction, and smart formatting. Users increasingly expect AI assistance integrated into document workflows.",
+    "key_drivers": [
+      "Text generation",
+      "Document summarization",
+      "AI grammar correction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Word%20Document%3A%20DOCX%2C%20PDF%2C%20XLSX&c=apps"
+  },
+  {
+    "name": "Word Office: Docs Reader",
+    "slug": "word-office-docs-reader",
+    "category": "Documents",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Document reading and editing increasingly incorporates AI summaries, grammar checks, and auto-editing. Users expect these features, creating competitive pressure on basic document readers.",
+    "key_drivers": [
+      "Content generation",
+      "Summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Word%20Office%3A%20Docs%20Reader&c=apps"
+  },
+  {
+    "name": "ABCmouse: Kids Learning Games",
+    "slug": "abcmouse-kids-learning-games",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can personalize learning paths for children and dynamically generate exercises. However, the curated 13,000+ activities and trusted brand create a strong content moat.",
+    "key_drivers": [
+      "Adaptive learning paths",
+      "Continuous assessment",
+      "Generative media"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ABCmouse%3A%20Kids%20Learning%20Games&c=apps"
+  },
+  {
+    "name": "AnkiDroid Flashcards",
+    "slug": "ankidroid-flashcards",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can auto-generate flashcard decks from documents and notes. However, AnkiDroid's moat is its open-source spaced-repetition algorithm (SM-2), massive shared deck library, and deeply loyal power-user community (especially medical students).",
+    "key_drivers": [
+      "AI deck auto-generation",
+      "spaced-repetition algorithm and community moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AnkiDroid%20Flashcards&c=apps"
+  },
+  {
+    "name": "Babbel - Learn Languages",
+    "slug": "babbel-learn-languages",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Structured language courses face severe disruption from conversational AI that can simulate immersive native-speaker dialogues. Babbel's curated curriculum and linguist-designed content provide some defense, but the gap is narrowing rapidly.",
+    "key_drivers": [
+      "AI conversation simulation",
+      "voice agent language practice"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Babbel%20-%20Learn%20Languages&c=apps"
+  },
+  {
+    "name": "BetterSpeak: AI Language Tutor",
+    "slug": "betterspeak-ai-language-tutor",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "A niche AI language tutor directly competing with general-purpose multimodal models (GPT-4o, Gemini) that offer superior conversational ability. Small player with no significant moat beyond early-mover advantage in its niche.",
+    "key_drivers": [
+      "multimodal model commoditization",
+      "no platform or content moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=BetterSpeak%3A%20AI%20Language%20Tutor&c=apps"
+  },
+  {
+    "name": "Bible App for Kids",
+    "slug": "bible-app-for-kids",
+    "category": "Education",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "The core content is fixed biblical narratives presented through curated animations. AI can generate interactive elements, but parents prioritize doctrinally accurate, vetted religious content for children over AI-generated alternatives.",
+    "key_drivers": [
+      "fixed canonical content",
+      "parental trust for religious education"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Bible%20App%20for%20Kids&c=apps"
+  },
+  {
+    "name": "Blinkist: Book Summaries Daily",
+    "slug": "blinkist-book-summaries-daily",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Book summarization is a core LLM capability. Users can get equivalent or better summaries from ChatGPT/Gemini for free. Blinkist's curated editorial quality provides marginal differentiation that is rapidly eroding as LLMs improve.",
+    "key_drivers": [
+      "LLM native summarization",
+      "free alternative availability",
+      "eroding editorial moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Blinkist%3A%20Book%20Summaries%20Daily&c=apps"
+  },
+  {
+    "name": "Buddy.ai: Kids Learning Games",
+    "slug": "buddy-ai-kids-learning-games",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "As an AI tutor for ages 3-8, it faces competition from more capable foundational voice models. However, child-safety guardrails, COPPA compliance, and age-appropriate UX design are significant moats that generic AI lacks.",
+    "key_drivers": [
+      "voice AI tutoring commoditization",
+      "child-safety regulatory moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Buddy.ai%3A%20Kids%20Learning%20Games&c=apps"
+  },
+  {
+    "name": "Build Your First Game",
+    "slug": "build-your-first-game",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Game development education is impacted by AI coding assistants and asset generators. However, the app teaches fundamentals through guided lessons\u2014the learning journey itself retains value even as AI tools change what's being taught.",
+    "key_drivers": [
+      "AI coding assistant competition",
+      "asset generation tools"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Build%20Your%20First%20Game&c=apps"
+  },
+  {
+    "name": "Busuu: Learn & Speak Languages",
+    "slug": "busuu-learn-speak-languages",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Structured language courses are severely threatened by conversational AI that simulates native speakers. Busuu's community correction feature from native speakers offers some differentiation, but AI can replicate this increasingly well.",
+    "key_drivers": [
+      "AI conversation simulation",
+      "native speaker community as partial moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Busuu%3A%20Learn%20%26%20Speak%20Languages&c=apps"
+  },
+  {
+    "name": "Campus Student",
+    "slug": "campus-student",
+    "category": "Education",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "An institutional student information portal mandated by schools. AI can summarize assignments or predict grades, but usage is entirely driven by school adoption, not student choice. Institutional lock-in protects completely.",
+    "key_drivers": [
+      "AI summarization features",
+      "institutional mandate moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Campus%20Student&c=apps"
+  },
+  {
+    "name": "Canvas By Instructure",
+    "slug": "canvas-by-instructure",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can automate grading rubrics, summarize student performance, and draft feedback. However, Canvas is a school-mandated LMS with deep institutional procurement lock-in\u2014AI enhances it but cannot displace it.",
+    "key_drivers": [
+      "grading automation",
+      "institutional procurement lock-in"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Canvas%20By%20Instructure&c=apps"
+  },
+  {
+    "name": "ClassDojo",
+    "slug": "classdojo",
+    "category": "Education",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can auto-draft parent communications and provide real-time translation, but the core moat is an entrenched school-parent network with institutional lock-in. AI enhances periphery, not the central value.",
+    "key_drivers": [
+      "auto-translation",
+      "message drafting",
+      "institutional network moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ClassDojo&c=apps"
+  },
+  {
+    "name": "Clever: Brain Training Games",
+    "slug": "clever-brain-training-games",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Similar to other brain training apps\u2014AI can generate and customize puzzles, but the value lies in the gamified challenge experience and daily engagement loops rather than puzzle content itself.",
+    "key_drivers": [
+      "puzzle generation automation",
+      "gamification moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Clever%3A%20Brain%20Training%20Games&c=apps"
+  },
+  {
+    "name": "Coursera: Grow your career",
+    "slug": "coursera-grow-your-career",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can provide personalized tutoring and adaptive assessments within courses. However, Coursera's moat is university brand partnerships and accredited certifications\u2014credentials that AI tutoring cannot independently provide.",
+    "key_drivers": [
+      "AI tutoring enhancement",
+      "university credential moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Coursera%3A%20Grow%20your%20career&c=apps"
+  },
+  {
+    "name": "DMV Permit Practice Test 2026",
+    "slug": "dmv-permit-practice-test-2026",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "LLMs can generate state-specific practice questions and provide explanations. However, users need verified, regulation-aligned content for high-stakes testing\u2014not AI approximations. The app's value is in curated, officially-accurate question banks.",
+    "key_drivers": [
+      "AI question generation",
+      "regulatory accuracy requirement"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=DMV%20Permit%20Practice%20Test%202026&c=apps"
+  },
+  {
+    "name": "Deepstash: Smarter Every Day!",
+    "slug": "deepstash-smarter-every-day",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Extracting key ideas from articles, books, and podcasts is a native LLM capability. Users can achieve the same result by pasting content into ChatGPT or Gemini, directly threatening the app's core value proposition.",
+    "key_drivers": [
+      "LLM summarization capability",
+      "zero-friction alternatives"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Deepstash%3A%20Smarter%20Every%20Day%21&c=apps"
+  },
+  {
+    "name": "Driver Written Test: 2026 Test",
+    "slug": "driver-written-test-2026-test",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "LLMs can generate practice questions and explain traffic laws. However, DMV test prep requires state-specific, officially validated question banks\u2014users need confidence in regulatory accuracy, not just AI-generated approximations.",
+    "key_drivers": [
+      "AI-generated practice questions",
+      "regulatory content accuracy requirement"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Driver%20Written%20Test%3A%202026%20Test&c=apps"
+  },
+  {
+    "name": "Duolingo: Language Lessons",
+    "slug": "duolingo-language-lessons",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Duolingo deeply leverages AI for conversational practice and personalized curriculum. However, its brand, gamification, and community create a strong moat against generic AI tutors.",
+    "key_drivers": [
+      "Conversational roleplay",
+      "Generative curriculum",
+      "Speech assessment"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Duolingo%3A%20Language%20Lessons&c=apps"
+  },
+  {
+    "name": "Easy Draw: Learn How to Draw",
+    "slug": "easy-draw-learn-how-to-draw",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can provide real-time visual feedback on sketches, suggest improvements, and generate step-by-step tutorials dynamically. Image generation models can also create reference drawings on demand, enhancing the learning experience significantly.",
+    "key_drivers": [
+      "real-time sketch feedback",
+      "AI-generated tutorials and references"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Easy%20Draw%3A%20Learn%20How%20to%20Draw&c=apps"
+  },
+  {
+    "name": "Elevate - Brain Training Games",
+    "slug": "elevate-brain-training-games",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate novel puzzles and personalize difficulty curves. However, brain training apps compete on gamification mechanics, streaks, and habit loops\u2014areas where AI adds marginal rather than transformative value.",
+    "key_drivers": [
+      "dynamic puzzle generation",
+      "adaptive difficulty"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Elevate%20-%20Brain%20Training%20Games&c=apps"
+  },
+  {
+    "name": "Epic: Kids' Books & Reading",
+    "slug": "epic-kids-books-reading",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate personalized stories and act as a reading companion, but Epic's moat is licensed publisher content (40,000+ books) and institutional school subscriptions. Content licensing is not easily replicated by AI.",
+    "key_drivers": [
+      "AI reading companion",
+      "licensed content moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Epic%3A%20Kids%27%20Books%20%26%20Reading&c=apps"
+  },
+  {
+    "name": "Finelo: Master Trading",
+    "slug": "finelo-master-trading",
+    "category": "Education",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Trading education with chart analysis benefits from AI reasoning models. However, the educational and simulation aspects provide defensibility beyond just chart analysis.",
+    "key_drivers": [
+      "Automated chart analysis",
+      "Predictive market synthesis",
+      "Financial tutoring"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Finelo%3A%20Master%20Trading&c=apps"
+  },
+  {
+    "name": "Gauth: AI Study Companion",
+    "slug": "gauth-ai-study-companion",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "AI-native educational tool highly exposed to commoditization as general-purpose LLMs (ChatGPT, Gemini) can solve homework problems for free. However, its curated UX and student-specific features provide some defensibility vs a perfect 10.",
+    "key_drivers": [
+      "Commoditization of AI tutoring",
+      "Multimodal problem solving",
+      "End-to-end homework completion"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Gauth%3A%20AI%20Study%20Companion&c=apps"
+  },
+  {
+    "name": "Headway - Daily Micro Learning",
+    "slug": "headway-daily-micro-learning",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Book summarization into key insights is a native LLM capability. Users can achieve the same output by asking ChatGPT to summarize any book, making standalone summary apps highly vulnerable to replacement.",
+    "key_drivers": [
+      "LLM native summarization",
+      "direct competition from free AI tools"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Headway%20-%20Daily%20Micro%20Learning&c=apps"
+  },
+  {
+    "name": "HelloTalk - Learn Languages",
+    "slug": "hellotalk-learn-languages",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can correct grammar and simulate native speaker conversations, reducing the need for human language exchange. However, HelloTalk's social community of real native speakers provides authentic cultural exchange that AI cannot fully replicate.",
+    "key_drivers": [
+      "AI grammar correction",
+      "human community moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=HelloTalk%20-%20Learn%20Languages&c=apps"
+  },
+  {
+    "name": "IQ Booster: Brain Games & Test",
+    "slug": "iq-booster-brain-games-test",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate cognitive puzzles and adapt difficulty, but brain training games compete primarily on gamification and habit loops. The AI enhancement is incremental rather than transformative for the core engagement model.",
+    "key_drivers": [
+      "adaptive puzzle generation",
+      "gamification-driven engagement"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=IQ%20Booster%3A%20Brain%20Games%20%26%20Test&c=apps"
+  },
+  {
+    "name": "IXL",
+    "slug": "ixl",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate infinite personalized practice problems and explain concepts dynamically. IXL's moat is its standards-aligned curriculum mapping, teacher dashboards, and institutional adoption in schools.",
+    "key_drivers": [
+      "infinite problem generation",
+      "dynamic concept explanation",
+      "institutional moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=IXL&c=apps"
+  },
+  {
+    "name": "Kahoot! Play & Create Quizzes",
+    "slug": "kahoot-play-create-quizzes",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can auto-generate quizzes from any topic or uploaded materials, reducing creation effort significantly. However, Kahoot's moat is the live, competitive classroom experience and brand trust in K-12 institutions.",
+    "key_drivers": [
+      "AI quiz generation",
+      "content creation automation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Kahoot%21%20Play%20%26%20Create%20Quizzes&c=apps"
+  },
+  {
+    "name": "Khan Academy",
+    "slug": "khan-academy",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Khan Academy has already integrated AI tutoring (Khanmigo) powered by GPT-4. AI significantly enhances personalized learning, but the platform's free educational content, brand trust, and institutional adoption create strong defensibility.",
+    "key_drivers": [
+      "Khanmigo AI tutor integration",
+      "free content and institutional adoption moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Khan%20Academy&c=apps"
+  },
+  {
+    "name": "Khan Academy Kids",
+    "slug": "khan-academy-kids",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can personalize learning paths and generate age-appropriate content. Khan Academy already has Khanmigo for AI tutoring. Child safety requirements and non-profit brand trust create defensible moats against generic AI alternatives.",
+    "key_drivers": [
+      "AI-personalized learning paths",
+      "child safety and brand trust moats"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Khan%20Academy%20Kids&c=apps"
+  },
+  {
+    "name": "Kiddopia - Kids Learning Games",
+    "slug": "kiddopia-kids-learning-games",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can personalize gameplay difficulty, but the core value is a carefully designed, colorful UX for toddlers. Parents of very young children prioritize safety and vetting, creating a trust moat against AI alternatives.",
+    "key_drivers": [
+      "child-safe UX moat",
+      "adaptive personalization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Kiddopia%20-%20Kids%20Learning%20Games&c=apps"
+  },
+  {
+    "name": "Knowunity: AI Study & Homework",
+    "slug": "knowunity-ai-study-homework",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Homework solving and study note generation are core LLM capabilities. Generic AI assistants (ChatGPT, Gemini) directly compete with this app's primary value proposition, and students can easily switch to free alternatives.",
+    "key_drivers": [
+      "LLM homework solving",
+      "zero switching cost to free AI alternatives"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Knowunity%3A%20AI%20Study%20%26%20Homework&c=apps"
+  },
+  {
+    "name": "Langify - AI Language Tutor",
+    "slug": "langify-ai-language-tutor",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "A small AI language tutor app directly competing with general-purpose voice AI from Google, OpenAI, and others. Lacks significant differentiation\u2014any multimodal AI can replicate conversational Italian tutoring.",
+    "key_drivers": [
+      "general-purpose voice AI competition",
+      "no unique content moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Langify%20-%20AI%20Language%20Tutor&c=apps"
+  },
+  {
+    "name": "Learn English, Spanish: Learna",
+    "slug": "learn-english-spanish-learna",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Explicitly AI-native language tutor using LLMs for unscripted speaking practice. Highly exposed to competition from general-purpose AI tutors.",
+    "key_drivers": [
+      "Voice-native AI tutors",
+      "Dynamic curriculum generation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Learn%20English%2C%20Spanish%3A%20Learna&c=apps"
+  },
+  {
+    "name": "Learn Python Coding - Mimo",
+    "slug": "learn-python-coding-mimo",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Coding education faces existential pressure from AI coding assistants that can explain, generate, and debug code interactively. However, Mimo's structured curriculum and gamified progression provide some UX moat for beginners.",
+    "key_drivers": [
+      "AI coding assistant competition",
+      "beginner curriculum moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Learn%20Python%20Coding%20-%20Mimo&c=apps"
+  },
+  {
+    "name": "Learn to Read - Duolingo ABC",
+    "slug": "learn-to-read-duolingo-abc",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Voice AI can provide pronunciation correction and reading assistance. However, this is a Duolingo product for ages 3-8 with strong brand, established pedagogy, and child-safety design\u2014areas where generic AI falls short.",
+    "key_drivers": [
+      "voice AI pronunciation feedback",
+      "Duolingo brand and child-safety moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Learn%20to%20Read%20-%20Duolingo%20ABC&c=apps"
+  },
+  {
+    "name": "Learn to Read: Reading.com",
+    "slug": "learn-to-read-reading-com",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can provide personalized phonics coaching and reading intervention. However, early literacy apps for young children require carefully designed pedagogy, child-safety compliance, and parental trust that generic AI tutors struggle to match.",
+    "key_drivers": [
+      "AI phonics coaching",
+      "pedagogy and trust moats"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Learn%20to%20Read%3A%20Reading.com&c=apps"
+  },
+  {
+    "name": "Lingokids - Play and Learn",
+    "slug": "lingokids-play-and-learn",
+    "category": "Education",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI tutors and adaptive gameplay allow educational mini-games to adjust dynamically to children's explicit errors, enhancing remote learning.",
+    "key_drivers": [
+      "Adaptive difficulty",
+      "Audio generation",
+      "Tutor assistance"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Lingokids%20-%20Play%20and%20Learn&c=apps"
+  },
+  {
+    "name": "Lingvano: Sign Language - ASL",
+    "slug": "lingvano-sign-language-asl",
+    "category": "Education",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Video-based AI can now recognize hand gestures and sign language with increasing accuracy. Multimodal models with video understanding could provide real-time sign language tutoring, which would directly compete with structured lesson apps.",
+    "key_drivers": [
+      "video gesture recognition AI",
+      "multimodal tutoring potential"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Lingvano%3A%20Sign%20Language%20-%20ASL&c=apps"
+  },
+  {
+    "name": "Minecraft Education",
+    "slug": "minecraft-education",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI NPCs and dynamic in-game tutoring can enhance the educational sandbox, but the core value proposition is the creative, collaborative Minecraft environment backed by Microsoft's institutional distribution.",
+    "key_drivers": [
+      "AI NPCs for in-game tutoring",
+      "Microsoft ecosystem integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Minecraft%20Education&c=apps"
+  },
+  {
+    "name": "Minecraft Education Preview",
+    "slug": "minecraft-education-preview",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can create dynamic educational worlds and intelligent NPC tutors within the sandbox. The core value remains the Minecraft creative environment backed by Microsoft's institutional distribution and educator tools.",
+    "key_drivers": [
+      "AI NPC tutors",
+      "Microsoft institutional distribution"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Minecraft%20Education%20Preview&c=apps"
+  },
+  {
+    "name": "Nibble: Your Bite of Knowledge",
+    "slug": "nibble-your-bite-of-knowledge",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Micro-learning content (10-min lessons and quizzes) is straightforward for LLMs to generate at scale. The app's value proposition of curated bite-sized knowledge is directly automatable by AI, with low switching costs for users.",
+    "key_drivers": [
+      "LLM content generation at scale",
+      "low user switching costs"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Nibble%3A%20Your%20Bite%20of%20Knowledge&c=apps"
+  },
+  {
+    "name": "Pimsleur | Language Learning",
+    "slug": "pimsleur-language-learning",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Static, pre-recorded audio language courses are particularly vulnerable to interactive voice AI that adapts to the learner in real-time. The Pimsleur method's structured repetition approach can be replicated and improved by AI.",
+    "key_drivers": [
+      "interactive voice AI replacement",
+      "static content vulnerability"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Pimsleur%20%7C%20Language%20Learning&c=apps"
+  },
+  {
+    "name": "Pok Pok | Montessori Preschool",
+    "slug": "pok-pok-montessori-preschool",
+    "category": "Education",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "A premium Montessori-inspired digital sandbox for ages 2-8. The core value is carefully designed, open-ended tactile toys. Parent trust in curated, child-safe Montessori methodology creates a strong moat against AI alternatives.",
+    "key_drivers": [
+      "Montessori pedagogy trust",
+      "curated child-safe design"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Pok%20Pok%20%7C%20Montessori%20Preschool&c=apps"
+  },
+  {
+    "name": "Potty with Pull-Ups ft. Disney",
+    "slug": "potty-with-pull-ups-ft-disney",
+    "category": "Education",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A potty training tracker with Disney character motivation. The core functionality is simple habit tracking and reward stickers. AI has virtually no relevant application to potty training schedules.",
+    "key_drivers": [
+      "simple tracking utility",
+      "Disney IP motivation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Potty%20with%20Pull-Ups%20ft.%20Disney&c=apps"
+  },
+  {
+    "name": "PragerU",
+    "slug": "prageru",
+    "category": "Education",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Core value is specific political/editorial video content produced by humans. AI aids discovery and accessibility but the ideological content itself is not AI-replicable.",
+    "key_drivers": [
+      "Algorithm recommendation",
+      "Auto-translation and dubbing"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PragerU&c=apps"
+  },
+  {
+    "name": "Praktika \u2013 AI Language Tutor",
+    "slug": "praktika-ai-language-tutor",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI-native language tutor directly exposed to commoditization by foundational multimodal models offering equivalent real-time conversational immersion. Lacks significant moats beyond first-mover advantage in the AI tutoring niche.",
+    "key_drivers": [
+      "foundational model commoditization",
+      "low differentiation barriers"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Praktika%20%E2%80%93%20AI%20Language%20Tutor&c=apps"
+  },
+  {
+    "name": "Quizlet: More than Flashcards",
+    "slug": "quizlet-more-than-flashcards",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "AI auto-generates flashcard decks from notes/textbooks and provides Socratic-style tutoring. Quizlet has already integrated AI (Q-Chat), so the impact is both a threat (commoditization) and opportunity (enhancement).",
+    "key_drivers": [
+      "automated deck generation from documents",
+      "AI-powered Socratic tutoring"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Quizlet%3A%20More%20than%20Flashcards&c=apps"
+  },
+  {
+    "name": "Remind: School Communication",
+    "slug": "remind-school-communication",
+    "category": "Education",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI assists with message drafting and auto-translation, but Remind's core value is being an established, school-adopted messaging platform with parent network effects and compliance features.",
+    "key_drivers": [
+      "message drafting",
+      "auto-translation",
+      "network effects moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Remind%3A%20School%20Communication&c=apps"
+  },
+  {
+    "name": "Simple Bible Daily Verse Alarm",
+    "slug": "simple-bible-daily-verse-alarm",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "LLMs can generate personalized prayers and devotional reflections, and the app already integrates AI prayer features. However, the core content (Bible verses) is fixed canonical text, limiting disruption depth.",
+    "key_drivers": [
+      "AI-generated devotionals",
+      "conversational prayer assistant"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Simple%20Bible%20Daily%20Verse%20Alarm&c=apps"
+  },
+  {
+    "name": "Simply Draw: Learn to Draw",
+    "slug": "simply-draw-learn-to-draw",
+    "category": "Education",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Computer vision can analyze sketches through the camera and provide real-time feedback, highly enhancing physical art instruction.",
+    "key_drivers": [
+      "Visual feedback via CV",
+      "Generative outlines",
+      "Skill assessment"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Simply%20Draw%3A%20Learn%20to%20Draw&c=apps"
+  },
+  {
+    "name": "Simply Guitar - Learn Guitar",
+    "slug": "simply-guitar-learn-guitar",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Similar to Yousician\u2014AI enhances audio analysis for feedback, but the physical nature of guitar learning limits AI disruption. The structured lesson format and song library remain core differentiators.",
+    "key_drivers": [
+      "AI audio analysis",
+      "physical instrument learning limitation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Simply%20Guitar%20-%20Learn%20Guitar&c=apps"
+  },
+  {
+    "name": "Simply Piano: Learn Piano Fast",
+    "slug": "simply-piano-learn-piano-fast",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can improve real-time audio pitch detection for feedback accuracy and personalize lesson sequencing based on learner progress. However, piano learning inherently requires physical practice on keys, limiting full disruption.",
+    "key_drivers": [
+      "AI-powered audio feedback",
+      "adaptive lesson personalization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Simply%20Piano%3A%20Learn%20Piano%20Fast&c=apps"
+  },
+  {
+    "name": "SmartyMe: Micro Learning App",
+    "slug": "smartyme-micro-learning-app",
+    "category": "Education",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "Micro-learning lesson creation can be automated by LLMs. However, the app is small (100K+ installs) and the micro-learning space is already competitive, limiting the incremental impact versus the baseline.",
+    "key_drivers": [
+      "LLM content automation",
+      "competitive micro-learning market"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=SmartyMe%3A%20Micro%20Learning%20App&c=apps"
+  },
+  {
+    "name": "Solvely: AI Math & Homework",
+    "slug": "solvely-ai-math-homework",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "AI math solving is a commoditized LLM capability. Free alternatives (ChatGPT, Gemini, Wolfram Alpha) offer equivalent or superior math problem-solving, leaving standalone homework solver apps with no defensible moat.",
+    "key_drivers": [
+      "commoditized LLM math solving",
+      "free alternative pressure"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Solvely%3A%20AI%20Math%20%26%20Homework&c=apps"
+  },
+  {
+    "name": "Speak English with Loora AI",
+    "slug": "speak-english-with-loora-ai",
+    "category": "Education",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "An AI English tutor competing directly against rapidly advancing foundational voice models from major players. As a smaller AI-native app with limited proprietary data or curriculum moats, it faces severe commoditization pressure.",
+    "key_drivers": [
+      "foundational voice model competition",
+      "limited proprietary moats"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Speak%20English%20with%20Loora%20AI&c=apps"
+  },
+  {
+    "name": "Speak: Language Learning",
+    "slug": "speak-language-learning",
+    "category": "Education",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Conversational language practice is directly addressable by voice AI agents (e.g., GPT-4o voice). However, Speak already integrates AI deeply and has curriculum design moats. Scoring 9 overestimates displacement since Speak itself is adapting to use these models.",
+    "key_drivers": [
+      "voice AI conversation partners",
+      "real-time pronunciation feedback"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Speak%3A%20Language%20Learning&c=apps"
+  },
+  {
+    "name": "SplashLearn: Kids Learning App",
+    "slug": "splashlearn-kids-learning-app",
+    "category": "Education",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate infinite adaptive math problems, but game mechanics, colorful animations, and the designed-for-kids experience are the primary value drivers. Educational game UX for young children is harder to replicate with generic AI.",
+    "key_drivers": [
+      "adaptive problem generation",
+      "gamified UX moat for kids"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=SplashLearn%3A%20Kids%20Learning%20App&c=apps"
+  },
+  {
+    "name": "Starfall",
+    "slug": "starfall",
+    "category": "Education",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Early childhood education app with strong brand trust and established pedagogy. AI can generate interactive content, but parents of 2-6 year olds prioritize trusted, vetted educational brands over AI-generated alternatives. COPPA compliance adds regulatory moat.",
+    "key_drivers": [
+      "brand trust for young children",
+      "regulatory compliance moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Starfall&c=apps"
+  },
+  {
+    "name": "Vocabulary - Learn words daily",
+    "slug": "vocabulary-learn-words-daily",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate contextual sentences, personalized quizzes, and spaced-repetition schedules for vocabulary learning. The app's structured daily learning format can be replicated by any AI assistant.",
+    "key_drivers": [
+      "AI-generated contextual learning",
+      "spaced-repetition personalization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Vocabulary%20-%20Learn%20words%20daily&c=apps"
+  },
+  {
+    "name": "Yousician: Learn & Play Guitar",
+    "slug": "yousician-learn-play-guitar",
+    "category": "Education",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI improves audio recognition for real-time playing feedback, but learning guitar requires physical instrument practice. The app's licensed song library and gamified lesson structure add defensible value beyond what AI tutoring alone provides.",
+    "key_drivers": [
+      "audio recognition improvement",
+      "physical practice requirement"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Yousician%3A%20Learn%20%26%20Play%20Guitar&c=apps"
+  },
+  {
+    "name": "Zutobi: Permit & Driving Prep",
+    "slug": "zutobi-permit-driving-prep",
+    "category": "Education",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate driving test prep materials, but users need verified, state-specific regulatory content for permit tests. The app's curated, accuracy-validated content provides a trust advantage over generic AI generation.",
+    "key_drivers": [
+      "AI content generation",
+      "regulatory accuracy trust requirement"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Zutobi%3A%20Permit%20%26%20Driving%20Prep&c=apps"
+  },
+  {
+    "name": "Baby Shark Hospital Play: Game",
+    "slug": "baby-shark-hospital-play-game",
+    "category": "Entertainment",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A simple kids game built on Baby Shark IP with basic tapping/interaction mechanics. AI has minimal applicability to the simple, character-driven play experience designed for very young children.",
+    "key_drivers": [
+      "IP-driven simple gameplay",
+      "minimal AI-relevant mechanics"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Baby%20Shark%20Hospital%20Play%3A%20Game&c=apps"
+  },
+  {
+    "name": "Baby Shark World for Kids",
+    "slug": "baby-shark-world-for-kids",
+    "category": "Entertainment",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "IP-driven kids entertainment where Baby Shark brand recognition is the primary draw. AI can add dynamic interactions, but the brand and licensed characters are the core value proposition.",
+    "key_drivers": [
+      "IP-driven brand moat",
+      "limited AI-relevant functionality"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Baby%20Shark%20World%20for%20Kids&c=apps"
+  },
+  {
+    "name": "CandyJarTV",
+    "slug": "candyjartv",
+    "category": "Entertainment",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Short-form drama and serialized fiction could face disruption from AI-generated video content, but current AI video quality isn't yet realistic enough for scripted drama. The app's value also includes content curation and its specific audience community.",
+    "key_drivers": [
+      "AI video generation potential",
+      "Script synthesis"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=CandyJarTV&c=apps"
+  },
+  {
+    "name": "Hopenity",
+    "slug": "hopenity",
+    "category": "Entertainment",
+    "score": 3,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "A small-scale community connection app. AI could assist with matching and translation, but the human-connection intent and local community focus provide significant insulation from AI disruption. Very small install base limits data for AI features.",
+    "key_drivers": [
+      "Algorithmic matching"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Hopenity&c=apps"
+  },
+  {
+    "name": "Kitcha",
+    "slug": "kitcha",
+    "category": "Entertainment",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Recipe planning and meal management are ideal targets for LLMs: generating personalized recipes, adapting for dietary restrictions, creating shopping lists from ingredients, and multimodal ingredient scanning. AI can automate most of the planning workflow.",
+    "key_drivers": [
+      "Generative meal plans",
+      "Multimodal ingredient scanning"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Kitcha&c=apps"
+  },
+  {
+    "name": "LEGO\u00ae DUPLO\u00ae Marvel",
+    "slug": "lego-duplo-marvel",
+    "category": "Entertainment",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A preschool game built entirely on LEGO and Marvel IP. AI has minimal impact on the core tapping/building gameplay designed for toddlers. Brand licensing and character IP are the sole value drivers.",
+    "key_drivers": [
+      "dual IP moat (LEGO + Marvel)",
+      "toddler-simple gameplay"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=LEGO%C2%AE%20DUPLO%C2%AE%20Marvel&c=apps"
+  },
+  {
+    "name": "NCAA March Madness Live",
+    "slug": "ncaa-march-madness-live",
+    "category": "Entertainment",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core appeal depends entirely on live, real-world sporting events. AI adds minor enhancements like automated highlights and stats predictions but cannot replace the live experience.",
+    "key_drivers": [
+      "Automated highlight generation",
+      "Real-time statistics prediction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=NCAA%20March%20Madness%20Live&c=apps"
+  },
+  {
+    "name": "Netflix",
+    "slug": "netflix",
+    "category": "Entertainment",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI enhances recommendations and content discovery today. Generative video is a long-term threat but currently far from producing Netflix-quality scripted content. Near-term impact is enhancement-focused.",
+    "key_drivers": [
+      "Content discovery algorithms",
+      "Personalized thumbnails",
+      "Generative media (long-term)"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Netflix&c=apps"
+  },
+  {
+    "name": "PBS KIDS Video",
+    "slug": "pbs-kids-video",
+    "category": "Entertainment",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Traditional media catalog app where AI primarily surfaces relevant episodes. Core value is pre-rendered, human-produced television content for children.",
+    "key_drivers": [
+      "Recommendation engines",
+      "Content safety curation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PBS%20KIDS%20Video&c=apps"
+  },
+  {
+    "name": "Pinkfong Baby Shark Phone Game",
+    "slug": "pinkfong-baby-shark-phone-game",
+    "category": "Entertainment",
+    "score": 3,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "A simple early-childhood game centered on Baby Shark/Pinkfong IP. The core experience is character-driven songs and simple interactions for toddlers. AI adds negligible value to this IP-dependent, simple-mechanic experience.",
+    "key_drivers": [
+      "IP-driven content",
+      "toddler-simple interactions"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Pinkfong%20Baby%20Shark%20Phone%20Game&c=apps"
+  },
+  {
+    "name": "Rbx Clothes Maker: Skin Editor",
+    "slug": "rbx-clothes-maker-skin-editor",
+    "category": "Entertainment",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "AI image generation models can create custom game skins and textures from text prompts, potentially replacing manual pixel editing. Roblox itself is integrating AI creation tools, threatening third-party editors.",
+    "key_drivers": [
+      "AI texture/skin generation",
+      "platform-integrated AI tools"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Rbx%20Clothes%20Maker%3A%20Skin%20Editor&c=apps"
+  },
+  {
+    "name": "Reelway",
+    "slug": "reelway",
+    "category": "Entertainment",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Small video platform facing AI-generated content competition. However, the 'unpredictable, real videos' positioning specifically differentiates against synthetic content.",
+    "key_drivers": [
+      "Synthetic media competition",
+      "Personalized content feeds",
+      "Authenticity positioning"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Reelway&c=apps"
+  },
+  {
+    "name": "Talking Tom & Friends: World",
+    "slug": "talking-tom-friends-world",
+    "category": "Entertainment",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Conversational AI can make virtual pet interactions more dynamic, but the app's core value is the branded entertainment experience with 3D environments and character IP. AI enhances rather than transforms the play loop.",
+    "key_drivers": [
+      "conversational AI for pet interaction",
+      "branded entertainment moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Talking%20Tom%20%26%20Friends%3A%20World&c=apps"
+  },
+  {
+    "name": "Capital One Travel",
+    "slug": "capital-one-travel",
+    "category": "Finance",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Travel booking can be enhanced by AI for conversational trip planning and price prediction. However, the core value is access to travel inventory and Capital One's credit card rewards integration\u2014both AI-independent.",
+    "key_drivers": [
+      "Conversational itineraries",
+      "Pricing predictions"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Capital%20One%20Travel&c=apps"
+  },
+  {
+    "name": "Cash App",
+    "slug": "cash-app",
+    "category": "Finance",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core value relies on regulated financial rails, P2P network effects, and banking licenses. AI improves fraud detection and support but the regulatory moat is very strong.",
+    "key_drivers": [
+      "Fraud detection",
+      "Automated savings insights",
+      "Customer support"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Cash%20App&c=apps"
+  },
+  {
+    "name": "Gocrypto: Crypto Trading",
+    "slug": "gocrypto-crypto-trading",
+    "category": "Finance",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "As a trading simulator and education tool, AI can personalize financial education, explain market anomalies, and help users build simulated trading strategies via natural language.",
+    "key_drivers": [
+      "Market analysis",
+      "Algorithmic trading generation",
+      "Financial education"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Gocrypto%3A%20Crypto%20Trading&c=apps"
+  },
+  {
+    "name": "OnePay",
+    "slug": "onepay",
+    "category": "Finance",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A fintech app where value relies on banking infrastructure, transaction rails, and cashback incentives. AI plays a supporting role in fraud detection and customer service but doesn't impact the core banking function.",
+    "key_drivers": [
+      "Fraud detection",
+      "Support automation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=OnePay&c=apps"
+  },
+  {
+    "name": "PayPal",
+    "slug": "paypal",
+    "category": "Finance",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Payment processing is governed by financial regulations, bank APIs, and transaction security. AI assists in fraud detection and customer support automation but doesn't transform the core money-transfer function.",
+    "key_drivers": [
+      "Fraud detection ML",
+      "Support automation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PayPal&c=apps"
+  },
+  {
+    "name": "SimplyWise Cost Estimator",
+    "slug": "simplywise-cost-estimator",
+    "category": "Finance",
+    "score": 7,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "Construction cost estimation is highly automatable with multimodal AI that can analyze blueprints or site photos to generate detailed cost breakdowns.",
+    "key_drivers": [
+      "Data entry reduction",
+      "Computer vision for blueprints",
+      "Automated material pricing"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=SimplyWise%20Cost%20Estimator&c=apps"
+  },
+  {
+    "name": "Wallet - Digital Wallet Card",
+    "slug": "wallet-digital-wallet-card",
+    "category": "Finance",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Stores barcodes and loyalty cards offline\u2014a static data retrieval task. No meaningful room for generative AI or agentic automation beyond minor OCR for card scanning.",
+    "key_drivers": [
+      "OCR card scanning"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Wallet%20-%20Digital%20Wallet%20Card&c=apps"
+  },
+  {
+    "name": "Amazon Flex",
+    "slug": "amazon-flex",
+    "category": "Jobs",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core functionality requires physical-world execution. AI provides routing and scheduling optimization but cannot replace the delivery driver.",
+    "key_drivers": [
+      "Physical delivery execution",
+      "Supply chain logistics"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Amazon%20Flex&c=apps"
+  },
+  {
+    "name": "DoorDash - Dasher",
+    "slug": "doordash-dasher",
+    "category": "Jobs",
+    "score": 3,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Driver app for physical gig work. AI provides routing and demand forecasting but the core task of physically delivering food is insulated from software AI disruption.",
+    "key_drivers": [
+      "Route optimization",
+      "Demand forecasting",
+      "Automated support"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=DoorDash%20-%20Dasher&c=apps"
+  },
+  {
+    "name": "DoorDash: Food, Grocery, More",
+    "slug": "doordash-food-grocery-more",
+    "category": "Jobs",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core value is physical food delivery logistics, which AI cannot replace. AI enhances recommendations, route optimization, demand forecasting, and customer support chatbots.",
+    "key_drivers": [
+      "Personalized recommendations",
+      "Logistics optimization",
+      "Customer support automation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=DoorDash%3A%20Food%2C%20Grocery%2C%20More&c=apps"
+  },
+  {
+    "name": "Fiverr - Freelance Service",
+    "slug": "fiverr-freelance-service",
+    "category": "Jobs",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "Many Fiverr service categories (SEO writing, basic design, voiceover, simple coding) face direct replacement by generative AI. However, Fiverr is pivoting toward AI-augmented complex services, providing partial defensibility.",
+    "key_drivers": [
+      "Content generation",
+      "Knowledge work automation",
+      "Task unbundling"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Fiverr%20-%20Freelance%20Service&c=apps"
+  },
+  {
+    "name": "Glassdoor",
+    "slug": "glassdoor",
+    "category": "Jobs",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI adds value by synthesizing reviews into insights and providing tailored career advice. Glassdoor's unique proprietary review data provides defensibility.",
+    "key_drivers": [
+      "Review sentiment summarization",
+      "Career coaching"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Glassdoor&c=apps"
+  },
+  {
+    "name": "Grubhub for Drivers",
+    "slug": "grubhub-for-drivers",
+    "category": "Jobs",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Physical delivery interface where generative AI has minimal overlap with the core gig execution. Routing optimization happens behind the scenes.",
+    "key_drivers": [
+      "Physical world logistics",
+      "Routing optimization",
+      "Location execution"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Grubhub%20for%20Drivers&c=apps"
+  },
+  {
+    "name": "Indeed Job Search",
+    "slug": "indeed-job-search",
+    "category": "Jobs",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "The entire recruitment workflow \u2014 resume parsing, job matching, applicant screening \u2014 is text-heavy and highly automatable. AI agents can apply to jobs and screen candidates at scale.",
+    "key_drivers": [
+      "Automated applicant screening",
+      "Resume optimization",
+      "Skill matching"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Indeed%20Job%20Search&c=apps"
+  },
+  {
+    "name": "Instawork",
+    "slug": "instawork",
+    "category": "Jobs",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI improves matching efficiency between gig workers and shifts, but core value relies on physical-world execution and local supply logistics \u2014 a strong moat.",
+    "key_drivers": [
+      "Matching algorithms",
+      "Local logistics",
+      "Physical world execution"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Instawork&c=apps"
+  },
+  {
+    "name": "Job Search by ZipRecruiter",
+    "slug": "job-search-by-ziprecruiter",
+    "category": "Jobs",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Job searching is highly exposed to AI for candidate matching and application drafting. AI agents can auto-apply and screen at scale.",
+    "key_drivers": [
+      "Semantic candidate matching",
+      "Automated application aids"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Job%20Search%20by%20ZipRecruiter&c=apps"
+  },
+  {
+    "name": "LinkedIn",
+    "slug": "linkedin",
+    "category": "Jobs",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Generative AI significantly enhances profile creation, messaging, and recruiter matching. LinkedIn's professional data moat protects it from replacement while AI deeply enhances the experience.",
+    "key_drivers": [
+      "AI-assisted content generation",
+      "Candidate matching algorithms",
+      "Network-effect defensibility"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=LinkedIn&c=apps"
+  },
+  {
+    "name": "Lyft Driver",
+    "slug": "lyft-driver",
+    "category": "Jobs",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Physical human transportation service. AI optimizes routing but the core physical driving task is insulated from near-term AI disruption.",
+    "key_drivers": [
+      "Physical transportation",
+      "Gig economy"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Lyft%20Driver&c=apps"
+  },
+  {
+    "name": "Shiftsmart - Find Work",
+    "slug": "shiftsmart-find-work",
+    "category": "Jobs",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI improves worker-to-shift matching and automates onboarding, offering minor marketplace efficiency gains without replacing the manual labor itself.",
+    "key_drivers": [
+      "Job matching algorithms",
+      "Labor marketplace efficiency"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Shiftsmart%20-%20Find%20Work&c=apps"
+  },
+  {
+    "name": "Shipt: Shopper and Driver",
+    "slug": "shipt-shopper-and-driver",
+    "category": "Jobs",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Gig economy driver app using AI for delivery timing and item substitution suggestions. However, the core physical shopping and delivery task is insulated from AI replacement.",
+    "key_drivers": [
+      "Route optimization",
+      "Predictive substitution",
+      "Support automation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Shipt%3A%20Shopper%20and%20Driver&c=apps"
+  },
+  {
+    "name": "Spark Driver",
+    "slug": "spark-driver",
+    "category": "Jobs",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Physical package delivery app. AI provides only minor logistical or support improvements rather than disrupting the primary physical task.",
+    "key_drivers": [
+      "Physical delivery logistics",
+      "Gig work execution"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Spark%20Driver&c=apps"
+  },
+  {
+    "name": "Uber - Driver",
+    "slug": "uber-driver",
+    "category": "Jobs",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "The driver app connects labor with real-world logistics. AI enhances route optimization, demand/pricing prediction, and earnings forecasting. Autonomous driving (a distinct but related AI capability) poses longer-term existential disruption to the driver-side app specifically.",
+    "key_drivers": [
+      "Route optimization",
+      "Dynamic pricing algorithms",
+      "Autonomous driving trajectory"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Uber%20-%20Driver&c=apps"
+  },
+  {
+    "name": "Uber - Driver: Drive & Deliver",
+    "slug": "uber-driver-drive-deliver",
+    "category": "Jobs",
+    "score": 3,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Physical-world driving service where AI primarily aids routing and pricing. Direct replacement requires autonomous vehicles, which remains uncertain in timeline.",
+    "key_drivers": [
+      "Dynamic pricing",
+      "Route optimization",
+      "Safety monitoring"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Uber%20-%20Driver%3A%20Drive%20%26%20Deliver&c=apps"
+  },
+  {
+    "name": "randstad: jobs for workers",
+    "slug": "randstad-jobs-for-workers",
+    "category": "Jobs",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI enhances candidate screening and job matching, but the app is insulated by its physical labor operations and staffing agency relationships.",
+    "key_drivers": [
+      "Resume screening",
+      "Physical world labor",
+      "Operational logistics"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=randstad%3A%20jobs%20for%20workers&c=apps"
+  },
+  {
+    "name": "FedEx Mobile",
+    "slug": "fedex-mobile",
+    "category": "Logistics",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Value derived entirely from physical logistics networks. AI provides secondary enhancements to customer service and delivery estimations.",
+    "key_drivers": [
+      "Predictive delivery estimations",
+      "Customer support chatbots"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=FedEx%20Mobile&c=apps"
+  },
+  {
+    "name": "Package Tracker - pkge Mobile",
+    "slug": "package-tracker-pkge-mobile",
+    "category": "Logistics",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Logistics tracking relies mostly on deterministic APIs. AI helps parse tracking emails and predict delays, but core utility is data aggregation.",
+    "key_drivers": [
+      "Predictive arrival times",
+      "Logistical parsing"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Package%20Tracker%20-%20pkge%20Mobile&c=apps"
+  },
+  {
+    "name": "Public Storage",
+    "slug": "public-storage",
+    "category": "Logistics",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Digital portal for physical storage unit access and payments. AI has almost zero leverage over physical space leasing and hardware gate access.",
+    "key_drivers": [
+      "Physical infrastructure",
+      "Location gate access",
+      "Regulated leasing"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Public%20Storage&c=apps"
+  },
+  {
+    "name": "UPS",
+    "slug": "ups",
+    "category": "Logistics",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Value depends entirely on physical shipping infrastructure. AI impact is limited to customer support chatbots and back-end route optimization.",
+    "key_drivers": [
+      "Physical logistics network",
+      "Package tracking"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=UPS&c=apps"
+  },
+  {
+    "name": "Picture Insect: Bug Identifier",
+    "slug": "picture-insect-bug-identifier",
+    "category": "Nature",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Insect identification via photo is directly replicable by multimodal AI models baked into smartphone cameras. Google Lens already identifies insects, and GPT-4V/Gemini can provide detailed species information from photos.",
+    "key_drivers": [
+      "multimodal AI commoditization",
+      "platform-level competition"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Picture%20Insect%3A%20Bug%20Identifier&c=apps"
+  },
+  {
+    "name": "PictureThis - Plant Identifier",
+    "slug": "picturethis-plant-identifier",
+    "category": "Nature",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Core utility is computer vision plant identification \u2014 pure AI automation. However, the curated botanical database, care guides, and community provide meaningful value beyond raw identification.",
+    "key_drivers": [
+      "Image recognition",
+      "Disease diagnosis via CV",
+      "Care guidance"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PictureThis%20-%20Plant%20Identifier&c=apps"
+  },
+  {
+    "name": "Plant App - Plant Identifier",
+    "slug": "plant-app-plant-identifier",
+    "category": "Nature",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Core plant identification relies entirely on computer vision, which is being commoditized through multimodal models like Google Lens and GPT-4V. Any smartphone camera app can now identify plants, threatening standalone apps.",
+    "key_drivers": [
+      "vision model commoditization",
+      "multimodal competition from platform players"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Plant%20App%20-%20Plant%20Identifier&c=apps"
+  },
+  {
+    "name": "PlantIn Plant Identifier, Care",
+    "slug": "plantin-plant-identifier-care",
+    "category": "Nature",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Plant identification and disease diagnosis are powered by vision AI, which is being commoditized by multimodal models integrated into smartphone cameras. Google Lens and GPT-4V can replicate core functionality for free.",
+    "key_drivers": [
+      "vision AI commoditization",
+      "platform-level multimodal competition"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PlantIn%20Plant%20Identifier%2C%20Care&c=apps"
+  },
+  {
+    "name": "PlantNet Plant Identification",
+    "slug": "plantnet-plant-identification",
+    "category": "Nature",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Relies entirely on computer vision for plant identification. Multimodal AI models (Google Lens, GPT-4V) now offer equivalent capability natively, directly threatening single-purpose identification apps.",
+    "key_drivers": [
+      "computer vision commoditization",
+      "multimodal platform competition"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=PlantNet%20Plant%20Identification&c=apps"
+  },
+  {
+    "name": "Seek by iNaturalist",
+    "slug": "seek-by-inaturalist",
+    "category": "Nature",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Species identification relies on computer vision, which is being commoditized. However, Seek's integration with iNaturalist's citizen science database and community provides unique ecological data context that generic AI vision lacks.",
+    "key_drivers": [
+      "computer vision commoditization",
+      "citizen science database moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Seek%20by%20iNaturalist&c=apps"
+  },
+  {
+    "name": "Star Walk 2 Plus: Sky Map View",
+    "slug": "star-walk-2-plus-sky-map-view",
+    "category": "Nature",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI could add a conversational astronomy guide overlay to AR star mapping. However, the core value is the AR sky visualization itself, which relies on positional astronomy databases rather than AI. Conversational enhancement is peripheral.",
+    "key_drivers": [
+      "conversational guide potential",
+      "AR database-driven core"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Star%20Walk%202%20Plus%3A%20Sky%20Map%20View&c=apps"
+  },
+  {
+    "name": "Stellarium Mobile - Star Map",
+    "slug": "stellarium-mobile-star-map",
+    "category": "Nature",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Planetary maps rely on physical sensor data and static astronomical catalogs. AI disruption is marginal because celestial data is deterministic.",
+    "key_drivers": [
+      "Sensor fusion",
+      "Minor AR alignment"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Stellarium%20Mobile%20-%20Star%20Map&c=apps"
+  },
+  {
+    "name": "Watch Duty",
+    "slug": "watch-duty",
+    "category": "Nature",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "AI speech-to-text and computer vision can automate ingestion and verification of real-time fire data from scanner feeds and satellite imagery, replacing volunteer listening effort.",
+    "key_drivers": [
+      "Scanner transcription",
+      "Satellite computer vision",
+      "Alert generation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Watch%20Duty&c=apps"
+  },
+  {
+    "name": "Woofz - Puppy and Dog Training",
+    "slug": "woofz-puppy-and-dog-training",
+    "category": "Nature",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate personalized training plans and answer behavioral questions, but dog training is inherently physical. The app guides owners through exercises that require hands-on practice with the animal.",
+    "key_drivers": [
+      "AI training plan generation",
+      "physical interaction requirement"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Woofz%20-%20Puppy%20and%20Dog%20Training&c=apps"
+  },
+  {
+    "name": "iNaturalist",
+    "slug": "inaturalist",
+    "category": "Nature",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Core experience of identifying flora and fauna was completely transformed by AI computer vision, replacing manual field guide lookups with instant photo identification.",
+    "key_drivers": [
+      "Advanced computer vision",
+      "Automated taxonomy classification"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=iNaturalist&c=apps"
+  },
+  {
+    "name": "Alarm Clock",
+    "slug": "alarm-clock",
+    "category": "Phone",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core function is triggering a sound at a set time\u2014a solved, deterministic task. AI could offer marginal improvements like adaptive wake times based on sleep patterns, but the utility remains fundamentally simple.",
+    "key_drivers": [
+      "Predictive scheduling"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Alarm%20Clock&c=apps"
+  },
+  {
+    "name": "Alarm Clock - Wake Up Gently",
+    "slug": "alarm-clock-wake-up-gently",
+    "category": "Phone",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core function is waking users at a specified time\u2014a deterministic utility task with negligible AI integration potential.",
+    "key_drivers": [
+      "Predictive routines"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Alarm%20Clock%20-%20Wake%20Up%20Gently&c=apps"
+  },
+  {
+    "name": "Alarmy - Alarm Clock & Sleep",
+    "slug": "alarmy-alarm-clock-sleep",
+    "category": "Phone",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Primary function is forcing users awake via puzzles and challenges. Sleep-tracking components might benefit from ML-based sleep stage analysis, but the core alarm mechanic is unaffected by generative AI.",
+    "key_drivers": [
+      "Sleep pattern ML",
+      "Adaptive alarm timing"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Alarmy%20-%20Alarm%20Clock%20%26%20Sleep&c=apps"
+  },
+  {
+    "name": "Call Block: Filter and Blocker",
+    "slug": "call-block-filter-and-blocker",
+    "category": "Phone",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "AI drives spam and scam blocking efficacy, dynamically adapting to new spoofing campaigns without manual blacklists.",
+    "key_drivers": [
+      "Behavioral spam detection",
+      "Predictive blocking"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Call%20Block%3A%20Filter%20and%20Blocker&c=apps"
+  },
+  {
+    "name": "Call Blocker - Block Numbers",
+    "slug": "call-blocker-block-numbers",
+    "category": "Phone",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "Spam blocking efficiency is driven by ML models predicting bad actors. AI handles this automatically without user reporting.",
+    "key_drivers": [
+      "Machine learning spam filters",
+      "Behavioral classification"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Call%20Blocker%20-%20Block%20Numbers&c=apps"
+  },
+  {
+    "name": "CallApp: Caller ID & Block",
+    "slug": "callapp-caller-id-block",
+    "category": "Phone",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Spam detection and caller identification are classic ML problems. AI call screening transforms a lookup database into an automated gatekeeper.",
+    "key_drivers": [
+      "Spam detection models",
+      "AI call screening",
+      "Call transcription"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=CallApp%3A%20Caller%20ID%20%26%20Block&c=apps"
+  },
+  {
+    "name": "Clap To Find Phone:Alarm&Find",
+    "slug": "clap-to-find-phone-alarm-find",
+    "category": "Phone",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Uses a simple acoustic trigger to locate a device. Entirely decoupled from generative AI capabilities\u2014a basic sound recognition utility.",
+    "key_drivers": [
+      "Audio trigger patterns"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Clap%20To%20Find%20Phone%3AAlarm%26Find&c=apps"
+  },
+  {
+    "name": "Contacts (Google)",
+    "slug": "contacts-google",
+    "category": "Phone",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Infrastructure OS utility for contact management. AI helps with deduplication and data normalization but this is a low-engagement utility tied to the OS.",
+    "key_drivers": [
+      "Deduplication",
+      "Context enrichment",
+      "Relationship mapping"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Contacts%20%28Google%29&c=apps"
+  },
+  {
+    "name": "Eyecon Caller ID & Spam Block",
+    "slug": "eyecon-caller-id-spam-block",
+    "category": "Phone",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "Relies on predictive algorithms to flag spam. AI upgrades it from a static database to a dynamic automated threat detector.",
+    "key_drivers": [
+      "Spam identification models",
+      "Visual contact matching"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Eyecon%20Caller%20ID%20%26%20Spam%20Block&c=apps"
+  },
+  {
+    "name": "Find My Phone by Clap Launcher",
+    "slug": "find-my-phone-by-clap-launcher",
+    "category": "Phone",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Acoustic trigger for phone location\u2014a simple utilitarian function with no cognitive complexity for AI to improve.",
+    "key_drivers": [
+      "Sound matching"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Find%20My%20Phone%20by%20Clap%20Launcher&c=apps"
+  },
+  {
+    "name": "Truecaller: Spam Call Blocker",
+    "slug": "truecaller-spam-call-blocker",
+    "category": "Phone",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Truecaller deploys AI screeners that talk to callers to determine intent, transforming from a static lookup database into an automated intelligent gatekeeper.",
+    "key_drivers": [
+      "AI call assistants",
+      "Spam prediction",
+      "Behavioral analysis"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Truecaller%3A%20Spam%20Call%20Blocker&c=apps"
+  },
+  {
+    "name": "Calendar 2026",
+    "slug": "calendar-2026",
+    "category": "Productivity",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A basic calendar app that could benefit from NLP event creation and smart scheduling, but faces long-term displacement by AI-first planners. Current functionality is simple and largely deterministic.",
+    "key_drivers": [
+      "NLP event extraction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Calendar%202026&c=apps"
+  },
+  {
+    "name": "Calendar For Android",
+    "slug": "calendar-for-android",
+    "category": "Productivity",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Simple offline calendar that could gain NLP-based event creation, but faces gradual displacement by AI-first scheduling assistants. Current functionality is basic and deterministic.",
+    "key_drivers": [
+      "NLP scheduling"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Calendar%20For%20Android&c=apps"
+  },
+  {
+    "name": "Connecteam Team Management App",
+    "slug": "connecteam-team-management-app",
+    "category": "Productivity",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI streamlines manager-level drafting and scheduling, though the primary value as a deskless worker hub remains defensible.",
+    "key_drivers": [
+      "Content drafting",
+      "Shift scheduling",
+      "Feedback summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Connecteam%20Team%20Management%20App&c=apps"
+  },
+  {
+    "name": "Docusign - Upload & Sign Docs",
+    "slug": "docusign-upload-sign-docs",
+    "category": "Productivity",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "The digital signature workflow itself is a regulatory/compliance function unchanged by AI. However, AI significantly enhances adjacent features: contract review, clause extraction, automated redlining, and risk flagging.",
+    "key_drivers": [
+      "Contract analysis",
+      "Automated redlining"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Docusign%20-%20Upload%20%26%20Sign%20Docs&c=apps"
+  },
+  {
+    "name": "Gboard - the Google Keyboard",
+    "slug": "gboard-the-google-keyboard",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Text input is significantly enhanced by predictive typing and generative drafting, but the keyboard remains an essential OS-level utility that won't be replaced \u2014 only augmented.",
+    "key_drivers": [
+      "Predictive typing",
+      "Generative text creation",
+      "Grammar correction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Gboard%20-%20the%20Google%20Keyboard&c=apps"
+  },
+  {
+    "name": "Gmail",
+    "slug": "gmail",
+    "category": "Productivity",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Email is entirely text-based and AI profoundly enhances it with drafting, categorization, and summarization. However, email as a protocol is persistent, and Gmail's data moat is enormous.",
+    "key_drivers": [
+      "Email drafting",
+      "Inbox summarization",
+      "Agentic task handling"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Gmail&c=apps"
+  },
+  {
+    "name": "GoTo",
+    "slug": "goto",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Enterprise communication software has vast surface area for AI automation: meeting summarization, real-time transcription, and action-item extraction are becoming table stakes.",
+    "key_drivers": [
+      "Meeting summarization",
+      "Real-time transcription",
+      "Communication intelligence"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=GoTo&c=apps"
+  },
+  {
+    "name": "Google Calendar",
+    "slug": "google-calendar",
+    "category": "Productivity",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can suggest optimal meeting times and automate scheduling. However, calendar apps are infrastructure utilities with deep ecosystem integration (Google Workspace). AI optimizes scheduling but doesn't fundamentally change the calendar as a coordination tool.",
+    "key_drivers": [
+      "AI scheduling optimization",
+      "ecosystem infrastructure moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Calendar&c=apps"
+  },
+  {
+    "name": "Google Docs",
+    "slug": "google-docs",
+    "category": "Productivity",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI (Gemini integration) can draft, edit, rewrite, and summarize documents. Google is actively integrating AI into Docs as a core feature. However, Docs' moat as a collaboration platform means AI enhances rather than replaces it.",
+    "key_drivers": [
+      "AI-powered drafting and editing",
+      "collaboration platform moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Docs&c=apps"
+  },
+  {
+    "name": "Google Keep - Notes and lists",
+    "slug": "google-keep-notes-and-lists",
+    "category": "Productivity",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can parse unstructured notes into structured to-dos, suggest categorization, and auto-summarize. Google is integrating Gemini across Workspace. However, Keep's simplicity is its feature\u2014users want quick capture, not AI complexity.",
+    "key_drivers": [
+      "AI note organization",
+      "Gemini Workspace integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Keep%20-%20Notes%20and%20lists&c=apps"
+  },
+  {
+    "name": "Google Sheets",
+    "slug": "google-sheets",
+    "category": "Productivity",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can auto-generate formulas from natural language, perform data analysis, create charts, and clean data. Google is actively integrating Gemini into Sheets. The collaboration platform moat keeps Sheets relevant despite AI enhancement.",
+    "key_drivers": [
+      "natural language formula generation",
+      "AI-powered data analysis"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Sheets&c=apps"
+  },
+  {
+    "name": "Google Slides",
+    "slug": "google-slides",
+    "category": "Productivity",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can generate entire presentations from outlines, suggest designs, create speaker notes, and auto-format content. Gemini integration in Google Workspace makes AI-assisted presentation creation a core feature.",
+    "key_drivers": [
+      "AI presentation generation",
+      "Gemini Workspace integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Slides&c=apps"
+  },
+  {
+    "name": "Google Tasks",
+    "slug": "google-tasks",
+    "category": "Productivity",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Task management benefits from AI-powered auto-prioritization, natural language task creation, and context-aware reminders via Google's ecosystem integration. However, the core CRUD operations remain simple.",
+    "key_drivers": [
+      "Automated prioritization",
+      "NLP task creation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Google%20Tasks&c=apps"
+  },
+  {
+    "name": "Grammarly-AI Writing Assistant",
+    "slug": "grammarly-ai-writing-assistant",
+    "category": "Productivity",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Grammarly has evolved from deterministic grammar rules to full LLM-powered writing assistance: rewriting, tone adjustment, style adaptation, and generative suggestions. The product's quality is now directly tied to its AI model capabilities.",
+    "key_drivers": [
+      "Generative writing",
+      "Style adaptation",
+      "LLM-powered suggestions"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Grammarly-AI%20Writing%20Assistant&c=apps"
+  },
+  {
+    "name": "Invoice Maker - Invoice Fly",
+    "slug": "invoice-maker-invoice-fly",
+    "category": "Productivity",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "AI can auto-extract invoice details from photos/emails, auto-populate line items, and generate professional invoices from natural language descriptions \u2014 significantly automating the core workflow.",
+    "key_drivers": [
+      "Expense extraction",
+      "Automated drafting",
+      "OCR data capture"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Invoice%20Maker%20-%20Invoice%20Fly&c=apps"
+  },
+  {
+    "name": "Meta Business Suite",
+    "slug": "meta-business-suite",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "AI automates ad creative generation, audience targeting, and routine customer inquiries. However, Meta's exclusive platform access (Facebook/Instagram APIs) creates a strong moat.",
+    "key_drivers": [
+      "Automated ad creatives",
+      "Customer support bots",
+      "Platform lock-in"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Meta%20Business%20Suite&c=apps"
+  },
+  {
+    "name": "Microsoft Copilot",
+    "slug": "microsoft-copilot",
+    "category": "Productivity",
+    "score": 10,
+    "confidence": "high",
+    "disruption_type": "new-AI-native-competition",
+    "reasoning": "Pure AI client whose competitive standing is entirely defined by rapid advancements in baseline AI model capabilities, facing constant pressure from ChatGPT, Gemini, and Claude.",
+    "key_drivers": [
+      "Multimodal reasoning",
+      "Workflow automation",
+      "Agentic task execution"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Microsoft%20Copilot&c=apps"
+  },
+  {
+    "name": "Microsoft OneDrive",
+    "slug": "microsoft-onedrive",
+    "category": "Productivity",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Cloud storage backend is highly defensible infrastructure. AI enhances the user experience via Copilot-powered search, smart categorization, and document previews, but the core sync-and-store utility is AI-independent.",
+    "key_drivers": [
+      "Copilot integration",
+      "Semantic search"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Microsoft%20OneDrive&c=apps"
+  },
+  {
+    "name": "Microsoft OneNote: Save Notes",
+    "slug": "microsoft-onenote-save-notes",
+    "category": "Productivity",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "OneNote benefits heavily from Microsoft's Copilot integration: AI-powered draft generation, semantic search across notebooks, meeting note summarization, and contextual linking. Deep integration with the Microsoft 365 ecosystem amplifies AI value.",
+    "key_drivers": [
+      "Copilot integration",
+      "AI draft generation",
+      "Semantic search"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Microsoft%20OneNote%3A%20Save%20Notes&c=apps"
+  },
+  {
+    "name": "Microsoft Outlook",
+    "slug": "microsoft-outlook",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Copilot integration enables email drafting, summarization, and intelligent reply suggestions. However, Outlook's moat is deep enterprise integration (Exchange, Teams, M365 ecosystem), making it the platform through which users access AI rather than a victim of it.",
+    "key_drivers": [
+      "Copilot AI integration",
+      "enterprise ecosystem moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Microsoft%20Outlook&c=apps"
+  },
+  {
+    "name": "Microsoft Teams",
+    "slug": "microsoft-teams",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI transforms the meeting and collaboration experience with automated transcription, summaries, and action-item extraction, while the core communication utility remains essential.",
+    "key_drivers": [
+      "Automated meeting summaries",
+      "Action item extraction",
+      "Drafting replies"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Microsoft%20Teams&c=apps"
+  },
+  {
+    "name": "Notepad - simple notes",
+    "slug": "notepad-simple-notes",
+    "category": "Productivity",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A deliberately minimal text editor. While AI autocomplete and summarization are becoming standard in note apps, this app's appeal is simplicity, partially insulating it from AI disruption pressure.",
+    "key_drivers": [
+      "Text completion"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Notepad%20-%20simple%20notes&c=apps"
+  },
+  {
+    "name": "Notepad, Notes, Easy Notebook",
+    "slug": "notepad-notes-easy-notebook",
+    "category": "Productivity",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Simple note-taking apps face competitive pressure from AI-enhanced alternatives offering auto-summarization, smart tagging, and content drafting. Users increasingly expect these capabilities as table stakes.",
+    "key_drivers": [
+      "Auto-formatting",
+      "Content drafting"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Notepad%2C%20Notes%2C%20Easy%20Notebook&c=apps"
+  },
+  {
+    "name": "Notion: Notes, Tasks, AI",
+    "slug": "notion-notes-tasks-ai",
+    "category": "Productivity",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Notion has deep AI integration (Notion AI) for drafting, summarizing, and organizing content. However, its core value includes the workspace structure, database views, and team collaboration features that exist independent of AI. AI is a powerful enhancement layer, not the entirety of the product.",
+    "key_drivers": [
+      "AI-powered drafting",
+      "Semantic search",
+      "Automated organization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Notion%3A%20Notes%2C%20Tasks%2C%20AI&c=apps"
+  },
+  {
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Personal knowledge management benefits significantly from RAG (retrieval-augmented generation) for querying notes, automated semantic linking between concepts, and AI-powered summarization. However, Obsidian's core value (local-first markdown, plugin ecosystem, graph view) exists independently of AI.",
+    "key_drivers": [
+      "RAG-based note querying",
+      "Semantic graph linking"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Obsidian&c=apps"
+  },
+  {
+    "name": "OtterAI Transcribe Voice Notes",
+    "slug": "otterai-transcribe-voice-notes",
+    "category": "Productivity",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Meeting transcription and summarization are prime AI use cases. Otter relies entirely on speech-to-text models, speaker diarization, and NLP summarization\u2014all rapidly advancing AI capabilities.",
+    "key_drivers": [
+      "Speaker diarization",
+      "Meeting summarization",
+      "Speech-to-text"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=OtterAI%20Transcribe%20Voice%20Notes&c=apps"
+  },
+  {
+    "name": "Proton Mail: Encrypted Email",
+    "slug": "proton-mail-encrypted-email",
+    "category": "Productivity",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Privacy constraints require on-device AI architectures. Local LLMs can modernize encrypted email with summarization, but zero-knowledge requirements significantly limit AI scope compared to Gmail.",
+    "key_drivers": [
+      "Local AI models",
+      "On-device search",
+      "Summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Proton%20Mail%3A%20Encrypted%20Email&c=apps"
+  },
+  {
+    "name": "Shopify: Sell online/in person",
+    "slug": "shopify-sell-online-in-person",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI lowers barriers to e-commerce by generating storefronts, writing product descriptions, and automating customer support. Shopify's platform moat remains strong.",
+    "key_drivers": [
+      "E-commerce setup automation",
+      "Content generation",
+      "Customer support bots"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Shopify%3A%20Sell%20online/in%20person&c=apps"
+  },
+  {
+    "name": "Slack",
+    "slug": "slack",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "As a business knowledge hub, Slack benefits heavily from AI summarization and workflow agents. However, its strong enterprise lock-in and integration ecosystem provide significant defensibility.",
+    "key_drivers": [
+      "AI workflow agents",
+      "Knowledge retrieval",
+      "Enterprise integration moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Slack&c=apps"
+  },
+  {
+    "name": "Speechify \u2013 Text to Speech",
+    "slug": "speechify-text-to-speech",
+    "category": "Productivity",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "replacement",
+    "reasoning": "TTS is a core generative AI capability. Neural voice synthesis (emotional intonation, zero-shot cloning) directly determines this app's quality. The product's competitiveness is entirely shaped by advances in audio generation models.",
+    "key_drivers": [
+      "Neural voice synthesis",
+      "Zero-shot voice cloning"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Speechify%20%E2%80%93%20Text%20to%20Speech&c=apps"
+  },
+  {
+    "name": "Square Point of Sale: Payment",
+    "slug": "square-point-of-sale-payment",
+    "category": "Productivity",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core value is payment processing rails and hardware integration (card readers). Strongly insulated from AI disruption by financial regulation and physical hardware.",
+    "key_drivers": [
+      "Payment processing rails",
+      "Hardware integration"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Square%20Point%20of%20Sale%3A%20Payment&c=apps"
+  },
+  {
+    "name": "Summary - AI Note Taker",
+    "slug": "summary-ai-note-taker",
+    "category": "Productivity",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Audio recording, speech-to-text transcription, and meeting summarization are all core AI capabilities. The product's entire value chain\u2014recording \u2192 transcribing \u2192 summarizing\u2014is powered by AI models.",
+    "key_drivers": [
+      "Speech-to-text",
+      "NLP summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Summary%20-%20AI%20Note%20Taker&c=apps"
+  },
+  {
+    "name": "Tasker",
+    "slug": "tasker",
+    "category": "Productivity",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Manual rule-based automation is increasingly replaced by AI agents that understand natural language intents. However, Tasker's deep Android integration and power-user niche provide some defensibility.",
+    "key_drivers": [
+      "Natural language programming",
+      "Agentic OS control",
+      "Context-aware execution"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Tasker&c=apps"
+  },
+  {
+    "name": "Toki - The AI Calendar",
+    "slug": "toki-the-ai-calendar",
+    "category": "Productivity",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "An AI-first calendar focused on automated time management. AI scheduling, predictive time blocking, and natural language event creation are core features. The product's differentiation is built on AI capabilities.",
+    "key_drivers": [
+      "Auto-scheduling",
+      "Predictive time management"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Toki%20-%20The%20AI%20Calendar&c=apps"
+  },
+  {
+    "name": "Typeless: AI Voice Keyboard",
+    "slug": "typeless-ai-voice-keyboard",
+    "category": "Productivity",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "AI voice-to-text keyboard that converts speech into polished written text. Directly dependent on speech recognition models and LLM-based text refinement. The product's '6x faster than typing' claim is entirely enabled by AI.",
+    "key_drivers": [
+      "Speech recognition",
+      "LLM text refinement"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Typeless%3A%20AI%20Voice%20Keyboard&c=apps"
+  },
+  {
+    "name": "Video Meeting",
+    "slug": "video-meeting",
+    "category": "Productivity",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "A smaller video conferencing app that benefits from AI transcription and summaries, but lacks the enterprise scale to justify an 8. Primarily a commodity meeting tool.",
+    "key_drivers": [
+      "Real-time transcription",
+      "Meeting summaries",
+      "Action item extraction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Video%20Meeting&c=apps"
+  },
+  {
+    "name": "Webex",
+    "slug": "webex",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Video conferencing is structurally enhanced by AI features like transcripts, live translation, and automatic action-item generation.",
+    "key_drivers": [
+      "Meeting summarization",
+      "Real-time translation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Webex&c=apps"
+  },
+  {
+    "name": "Wispr Flow: AI Voice-to-Text",
+    "slug": "wispr-flow-ai-voice-to-text",
+    "category": "Productivity",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Voice-to-text is a core AI capability. Modern speech models (Whisper, etc.) plus LLM-based post-processing for punctuation, formatting, and context-aware correction directly define this app's quality ceiling. Entirely dependent on AI model advances.",
+    "key_drivers": [
+      "Speech recognition models",
+      "LLM-based text formatting"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Wispr%20Flow%3A%20AI%20Voice-to-Text&c=apps"
+  },
+  {
+    "name": "Yahoo Mail: Email & Planner",
+    "slug": "yahoo-mail-email-planner",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Email clients benefit significantly from AI drafting, semantic search, and task extraction. However, email itself remains a necessary communication channel with strong persistence.",
+    "key_drivers": [
+      "Automated drafting",
+      "Inbox semantic summarization",
+      "Schedule and task extraction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Yahoo%20Mail%3A%20Email%20%26%20Planner&c=apps"
+  },
+  {
+    "name": "Zoom Workplace",
+    "slug": "zoom-workplace",
+    "category": "Productivity",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI transforms peripheral meeting experience with summaries, translations, and smart context, while the core need for synchronous human communication persists.",
+    "key_drivers": [
+      "Real-time translation",
+      "Meeting summarization",
+      "Virtual avatars"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Zoom%20Workplace&c=apps"
+  },
+  {
+    "name": "App Lock - Applock Fingerprint",
+    "slug": "app-lock-applock-fingerprint",
+    "category": "Security",
+    "score": 1,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "App locking via fingerprint, password, or pattern is a deterministic security function with no generative AI surface area.",
+    "key_drivers": [
+      "Static security policies"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=App%20Lock%20-%20Applock%20Fingerprint&c=apps"
+  },
+  {
+    "name": "App Lock - Fingerprint Lock",
+    "slug": "app-lock-fingerprint-lock",
+    "category": "Security",
+    "score": 1,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "App locking via biometrics/passwords is a deterministic security function fundamentally unrelated to generative AI.",
+    "key_drivers": [
+      "Biometric security"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=App%20Lock%20-%20Fingerprint%20Lock&c=apps"
+  },
+  {
+    "name": "AppLock Pro - App Lock & Guard",
+    "slug": "applock-pro-app-lock-guard",
+    "category": "Security",
+    "score": 1,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "App locking is a simple OS-level utility using PIN/pattern/fingerprint. No meaningful surface area for generative AI enhancement or disruption.",
+    "key_drivers": [
+      "Device-level security",
+      "Static access control"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AppLock%20Pro%20-%20App%20Lock%20%26%20Guard&c=apps"
+  },
+  {
+    "name": "Authenticator App",
+    "slug": "authenticator-app",
+    "category": "Security",
+    "score": 1,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "2FA token generation is a deterministic cryptographic process (TOTP/HOTP). Neither requires nor benefits from generative AI capabilities.",
+    "key_drivers": [
+      "Cryptographic protocols"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Authenticator%20App&c=apps"
+  },
+  {
+    "name": "Duo Mobile",
+    "slug": "duo-mobile",
+    "category": "Security",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core value is identity validation via cryptographic protocols (TOTP, push authentication). Highly insulated from AI disruption.",
+    "key_drivers": [
+      "Identity verification",
+      "Cryptographic security"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Duo%20Mobile&c=apps"
+  },
+  {
+    "name": "ID.me Authenticator",
+    "slug": "id-me-authenticator",
+    "category": "Security",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A 2FA security token app. Authentication codes are deterministic cryptographic operations completely unaffected by AI. One of the least AI-impacted app categories alongside calculators and alarm clocks.",
+    "key_drivers": [
+      "cryptographic security standard",
+      "zero AI relevance"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ID.me%20Authenticator&c=apps"
+  },
+  {
+    "name": "Microsoft Authenticator",
+    "slug": "microsoft-authenticator",
+    "category": "Security",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Specialized security utility relying on cryptographic protocols (TOTP, FIDO2). Very limited surface area for AI disruption \u2014 security must be deterministic, not probabilistic.",
+    "key_drivers": [
+      "Anomaly detection",
+      "Behavioral biometrics"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Microsoft%20Authenticator&c=apps"
+  },
+  {
+    "name": "Permission Guard",
+    "slug": "permission-guard",
+    "category": "Security",
+    "score": 3,
+    "confidence": "low",
+    "disruption_type": "enhancement",
+    "reasoning": "Narrow security utility that enforces OS-level permission controls. AI could assist in pattern-matching rogue app behaviors but core functionality is rule-based.",
+    "key_drivers": [
+      "Device security utility",
+      "App permissions"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Permission%20Guard&c=apps"
+  },
+  {
+    "name": "Yoti - your digital identity",
+    "slug": "yoti-your-digital-identity",
+    "category": "Security",
+    "score": 3,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Digital identity verification uses AI in biometrics (face matching, liveness detection, deepfake detection), but the core value is the cryptographic trust infrastructure and regulatory compliance. AI is a supporting tool, not the product itself.",
+    "key_drivers": [
+      "Biometric verification",
+      "Deepfake detection"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Yoti%20-%20your%20digital%20identity&c=apps"
+  },
+  {
+    "name": "Spaces: Follow Businesses",
+    "slug": "spaces-follow-businesses",
+    "category": "Shopping",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "A customer engagement platform (Wix-powered) for ordering, booking, and community interaction. AI can improve personalization and automated support chat, but core value is tied to physical business operations and customer relationships.",
+    "key_drivers": [
+      "Personalized matching",
+      "Support chat automation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Spaces%3A%20Follow%20Businesses&c=apps"
+  },
+  {
+    "name": "Temu",
+    "slug": "temu",
+    "category": "Shopping",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core value is low-cost physical goods and supply chain logistics. AI optimizes product recommendations, search ranking, and marketing but cannot replace the physical commerce infrastructure.",
+    "key_drivers": [
+      "Dynamic supply chain",
+      "Hyper-personalized marketing",
+      "Search optimization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Temu&c=apps"
+  },
+  {
+    "name": "Walmart",
+    "slug": "walmart",
+    "category": "Shopping",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "E-commerce benefits from AI-powered product search, personalized recommendations, and automated customer service. However, Walmart's core value is physical retail infrastructure, supply chain, and pricing\u2014all largely AI-independent. Score 6 was slightly high.",
+    "key_drivers": [
+      "Semantic product search",
+      "Personalized recommendations"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Walmart&c=apps"
+  },
+  {
+    "name": "Discord",
+    "slug": "discord",
+    "category": "Social",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Discord benefits from AI through bot ecosystems, conversation summarization, and content moderation. However, its core value is the community and communication infrastructure\u2014the social graph and server structure\u2014which are AI-independent.",
+    "key_drivers": [
+      "Bot ecosystems",
+      "Conversation summarization",
+      "Auto-moderation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Discord&c=apps"
+  },
+  {
+    "name": "Discord - Talk, Play, Hang Out",
+    "slug": "discord-talk-play-hang-out",
+    "category": "Social",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Discord's massive server ecosystem benefits from AI auto-moderation, conversation summarization, and voice transcription, natively upgrading community management.",
+    "key_drivers": [
+      "Community auto-moderation",
+      "Conversation summarization",
+      "Voice transcription"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Discord%20-%20Talk%2C%20Play%2C%20Hang%20Out&c=apps"
+  },
+  {
+    "name": "Facebook",
+    "slug": "facebook",
+    "category": "Social",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Facebook is heavily augmented by AI for ad targeting, feed ranking, content moderation, and generative features. Its community graph and advertiser relationships provide significant non-AI defensibility.",
+    "key_drivers": [
+      "AI ad optimization",
+      "Feed ranking algorithms",
+      "Content moderation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Facebook&c=apps"
+  },
+  {
+    "name": "GroupMe",
+    "slug": "groupme",
+    "category": "Social",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Lightweight group coordination tool. AI can summarize missed messages and extract calendar events but doesn't change its nature as a simple social utility.",
+    "key_drivers": [
+      "Event coordination automation",
+      "Missed chat summaries",
+      "Social utility persistence"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=GroupMe&c=apps"
+  },
+  {
+    "name": "Instagram",
+    "slug": "instagram",
+    "category": "Social",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI powers Instagram's recommendation engine, content moderation, and increasingly its creative tools (AI filters, background generation). But the platform's value is anchored in its social graph and creator ecosystem.",
+    "key_drivers": [
+      "Algorithmic feed curation",
+      "AI visual effects"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Instagram&c=apps"
+  },
+  {
+    "name": "Reddit",
+    "slug": "reddit",
+    "category": "Social",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Reddit's core value is its human-generated community content and discussion threads. AI enhances moderation and can power summarization, but the platform's defensibility lies in its community networks and unique data corpus. Exposed as training data source but not directly disrupted.",
+    "key_drivers": [
+      "Moderation AI",
+      "Content summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Reddit&c=apps"
+  },
+  {
+    "name": "Snapchat",
+    "slug": "snapchat",
+    "category": "Social",
+    "score": 7,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Snapchat uses AI for AR filters, generative media, and My AI companion. However, its core social network moat (streaks, stories) provides strong defensibility against pure AI disruption.",
+    "key_drivers": [
+      "Generative media creation",
+      "Conversational companions",
+      "Augmented reality filtering"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Snapchat&c=apps"
+  },
+  {
+    "name": "Threads",
+    "slug": "threads",
+    "category": "Social",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Social networks are protected by network effects and human connection. AI enhances content moderation and discovery but doesn't fundamentally disrupt the social graph moat.",
+    "key_drivers": [
+      "Content recommendation",
+      "Automated moderation",
+      "Generative drafting"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Threads&c=apps"
+  },
+  {
+    "name": "TikTok",
+    "slug": "tiktok",
+    "category": "Social",
+    "score": 8,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI is foundational to TikTok: the recommendation algorithm drives engagement, and generative AI enables new creation tools (filters, effects, music). However, the platform's value also rests on its creator network and cultural position, which are non-AI assets.",
+    "key_drivers": [
+      "Deep recommendation systems",
+      "Generative content tools"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=TikTok&c=apps"
+  },
+  {
+    "name": "AT&T",
+    "slug": "at-t",
+    "category": "Telecom",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A telecom account management app for billing, data usage, and plan management. AI can improve customer support chatbots, but core functions (bill pay, plan changes) are structured transactions unaffected by AI.",
+    "key_drivers": [
+      "customer support chatbot",
+      "structured transaction core"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AT%26T&c=apps"
+  },
+  {
+    "name": "Boost Mobile",
+    "slug": "boost-mobile",
+    "category": "Telecom",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "Carrier app where conversational AI handles support and billing queries, replacing call center volume.",
+    "key_drivers": [
+      "Chatbot support",
+      "Plan optimization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Boost%20Mobile&c=apps"
+  },
+  {
+    "name": "HP",
+    "slug": "hp",
+    "category": "Telecom",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A hardware companion app for HP printers. AI can enhance OCR scanning and customer support chatbots, but the core utility is printer setup, ink management, and print job control\u2014hardware-tied functions largely unaffected by AI.",
+    "key_drivers": [
+      "hardware-tied utility",
+      "minor OCR and support improvements"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=HP&c=apps"
+  },
+  {
+    "name": "My Straight Talk",
+    "slug": "my-straight-talk",
+    "category": "Telecom",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "Carrier account management app where AI can automate customer support and troubleshooting, but the core billing and plan management is straightforward.",
+    "key_drivers": [
+      "Customer support automation",
+      "Personalized recommendations"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=My%20Straight%20Talk&c=apps"
+  },
+  {
+    "name": "My Tracfone: Account Manager",
+    "slug": "my-tracfone-account-manager",
+    "category": "Telecom",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "Basic tier-1 troubleshooting replaced by smart chatbots, representing noticeable value for prepaid carrier logistics.",
+    "key_drivers": [
+      "Virtual support agents",
+      "Diagnostic troubleshooting"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=My%20Tracfone%3A%20Account%20Manager&c=apps"
+  },
+  {
+    "name": "Smart Home Manager",
+    "slug": "smart-home-manager",
+    "category": "Telecom",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "An AT&T Wi-Fi network management app. AI can assist with network troubleshooting diagnostics, but the core value is hardware configuration and ISP account management\u2014functions tied to AT&T's service infrastructure.",
+    "key_drivers": [
+      "AI troubleshooting assistance",
+      "ISP hardware lock-in"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Smart%20Home%20Manager&c=apps"
+  },
+  {
+    "name": "Visible",
+    "slug": "visible",
+    "category": "Telecom",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "All-digital wireless carrier where customer service can be automated by LLM agents. However, telecom services themselves are infrastructure-bound.",
+    "key_drivers": [
+      "Algorithmic customer support",
+      "Automated provisioning"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Visible&c=apps"
+  },
+  {
+    "name": "All Translate: Photo, PDF, DOC",
+    "slug": "all-translate-photo-pdf-doc",
+    "category": "Translation",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Multimodal translation (photo, PDF, document, voice) is directly powered by advances in vision-language models and neural machine translation. LLMs now handle these modalities natively with high accuracy.",
+    "key_drivers": [
+      "Multimodal translation",
+      "Vision-language models"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=All%20Translate%3A%20Photo%2C%20PDF%2C%20DOC&c=apps"
+  },
+  {
+    "name": "Deep Translate - All Language",
+    "slug": "deep-translate-all-language",
+    "category": "Translation",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Multi-modal translation (text, voice, photo, document, screen) is fully powered by neural machine translation and increasingly by LLMs. Translation quality and breadth are direct functions of AI model capability.",
+    "key_drivers": [
+      "Neural machine translation",
+      "Multimodal input processing"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Deep%20Translate%20-%20All%20Language&c=apps"
+  },
+  {
+    "name": "Translate - Translator",
+    "slug": "translate-translator",
+    "category": "Translation",
+    "score": 9,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Translation is one of the most directly AI-disrupted domains. LLMs now handle nuanced, context-aware translation across text, voice, and camera inputs with quality rivaling professional translators for most use cases.",
+    "key_drivers": [
+      "LLM translation quality",
+      "Real-time multimodal translation"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Translate%20-%20Translator&c=apps"
+  },
+  {
+    "name": "4K Video Downloader & Player",
+    "slug": "4k-video-downloader-player",
+    "category": "Utilities",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Core function is downloading and playing video files\u2014a file acquisition utility. AI could add video summarization or content analysis, but the primary download mechanic is unchanged.",
+    "key_drivers": [
+      "Video summarization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=4K%20Video%20Downloader%20%26%20Player&c=apps"
+  },
+  {
+    "name": "AVG Cleaner \u2013 Storage Cleaner",
+    "slug": "avg-cleaner-storage-cleaner",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "System cleaning uses established heuristic-based file analysis. Generative AI models do not meaningfully improve junk file detection or cache clearing.",
+    "key_drivers": [
+      "Heuristic optimization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=AVG%20Cleaner%20%E2%80%93%20Storage%20Cleaner&c=apps"
+  },
+  {
+    "name": "Analyze WiFi Launcher",
+    "slug": "analyze-wifi-launcher",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "WiFi diagnostics rely on real-world RF signal measurement and OS-level network APIs. No meaningful application of generative AI to network topology analysis.",
+    "key_drivers": [
+      "Network diagnostics"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Analyze%20WiFi%20Launcher&c=apps"
+  },
+  {
+    "name": "Calculator",
+    "slug": "calculator",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A purely deterministic utility performing mathematical operations. AI adds no meaningful value over basic computation logic. Calculators are one of the least AI-impacted app categories.",
+    "key_drivers": [
+      "deterministic computation",
+      "no AI-relevant functionality"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Calculator&c=apps"
+  },
+  {
+    "name": "Clean Utility Toolkit",
+    "slug": "clean-utility-toolkit",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A basic mobile maintenance tool for file cleanup and diagnostics. Rule-based operations with no meaningful AI integration surface.",
+    "key_drivers": [
+      "Rule-based cleaning"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Clean%20Utility%20Toolkit&c=apps"
+  },
+  {
+    "name": "Cleanfox: Spam & Email Cleaner",
+    "slug": "cleanfox-spam-email-cleaner",
+    "category": "Utilities",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "automation",
+    "reasoning": "AI can significantly improve email classification, spam detection, and automated unsubscription through intent analysis and semantic understanding\u2014surpassing legacy rule-based filters.",
+    "key_drivers": [
+      "Intent detection",
+      "Semantic email classification"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Cleanfox%3A%20Spam%20%26%20Email%20Cleaner&c=apps"
+  },
+  {
+    "name": "Duck Blast Launcher",
+    "slug": "duck-blast-launcher",
+    "category": "Utilities",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Home screen launchers can incorporate AI-generated wallpapers and smart app usage prediction, but the core launcher mechanic (app grid, shortcuts) is a rigid UI framework.",
+    "key_drivers": [
+      "Generative wallpapers",
+      "Usage prediction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Duck%20Blast%20Launcher&c=apps"
+  },
+  {
+    "name": "EasyClean - File Cleaner",
+    "slug": "easyclean-file-cleaner",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Basic device maintenance using heuristic rules for junk detection. No meaningful value-add from generative AI.",
+    "key_drivers": [
+      "Rule-based file classification"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=EasyClean%20-%20File%20Cleaner&c=apps"
+  },
+  {
+    "name": "File Manager",
+    "slug": "file-manager",
+    "category": "Utilities",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "File managers could gain semantic file search and auto-organization, but the core file browsing utility is a low-level OS function with limited AI surface area.",
+    "key_drivers": [
+      "Semantic file organization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=File%20Manager&c=apps"
+  },
+  {
+    "name": "File Master - Clean & Manager",
+    "slug": "file-master-clean-manager",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "File cleaning and cache management rely on OS APIs and deterministic heuristics. Minimal surface area for generative AI integration.",
+    "key_drivers": [
+      "Heuristic-based cleanup"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=File%20Master%20-%20Clean%20%26%20Manager&c=apps"
+  },
+  {
+    "name": "Gallery",
+    "slug": "gallery",
+    "category": "Utilities",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI enables semantic photo search and automatic organization, but the core value is local media browsing and privacy-focused photo management. AI features are additive rather than transformative for a gallery app.",
+    "key_drivers": [
+      "AI semantic search",
+      "local organization utility"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Gallery&c=apps"
+  },
+  {
+    "name": "Link to Windows",
+    "slug": "link-to-windows",
+    "category": "Utilities",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "An infrastructure bridge between phone and PC. AI can enhance it with smart reply suggestions or cross-device context sharing, but the core mirroring/sync mechanism is protocol-driven and unchanged by AI.",
+    "key_drivers": [
+      "Smart replies",
+      "Cross-device context sharing"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Link%20to%20Windows&c=apps"
+  },
+  {
+    "name": "MiraClean - File Manager",
+    "slug": "miraclean-file-manager",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Junk file cleaning and notification blocking use deterministic system rules. Minimal opportunity for meaningful generative AI integration.",
+    "key_drivers": [
+      "Rule-based cleanup"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=MiraClean%20-%20File%20Manager&c=apps"
+  },
+  {
+    "name": "Photo Recover Plus - Restore",
+    "slug": "photo-recover-plus-restore",
+    "category": "Utilities",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "File recovery is primarily disk scanning and data reconstruction. AI could assist with upscaling or restoring corrupted image fragments, but this is a minor enhancement to the core recovery function.",
+    "key_drivers": [
+      "Generative image upscaling"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Photo%20Recover%20Plus%20-%20Restore&c=apps"
+  },
+  {
+    "name": "Portable WiFi - Mobile Hotspot",
+    "slug": "portable-wifi-mobile-hotspot",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Hardware utility for toggling internet sharing. AI has almost zero impact on its core function to bridge local hardware connectivity.",
+    "key_drivers": [
+      "Network optimization"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Portable%20WiFi%20-%20Mobile%20Hotspot&c=apps"
+  },
+  {
+    "name": "QR & Barcode Scanner",
+    "slug": "qr-barcode-scanner",
+    "category": "Utilities",
+    "score": 1,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Barcode scanning is a solved computer vision problem handled by standard libraries (ZXing, ML Kit). Modern generative AI adds no value to this deterministic decoding task.",
+    "key_drivers": [
+      "Standard computer vision"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=QR%20%26%20Barcode%20Scanner&c=apps"
+  },
+  {
+    "name": "QR scanner launcher",
+    "slug": "qr-scanner-launcher",
+    "category": "Utilities",
+    "score": 1,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Standard barcode decoding is a fully solved computer vision task. No surface area for generative AI capabilities.",
+    "key_drivers": [
+      "Standard barcode decoding"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=QR%20scanner%20launcher&c=apps"
+  },
+  {
+    "name": "ScanNow Home",
+    "slug": "scannow-home",
+    "category": "Utilities",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI significantly enhances OCR accuracy and enables contextual data extraction from scanned documents. However, basic scanning is a commoditized utility, and AI OCR improvements benefit all scanning apps equally.",
+    "key_drivers": [
+      "AI-enhanced OCR",
+      "contextual document extraction"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ScanNow%20Home&c=apps"
+  },
+  {
+    "name": "Smart Transfer: Copy My Data",
+    "slug": "smart-transfer-copy-my-data",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Phone-to-phone data transfer is a protocol-level operation entirely independent of generative AI capabilities.",
+    "key_drivers": [
+      "Network transfer protocols"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Smart%20Transfer%3A%20Copy%20My%20Data&c=apps"
+  },
+  {
+    "name": "WakeBox",
+    "slug": "wakebox",
+    "category": "Utilities",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "A simple alarm clock app. AI offers virtually zero enhancement to the core function of setting and triggering alarms. One of the least AI-impacted app categories.",
+    "key_drivers": [
+      "minimal AI relevance",
+      "deterministic alarm functionality"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=WakeBox&c=apps"
+  },
+  {
+    "name": "inskam",
+    "slug": "inskam",
+    "category": "Utilities",
+    "score": 3,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Hardware-centric endoscopy camera app where AI could add minor image enhancement (edge detection, zoom clarity) but cannot displace the physical camera utility.",
+    "key_drivers": [
+      "Image processing",
+      "Hardware utility"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=inskam&c=apps"
+  },
+  {
+    "name": "GTL | GettingOut",
+    "slug": "gtl-gettingout",
+    "category": "VPN",
+    "score": 2,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Value is entirely derived from providing regulated communication access in correctional facilities. The app's worth comes from its institutional contracts and compliance infrastructure, not from task complexity that AI could improve.",
+    "key_drivers": [
+      "Regulated communications access"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=GTL%20%7C%20GettingOut&c=apps"
+  },
+  {
+    "name": "Planet Free VPN \u2122 Super Proxy",
+    "slug": "planet-free-vpn-super-proxy",
+    "category": "VPN",
+    "score": 1,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "VPNs are network infrastructure tools operating at the protocol level. Generative AI has no meaningful impact on packet tunneling or encryption.",
+    "key_drivers": [
+      "Network protocols"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Planet%20Free%20VPN%20%E2%84%A2%20Super%20Proxy&c=apps"
+  },
+  {
+    "name": "ADP Mobile Solutions",
+    "slug": "adp-mobile-solutions",
+    "category": "Work",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Core payroll is regulatory and precise, but employee self-service and HR queries are ripe for conversational AI automation.",
+    "key_drivers": [
+      "HR policy queries",
+      "Automated time-off requests",
+      "Onboarding assistance"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ADP%20Mobile%20Solutions&c=apps"
+  },
+  {
+    "name": "Dayforce",
+    "slug": "dayforce",
+    "category": "Work",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Noticeable improvements in employee self-service and forecasting, without displacing the regulated core system of record.",
+    "key_drivers": [
+      "HR service automation",
+      "Data insights"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Dayforce&c=apps"
+  },
+  {
+    "name": "Homebase: Scheduling & Payroll",
+    "slug": "homebase-scheduling-payroll",
+    "category": "Work",
+    "score": 5,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "AI automates schedule generation via traffic forecasting and dynamic shift management, reducing administrative burden while keeping the workflow structure.",
+    "key_drivers": [
+      "Schedule optimization",
+      "Predictive staffing",
+      "Conversational shift management"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Homebase%3A%20Scheduling%20%26%20Payroll&c=apps"
+  },
+  {
+    "name": "MyWalmart",
+    "slug": "mywalmart",
+    "category": "Work",
+    "score": 3,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Internal employee HR portal for schedules, pay, and benefits. AI can enhance policy search and scheduling requests, but the utility is insulated as an enterprise employee tool.",
+    "key_drivers": [
+      "HR utility structure",
+      "Employee identity portal",
+      "Policy search enhancement"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=MyWalmart&c=apps"
+  },
+  {
+    "name": "ParentSquare",
+    "slug": "parentsquare",
+    "category": "Work",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can auto-translate school communications and draft messages, but ParentSquare's value is being the verified, district-adopted communication channel. Institutional procurement creates a strong moat.",
+    "key_drivers": [
+      "auto-translation",
+      "institutional procurement moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=ParentSquare&c=apps"
+  },
+  {
+    "name": "Paychex Flex",
+    "slug": "paychex-flex",
+    "category": "Work",
+    "score": 4,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "Payroll and tax compliance are high-stakes regulated tasks. AI provides conversational interfaces for HR questions but the core money-movement moat is highly defensible.",
+    "key_drivers": [
+      "Tax compliance structure",
+      "Payroll rails defensibility",
+      "Natural language HR querying"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Paychex%20Flex&c=apps"
+  },
+  {
+    "name": "Paylocity",
+    "slug": "paylocity",
+    "category": "Work",
+    "score": 5,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI automates routine HR queries and streamlines workflows, but the regulated payroll backbone (tax calculations, compliance filing) is highly defensible.",
+    "key_drivers": [
+      "HR process automation",
+      "Payroll query resolution"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Paylocity&c=apps"
+  },
+  {
+    "name": "QuickBooks Workforce",
+    "slug": "quickbooks-workforce",
+    "category": "Work",
+    "score": 3,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "Primarily a utility for employees to view pay stubs and track time. The data is structured and company-controlled. AI can assist with support queries or auto-fill time entries, but the core value is access to payroll data, not content generation.",
+    "key_drivers": [
+      "Support automation",
+      "Time entry assistance"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=QuickBooks%20Workforce&c=apps"
+  },
+  {
+    "name": "UKG Pro",
+    "slug": "ukg-pro",
+    "category": "Work",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "automation",
+    "reasoning": "Backend compliance and payroll are insulated by regulation. Employee-facing interfaces for scheduling, benefits, and HR requests can be significantly automated by conversational agents.",
+    "key_drivers": [
+      "Conversational HR interfaces",
+      "Automated scheduling",
+      "Predictive attrition"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=UKG%20Pro&c=apps"
+  },
+  {
+    "name": "UKG Ready",
+    "slug": "ukg-ready",
+    "category": "Work",
+    "score": 6,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI chatbots and schedule predictions provide significant workflow enhancements. The fundamental payroll and compliance backend remains defensible.",
+    "key_drivers": [
+      "HR workflow automation",
+      "Employee self-service"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=UKG%20Ready&c=apps"
+  },
+  {
+    "name": "Workday",
+    "slug": "workday",
+    "category": "Work",
+    "score": 6,
+    "confidence": "high",
+    "disruption_type": "enhancement",
+    "reasoning": "AI streamlines employee self-service and automates HR workflows, providing noticeable enhancements without replacing the core HR software ecosystem.",
+    "key_drivers": [
+      "HR workflow automation",
+      "Employee self-service AI"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=Workday&c=apps"
+  },
+  {
+    "name": "brightwheel: Childcare App",
+    "slug": "brightwheel-childcare-app",
+    "category": "Work",
+    "score": 4,
+    "confidence": "medium",
+    "disruption_type": "enhancement",
+    "reasoning": "AI can automate daily reports, invoice generation, and parent messaging. However, brightwheel's value is being the operational backbone of childcare centers with parent/staff network effects and billing integration.",
+    "key_drivers": [
+      "operational workflow automation",
+      "childcare center network moat"
+    ],
+    "play_store_url": "https://play.google.com/store/search?q=brightwheel%3A%20Childcare%20App&c=apps"
+  }
+]

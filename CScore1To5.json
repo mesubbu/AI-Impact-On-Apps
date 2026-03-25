@@ -1,0 +1,1581 @@
+{
+  "results": [
+    {
+      "name": "inskam",
+      "ai_impact_score": 3,
+      "confidence": "medium",
+      "reasoning": "Hardware-centric endoscopy camera app where AI could add minor image enhancement (edge detection, zoom clarity) but cannot displace the physical camera utility.",
+      "key_drivers": [
+        "Image processing",
+        "Hardware utility"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "DoorDash: Food, Grocery, More",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "Core value is physical food delivery logistics, which AI cannot replace. AI enhances recommendations, route optimization, demand forecasting, and customer support chatbots.",
+      "key_drivers": [
+        "Personalized recommendations",
+        "Logistics optimization",
+        "Customer support automation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Gauth: AI Study Companion",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "AI-native educational tool highly exposed to commoditization as general-purpose LLMs (ChatGPT, Gemini) can solve homework problems for free. However, its curated UX and student-specific features provide some defensibility vs a perfect 10.",
+      "key_drivers": [
+        "Commoditization of AI tutoring",
+        "Multimodal problem solving",
+        "End-to-end homework completion"
+      ],
+      "disruption_type": "replacement",
+      "changes_made": "Score adjusted from 10 → 9 because while highly exposed, Gauth's curated student UX, structured curriculum, and gamification provide a thin moat against raw LLM replacement."
+    },
+    {
+      "name": "ChatGPT",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Pure AI product whose entire value is defined by model capabilities. Subject to intense competition from Gemini, Claude, open-source models, and agentic platforms.",
+      "key_drivers": [
+        "Agentic workflow integration",
+        "Personalization",
+        "Multimodal capabilities"
+      ],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Threads",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "Social networks are protected by network effects and human connection. AI enhances content moderation and discovery but doesn't fundamentally disrupt the social graph moat.",
+      "key_drivers": [
+        "Content recommendation",
+        "Automated moderation",
+        "Generative drafting"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5 because social networks with strong network effects (backed by Instagram) have high defensibility; AI mainly adds incremental features."
+    },
+    {
+      "name": "Temu",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "Core value is low-cost physical goods and supply chain logistics. AI optimizes product recommendations, search ranking, and marketing but cannot replace the physical commerce infrastructure.",
+      "key_drivers": [
+        "Dynamic supply chain",
+        "Hyper-personalized marketing",
+        "Search optimization"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "WhatsApp Messenger",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "Personal messaging app protected by massive network effects (2B+ users). AI adds translation, smart replies, and summarization but the social graph moat is extremely strong.",
+      "key_drivers": [
+        "Smart replies",
+        "Chat summarization",
+        "In-line AI agents"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5 because WhatsApp's network effect moat is one of the strongest in tech; AI features are additive, not transformative."
+    },
+    {
+      "name": "Gboard - the Google Keyboard",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Text input is significantly enhanced by predictive typing and generative drafting, but the keyboard remains an essential OS-level utility that won't be replaced — only augmented.",
+      "key_drivers": [
+        "Predictive typing",
+        "Generative text creation",
+        "Grammar correction"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 because while AI deeply enhances typing, the keyboard itself remains a necessary input method; it's enhancement, not disruption."
+    },
+    {
+      "name": "Cash App",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "Core value relies on regulated financial rails, P2P network effects, and banking licenses. AI improves fraud detection and support but the regulatory moat is very strong.",
+      "key_drivers": [
+        "Fraud detection",
+        "Automated savings insights",
+        "Customer support"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because financial infrastructure apps have exceptionally strong regulatory and compliance moats that limit AI disruption surface."
+    },
+    {
+      "name": "Netflix",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI enhances recommendations and content discovery today. Generative video is a long-term threat but currently far from producing Netflix-quality scripted content. Near-term impact is enhancement-focused.",
+      "key_drivers": [
+        "Content discovery algorithms",
+        "Personalized thumbnails",
+        "Generative media (long-term)"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 and disruption_type from replacement → enhancement because generative video is not yet capable of replacing professional studio-quality content at scale in the near term."
+    },
+    {
+      "name": "Indeed Job Search",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "The entire recruitment workflow — resume parsing, job matching, applicant screening — is text-heavy and highly automatable. AI agents can apply to jobs and screen candidates at scale.",
+      "key_drivers": [
+        "Automated applicant screening",
+        "Resume optimization",
+        "Skill matching"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "NCAA March Madness Live",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Core appeal depends entirely on live, real-world sporting events. AI adds minor enhancements like automated highlights and stats predictions but cannot replace the live experience.",
+      "key_drivers": [
+        "Automated highlight generation",
+        "Real-time statistics prediction"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Pure AI client whose competitive standing is entirely defined by rapid advancements in baseline AI model capabilities, facing constant pressure from ChatGPT, Gemini, and Claude.",
+      "key_drivers": [
+        "Multimodal reasoning",
+        "Workflow automation",
+        "Agentic task execution"
+      ],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Claude by Anthropic",
+      "ai_impact_score": 10,
+      "confidence": "high",
+      "reasoning": "Premier LLM application natively exposed to disruption from next-generation models and competing AI platforms. Entire value proposition is the AI model itself.",
+      "key_drivers": [
+        "Large context processing",
+        "Code generation",
+        "Complex reasoning"
+      ],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Tasker",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Manual rule-based automation is increasingly replaced by AI agents that understand natural language intents. However, Tasker's deep Android integration and power-user niche provide some defensibility.",
+      "key_drivers": [
+        "Natural language programming",
+        "Agentic OS control",
+        "Context-aware execution"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "Score adjusted from 9 → 8 because Tasker serves a deeply technical power-user niche with complex Android API integrations that general AI agents cannot yet fully replicate."
+    },
+    {
+      "name": "WolframAlpha Classic",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "LLMs with code interpreters increasingly handle factual math and physics queries, but WolframAlpha's structured computational engine still offers superior precision for complex symbolic math.",
+      "key_drivers": [
+        "LLM code execution",
+        "Natural language query answering",
+        "Structured computation"
+      ],
+      "disruption_type": "replacement",
+      "changes_made": "Score adjusted from 8 → 7 because WolframAlpha's curated knowledge base and symbolic computation still outperform LLMs in precision for advanced mathematical and scientific queries."
+    },
+    {
+      "name": "Microsoft Teams",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI transforms the meeting and collaboration experience with automated transcription, summaries, and action-item extraction, while the core communication utility remains essential.",
+      "key_drivers": [
+        "Automated meeting summaries",
+        "Action item extraction",
+        "Drafting replies"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "DoorDash - Dasher",
+      "ai_impact_score": 3,
+      "confidence": "medium",
+      "reasoning": "Driver app for physical gig work. AI provides routing and demand forecasting but the core task of physically delivering food is insulated from software AI disruption.",
+      "key_drivers": [
+        "Route optimization",
+        "Demand forecasting",
+        "Automated support"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Zoom Workplace",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI transforms peripheral meeting experience with summaries, translations, and smart context, while the core need for synchronous human communication persists.",
+      "key_drivers": [
+        "Real-time translation",
+        "Meeting summarization",
+        "Virtual avatars"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Microsoft Authenticator",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Specialized security utility relying on cryptographic protocols (TOTP, FIDO2). Very limited surface area for AI disruption — security must be deterministic, not probabilistic.",
+      "key_drivers": [
+        "Anomaly detection",
+        "Behavioral biometrics"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "ADP Mobile Solutions",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Core payroll is regulatory and precise, but employee self-service and HR queries are ripe for conversational AI automation.",
+      "key_drivers": [
+        "HR policy queries",
+        "Automated time-off requests",
+        "Onboarding assistance"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "FedEx Mobile",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Value derived entirely from physical logistics networks. AI provides secondary enhancements to customer service and delivery estimations.",
+      "key_drivers": [
+        "Predictive delivery estimations",
+        "Customer support chatbots"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PDF Reader",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Static PDF reading is enhanced by AI summarization and semantic search, but dedicated readers still serve offline viewing, annotation, and form-filling needs that general AI assistants don't replace.",
+      "key_drivers": [
+        "Document summarization",
+        "Semantic search",
+        "QA extraction"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 because PDF readers serve annotation, form-filling, and offline needs beyond just reading text — they won't be fully replaced by AI chat interfaces."
+    },
+    {
+      "name": "Uber - Driver: Drive & Deliver",
+      "ai_impact_score": 3,
+      "confidence": "medium",
+      "reasoning": "Physical-world driving service where AI primarily aids routing and pricing. Direct replacement requires autonomous vehicles, which remains uncertain in timeline.",
+      "key_drivers": [
+        "Dynamic pricing",
+        "Route optimization",
+        "Safety monitoring"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "UKG Pro",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Backend compliance and payroll are insulated by regulation. Employee-facing interfaces for scheduling, benefits, and HR requests can be significantly automated by conversational agents.",
+      "key_drivers": [
+        "Conversational HR interfaces",
+        "Automated scheduling",
+        "Predictive attrition"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Workday",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "AI streamlines employee self-service and automates HR workflows, providing noticeable enhancements without replacing the core HR software ecosystem.",
+      "key_drivers": [
+        "HR workflow automation",
+        "Employee self-service AI"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "LinkedIn",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Generative AI significantly enhances profile creation, messaging, and recruiter matching. LinkedIn's professional data moat protects it from replacement while AI deeply enhances the experience.",
+      "key_drivers": [
+        "AI-assisted content generation",
+        "Candidate matching algorithms",
+        "Network-effect defensibility"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Spark Driver",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Physical package delivery app. AI provides only minor logistical or support improvements rather than disrupting the primary physical task.",
+      "key_drivers": [
+        "Physical delivery logistics",
+        "Gig work execution"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Amazon Flex",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Core functionality requires physical-world execution. AI provides routing and scheduling optimization but cannot replace the delivery driver.",
+      "key_drivers": [
+        "Physical delivery execution",
+        "Supply chain logistics"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "UPS",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Value depends entirely on physical shipping infrastructure. AI impact is limited to customer support chatbots and back-end route optimization.",
+      "key_drivers": [
+        "Physical logistics network",
+        "Package tracking"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Shiftsmart - Find Work",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "AI improves worker-to-shift matching and automates onboarding, offering minor marketplace efficiency gains without replacing the manual labor itself.",
+      "key_drivers": [
+        "Job matching algorithms",
+        "Labor marketplace efficiency"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Google Chat",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI deeply integrates into enterprise communication to summarize threads, draft replies, and track action items via Gemini integration.",
+      "key_drivers": [
+        "Thread summarization",
+        "Automated drafting",
+        "Gemini integration"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Permission Guard",
+      "ai_impact_score": 3,
+      "confidence": "low",
+      "reasoning": "Narrow security utility that enforces OS-level permission controls. AI could assist in pattern-matching rogue app behaviors but core functionality is rule-based.",
+      "key_drivers": [
+        "Device security utility",
+        "App permissions"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Duo Mobile",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Core value is identity validation via cryptographic protocols (TOTP, push authentication). Highly insulated from AI disruption.",
+      "key_drivers": [
+        "Identity verification",
+        "Cryptographic security"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Paylocity",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI automates routine HR queries and streamlines workflows, but the regulated payroll backbone (tax calculations, compliance filing) is highly defensible.",
+      "key_drivers": [
+        "HR process automation",
+        "Payroll query resolution"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5 because payroll apps have stronger regulatory moats than the original score reflected."
+    },
+    {
+      "name": "Job Search by ZipRecruiter",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Job searching is highly exposed to AI for candidate matching and application drafting. AI agents can auto-apply and screen at scale.",
+      "key_drivers": [
+        "Semantic candidate matching",
+        "Automated application aids"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "Score unchanged but disruption_type corrected from mixed → automation for valid enum value."
+    },
+    {
+      "name": "Square Point of Sale: Payment",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Core value is payment processing rails and hardware integration (card readers). Strongly insulated from AI disruption by financial regulation and physical hardware.",
+      "key_drivers": [
+        "Payment processing rails",
+        "Hardware integration"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Webex",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Video conferencing is structurally enhanced by AI features like transcripts, live translation, and automatic action-item generation.",
+      "key_drivers": [
+        "Meeting summarization",
+        "Real-time translation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Slack",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "As a business knowledge hub, Slack benefits heavily from AI summarization and workflow agents. However, its strong enterprise lock-in and integration ecosystem provide significant defensibility.",
+      "key_drivers": [
+        "AI workflow agents",
+        "Knowledge retrieval",
+        "Enterprise integration moat"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 and disruption_type from automation → enhancement because Slack's deep enterprise integrations and data moat make it a strong platform for AI enhancement rather than a disruption target."
+    },
+    {
+      "name": "Shopify: Sell online/in person",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI lowers barriers to e-commerce by generating storefronts, writing product descriptions, and automating customer support. Shopify's platform moat remains strong.",
+      "key_drivers": [
+        "E-commerce setup automation",
+        "Content generation",
+        "Customer support bots"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Disruption_type corrected from mixed → enhancement for valid enum value. Score unchanged."
+    },
+    {
+      "name": "Keep PDF - PDF Reader",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Static PDF readers face pressure from AI-powered document understanding, but dedicated readers still serve offline viewing, annotation, and form needs.",
+      "key_drivers": [
+        "Document summarization",
+        "Knowledge extraction"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 and disruption_type from replacement → enhancement because PDF readers serve practical offline and annotation needs that AI assistants don't fully cover."
+    },
+    {
+      "name": "Emergent AI: Vibe Code Apps",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "AI-native no-code app builder facing intense competition from generalized coding agents (Cursor, Devin, Claude artifacts) that can generate complex apps directly.",
+      "key_drivers": [
+        "Code generation",
+        "Text-to-app deployment"
+      ],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Lyft Driver",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Physical human transportation service. AI optimizes routing but the core physical driving task is insulated from near-term AI disruption.",
+      "key_drivers": [
+        "Physical transportation",
+        "Gig economy"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "All Document Reader:PDF Viewer",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Document viewing is enhanced by AI extraction and summarization. However, dedicated viewers still serve offline, annotation, and multi-format needs.",
+      "key_drivers": [
+        "Document interaction",
+        "AI-assisted reading"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 and disruption_type from replacement → enhancement for consistency with other PDF reader assessments."
+    },
+    {
+      "name": "Adobe Scan AI PDF Scanner, OCR",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI transforms scanning by intelligently structuring extracted data and repairing visual artifacts. Adobe's brand and ecosystem integration provide defensibility.",
+      "key_drivers": [
+        "Image-to-text enhancement",
+        "Document structuring"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Meta Business Suite",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI automates ad creative generation, audience targeting, and routine customer inquiries. However, Meta's exclusive platform access (Facebook/Instagram APIs) creates a strong moat.",
+      "key_drivers": [
+        "Automated ad creatives",
+        "Customer support bots",
+        "Platform lock-in"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "Score adjusted from 8 → 7 because Meta Business Suite has exclusive access to Facebook/Instagram ad APIs, making it irreplaceable regardless of AI capabilities."
+    },
+    {
+      "name": "Glassdoor",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "AI adds value by synthesizing reviews into insights and providing tailored career advice. Glassdoor's unique proprietary review data provides defensibility.",
+      "key_drivers": [
+        "Review sentiment summarization",
+        "Career coaching"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "UKG Ready",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI chatbots and schedule predictions provide significant workflow enhancements. The fundamental payroll and compliance backend remains defensible.",
+      "key_drivers": [
+        "HR workflow automation",
+        "Employee self-service"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Dayforce",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "Noticeable improvements in employee self-service and forecasting, without displacing the regulated core system of record.",
+      "key_drivers": [
+        "HR service automation",
+        "Data insights"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Invoice Maker - Invoice Fly",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI can auto-extract invoice details from photos/emails, auto-populate line items, and generate professional invoices from natural language descriptions — significantly automating the core workflow.",
+      "key_drivers": [
+        "Expense extraction",
+        "Automated drafting",
+        "OCR data capture"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "Score adjusted from 5 → 6 because multimodal AI (photo-to-invoice, email extraction) directly automates the core value proposition more significantly than originally assessed."
+    },
+    {
+      "name": "MyWalmart",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Internal employee HR portal for schedules, pay, and benefits. AI can enhance policy search and scheduling requests, but the utility is insulated as an enterprise employee tool.",
+      "key_drivers": [
+        "HR utility structure",
+        "Employee identity portal",
+        "Policy search enhancement"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "SimplyWise Cost Estimator",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "Construction cost estimation is highly automatable with multimodal AI that can analyze blueprints or site photos to generate detailed cost breakdowns.",
+      "key_drivers": [
+        "Data entry reduction",
+        "Computer vision for blueprints",
+        "Automated material pricing"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Instawork",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "AI improves matching efficiency between gig workers and shifts, but core value relies on physical-world execution and local supply logistics — a strong moat.",
+      "key_drivers": [
+        "Matching algorithms",
+        "Local logistics",
+        "Physical world execution"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because the physical labor component provides stronger insulation from AI disruption than a 5 suggests."
+    },
+    {
+      "name": "TapScanner",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Document scanning is increasingly commoditized by native OS camera AI features and multimodal assistants. TapScanner's standalone utility faces significant pressure.",
+      "key_drivers": [
+        "Document understanding",
+        "OCR commoditization",
+        "Multimodal reasoning"
+      ],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 9 → 8 because while scanning is commoditized, dedicated scanner apps still offer PDF organization, cloud sync, and editing features that OS-level tools lack."
+    },
+    {
+      "name": "Image to PDF - PDF Converter",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Narrow file conversion utility at strong risk of being replaced by native OS integrations and AI assistants that handle file manipulations natively.",
+      "key_drivers": [
+        "OS level integration",
+        "Agentic file handling",
+        "Workflow summarization"
+      ],
+      "disruption_type": "replacement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "randstad: jobs for workers",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "AI enhances candidate screening and job matching, but the app is insulated by its physical labor operations and staffing agency relationships.",
+      "key_drivers": [
+        "Resume screening",
+        "Physical world labor",
+        "Operational logistics"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Grubhub for Drivers",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Physical delivery interface where generative AI has minimal overlap with the core gig execution. Routing optimization happens behind the scenes.",
+      "key_drivers": [
+        "Physical world logistics",
+        "Routing optimization",
+        "Location execution"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Gocrypto: Crypto Trading",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "As a trading simulator and education tool, AI can personalize financial education, explain market anomalies, and help users build simulated trading strategies via natural language.",
+      "key_drivers": [
+        "Market analysis",
+        "Algorithmic trading generation",
+        "Financial education"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Fiverr - Freelance Service",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Many Fiverr service categories (SEO writing, basic design, voiceover, simple coding) face direct replacement by generative AI. However, Fiverr is pivoting toward AI-augmented complex services, providing partial defensibility.",
+      "key_drivers": [
+        "Content generation",
+        "Knowledge work automation",
+        "Task unbundling"
+      ],
+      "disruption_type": "replacement",
+      "changes_made": "Score adjusted from 9 → 8 because Fiverr is actively pivoting to AI-augmented delivery and complex services; its marketplace network effects provide some defense."
+    },
+    {
+      "name": "Paychex Flex",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "Payroll and tax compliance are high-stakes regulated tasks. AI provides conversational interfaces for HR questions but the core money-movement moat is highly defensible.",
+      "key_drivers": [
+        "Tax compliance structure",
+        "Payroll rails defensibility",
+        "Natural language HR querying"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "GoTo",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Enterprise communication software has vast surface area for AI automation: meeting summarization, real-time transcription, and action-item extraction are becoming table stakes.",
+      "key_drivers": [
+        "Meeting summarization",
+        "Real-time transcription",
+        "Communication intelligence"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Disruption_type corrected from automation → enhancement because the core video conferencing utility persists; AI enhances the experience rather than automating it away."
+    },
+    {
+      "name": "Public Storage",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Digital portal for physical storage unit access and payments. AI has almost zero leverage over physical space leasing and hardware gate access.",
+      "key_drivers": [
+        "Physical infrastructure",
+        "Location gate access",
+        "Regulated leasing"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Homebase: Scheduling & Payroll",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "AI automates schedule generation via traffic forecasting and dynamic shift management, reducing administrative burden while keeping the workflow structure.",
+      "key_drivers": [
+        "Schedule optimization",
+        "Predictive staffing",
+        "Conversational shift management"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Connecteam Team Management App",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "AI streamlines manager-level drafting and scheduling, though the primary value as a deskless worker hub remains defensible.",
+      "key_drivers": [
+        "Content drafting",
+        "Shift scheduling",
+        "Feedback summarization"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Snapchat",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Snapchat uses AI for AR filters, generative media, and My AI companion. However, its core social network moat (streaks, stories) provides strong defensibility against pure AI disruption.",
+      "key_drivers": [
+        "Generative media creation",
+        "Conversational companions",
+        "Augmented reality filtering"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 because Snapchat's social graph moat, streaks mechanics, and AR camera leadership provide significant defensibility."
+    },
+    {
+      "name": "Telegram",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Telegram's bot ecosystem benefits heavily from AI (moderation, translation, summarization). Core messaging is commodity but the channel/group ecosystem creates defensibility.",
+      "key_drivers": [
+        "AI bot ecosystem",
+        "Chat thread summarization",
+        "Automated moderation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because Telegram's core value is privacy-focused messaging and channels — AI enhances bots but doesn't transform the fundamental utility."
+    },
+    {
+      "name": "Discord - Talk, Play, Hang Out",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Discord's massive server ecosystem benefits from AI auto-moderation, conversation summarization, and voice transcription, natively upgrading community management.",
+      "key_drivers": [
+        "Community auto-moderation",
+        "Conversation summarization",
+        "Voice transcription"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Messenger",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Meta integrates multimodal AI assistants directly into chat flows, shifting from pure messaging to human-plus-agent interaction.",
+      "key_drivers": [
+        "Synthetic companions",
+        "Generative search integration",
+        "In-stream image creation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Reelway",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "Small video platform facing AI-generated content competition. However, the 'unpredictable, real videos' positioning specifically differentiates against synthetic content.",
+      "key_drivers": [
+        "Synthetic media competition",
+        "Personalized content feeds",
+        "Authenticity positioning"
+      ],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Score adjusted from 9 → 7 because Reelway's specific 'real videos, unskippable' brand positioning deliberately differentiates from AI-generated content, reducing its vulnerability."
+    },
+    {
+      "name": "TextNow: Call + Text Unlimited",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "Ad-supported VoIP provider. AI aids voicemail transcription and spam screening, but the core moat is free network access and telecom infrastructure.",
+      "key_drivers": [
+        "Voicemail transcription",
+        "Spam filtering algorithms",
+        "Telecom infrastructure"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Microsoft Edge: AI browser",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Browsers are shifting from passive renderers to active AI-driven navigation engines. Edge with Copilot integration synthesizes pages, executes workflows, and navigates on behalf of users.",
+      "key_drivers": [
+        "Web orchestration agents",
+        "Page summarization",
+        "Conversational search routing"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 9 → 8 and disruption_type from automation → enhancement because the browser remains the primary web access tool; AI deeply enhances it but doesn't automate away the need to browse."
+    },
+    {
+      "name": "Signal Private Messenger",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Signal's zero-knowledge privacy mission fundamentally conflicts with cloud AI integration. On-device models offer minor perks like local translation but scope is severely limited.",
+      "key_drivers": [
+        "On-device privacy constraints",
+        "Local feature processing",
+        "Anti-data-mining architecture"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "WhatsApp Business",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "SMB customer support over WhatsApp is highly automatable. AI agents can handle booking flows, product inquiries, and conversational commerce, replacing significant manual business owner effort.",
+      "key_drivers": [
+        "Automated customer support",
+        "Conversational commerce",
+        "Lead qualification agents"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Yahoo Mail: Email & Planner",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Email clients benefit significantly from AI drafting, semantic search, and task extraction. However, email itself remains a necessary communication channel with strong persistence.",
+      "key_drivers": [
+        "Automated drafting",
+        "Inbox semantic summarization",
+        "Schedule and task extraction"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 and disruption_type from automation → enhancement because email as a protocol persists; AI enhances the client experience but doesn't automate away the need for email."
+    },
+    {
+      "name": "GroupMe",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "Lightweight group coordination tool. AI can summarize missed messages and extract calendar events but doesn't change its nature as a simple social utility.",
+      "key_drivers": [
+        "Event coordination automation",
+        "Missed chat summaries",
+        "Social utility persistence"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Brave Private Web Browser, VPN",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "AI assistants natively integrated into browsers enhance page summarization and queries. Brave's privacy-first positioning limits cloud AI integration depth.",
+      "key_drivers": [
+        "Search summarization",
+        "Native AI assistants",
+        "Web reading comprehension"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Firefox Fast & Private Browser",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "AI page summarization and privacy-preserving local models add value on top of core web navigation.",
+      "key_drivers": [
+        "AI web search summaries",
+        "Privacy-preserving local models",
+        "Page analysis"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Google Voice",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "Telephony handling benefits from AI call screening and voicemail transcription. However, the core VoIP utility is infrastructure-dependent, limiting full AI transformation.",
+      "key_drivers": [
+        "Call screening",
+        "Voicemail transcription",
+        "Contextual replies"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because while AI enhances call management, the core telephony infrastructure is not significantly disrupted."
+    },
+    {
+      "name": "Zangi Private Messenger",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "Core value is low-bandwidth resilience and encryption for messaging. AI aids translation and text drafting but doesn't transform the fundamental utility.",
+      "key_drivers": [
+        "Real-time translation",
+        "Text drafting"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Opera: Private Web Browser",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Opera leans into native AI integration (Aria) for browsing assistance and content generation, expanding traditional browser utility.",
+      "key_drivers": [
+        "Built-in AI assistants",
+        "Tab management",
+        "Content generation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Video Meeting",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "A smaller video conferencing app that benefits from AI transcription and summaries, but lacks the enterprise scale to justify an 8. Primarily a commodity meeting tool.",
+      "key_drivers": [
+        "Real-time transcription",
+        "Meeting summaries",
+        "Action item extraction"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 6 because this is a small, generic video meeting app without the enterprise integration depth of Zoom/Teams. AI features are table-stakes, not differentiating."
+    },
+    {
+      "name": "SMS Messenger",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "SMS apps gain basic AI text prediction and spam filtering, but the core utility is simple point-to-point text delivery constrained by the SMS protocol.",
+      "key_drivers": [
+        "Predictive text",
+        "Smart replies",
+        "Spam filtering"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because SMS protocol constraints limit the surface area for meaningful AI enhancement."
+    },
+    {
+      "name": "My Straight Talk",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "Carrier account management app where AI can automate customer support and troubleshooting, but the core billing and plan management is straightforward.",
+      "key_drivers": [
+        "Customer support automation",
+        "Personalized recommendations"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "Score adjusted from 6 → 5 because carrier account apps have limited complexity for AI to meaningfully transform."
+    },
+    {
+      "name": "CallApp: Caller ID & Block",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Spam detection and caller identification are classic ML problems. AI call screening transforms a lookup database into an automated gatekeeper.",
+      "key_drivers": [
+        "Spam detection models",
+        "AI call screening",
+        "Call transcription"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "UC Browser",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Browsers rely on AI to personalize news feeds, translate content, and summarize pages for users on varied network connections.",
+      "key_drivers": [
+        "Content recommendation",
+        "Page translation",
+        "Smart summaries"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Telega － мессенджер и звонки",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "Standard messaging app where AI bots can add translation and summarization, but the base protocol is commodity messaging with limited differentiation surface.",
+      "key_drivers": [
+        "Chatbot integration",
+        "Text summarization",
+        "Content moderation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because this is a basic messaging clone with limited AI surface area beyond standard enhancements."
+    },
+    {
+      "name": "Messenger Kids – The Messaging",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "AI enforces complex safety boundaries for children's chats and provides fun AR filters. Enhancement-focused with strong parental control requirements limiting AI scope.",
+      "key_drivers": [
+        "Content moderation",
+        "Generative AR filters",
+        "Educational chat"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Truecaller: Spam Call Blocker",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Truecaller deploys AI screeners that talk to callers to determine intent, transforming from a static lookup database into an automated intelligent gatekeeper.",
+      "key_drivers": [
+        "AI call assistants",
+        "Spam prediction",
+        "Behavioral analysis"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Contacts (Google)",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Infrastructure OS utility for contact management. AI helps with deduplication and data normalization but this is a low-engagement utility tied to the OS.",
+      "key_drivers": [
+        "Deduplication",
+        "Context enrichment",
+        "Relationship mapping"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 4 → 3 because contact management is a basic OS utility with minimal surface for meaningful AI disruption."
+    },
+    {
+      "name": "Messages",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "Default SMS app using on-device AI for drafting responses and organizing inboxes, providing noticeable quality-of-life improvements.",
+      "key_drivers": [
+        "Message categorization",
+        "Magic compose",
+        "Automated OTP deletion"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Messenger : Text Messages",
+      "ai_impact_score": 4,
+      "confidence": "low",
+      "reasoning": "Generic third-party SMS app where AI adds basic drafting and sorting. Limited differentiation potential in a commoditized SMS client market.",
+      "key_drivers": [
+        "Generative replies",
+        "Spam filtering"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because generic third-party SMS apps have very limited surface for AI differentiation."
+    },
+    {
+      "name": "Call Block: Filter and Blocker",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "AI drives spam and scam blocking efficacy, dynamically adapting to new spoofing campaigns without manual blacklists.",
+      "key_drivers": [
+        "Behavioral spam detection",
+        "Predictive blocking"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Messages - SMS Texting App",
+      "ai_impact_score": 4,
+      "confidence": "low",
+      "reasoning": "Generic SMS client with standard AI text prediction and spam protection. Minimal differentiation in a commoditized market.",
+      "key_drivers": [
+        "Smart replies",
+        "Inbox organization"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because generic SMS clients have very limited AI differentiation potential."
+    },
+    {
+      "name": "Portable WiFi - Mobile Hotspot",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Hardware utility for toggling internet sharing. AI has almost zero impact on its core function to bridge local hardware connectivity.",
+      "key_drivers": [
+        "Network optimization"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Watch Duty",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI speech-to-text and computer vision can automate ingestion and verification of real-time fire data from scanner feeds and satellite imagery, replacing volunteer listening effort.",
+      "key_drivers": [
+        "Scanner transcription",
+        "Satellite computer vision",
+        "Alert generation"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Burner: Second Phone Number",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "AI can summarize threads, transcribe voicemails, and auto-reply for temporary numbers. Enhancement is moderate given the app's privacy-focused niche.",
+      "key_drivers": [
+        "Contextual auto-replies",
+        "Voicemail transcription"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 5 because the core value is disposable phone numbers — a telecom utility with limited AI surface."
+    },
+    {
+      "name": "Google Chrome",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "Chrome integrates LLMs to summarize web content, draft text inputs, and auto-group tabs, materially changing how users digest the web.",
+      "key_drivers": [
+        "AI summaries",
+        "Integrated language models",
+        "Tab grouping"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Tor Browser",
+      "ai_impact_score": 2,
+      "confidence": "high",
+      "reasoning": "Tor avoids cloud AI entirely to preserve anonymity. Any AI must be highly constrained and local. Privacy-first architecture severely limits AI integration.",
+      "key_drivers": [
+        "Client-side privacy protection",
+        "Anonymity constraints"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 3 → 2 because Tor's architecture fundamentally prevents meaningful AI integration — any cloud AI would compromise its core anonymity mission."
+    },
+    {
+      "name": "Messages for Android",
+      "ai_impact_score": 4,
+      "confidence": "low",
+      "reasoning": "Standard SMS app with minor AI improvements in typing speed and inbox organization. Commoditized space with minimal differentiation.",
+      "key_drivers": [
+        "Suggested replies",
+        "Categorization"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because generic SMS apps have limited AI differentiation potential."
+    },
+    {
+      "name": "Gmail",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Email is entirely text-based and AI profoundly enhances it with drafting, categorization, and summarization. However, email as a protocol is persistent, and Gmail's data moat is enormous.",
+      "key_drivers": [
+        "Email drafting",
+        "Inbox summarization",
+        "Agentic task handling"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "Score adjusted from 9 → 8 because while AI deeply transforms the email experience, Gmail's massive data moat and Google ecosystem lock-in provide strong defensibility."
+    },
+    {
+      "name": "Eyecon Caller ID & Spam Block",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "Relies on predictive algorithms to flag spam. AI upgrades it from a static database to a dynamic automated threat detector.",
+      "key_drivers": [
+        "Spam identification models",
+        "Visual contact matching"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Visible",
+      "ai_impact_score": 5,
+      "confidence": "high",
+      "reasoning": "All-digital wireless carrier where customer service can be automated by LLM agents. However, telecom services themselves are infrastructure-bound.",
+      "key_drivers": [
+        "Algorithmic customer support",
+        "Automated provisioning"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "Score adjusted from 6 → 5 because the core telecom service is infrastructure-dependent; AI primarily automates the support layer."
+    },
+    {
+      "name": "Boost Mobile",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "Carrier app where conversational AI handles support and billing queries, replacing call center volume.",
+      "key_drivers": [
+        "Chatbot support",
+        "Plan optimization"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Securus Mobile",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Prison communication app utilizing AI for security monitoring, voice tone analysis, and call transcription for keyword detection.",
+      "key_drivers": [
+        "Audio transcription",
+        "Behavioral monitoring",
+        "Compliance"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Neuro Browser – Fast Video",
+      "ai_impact_score": 5,
+      "confidence": "low",
+      "reasoning": "Specialized video browser where AI adds value through recommendation feeds and dynamic ad-blocking, but remains a basic web portal.",
+      "key_drivers": [
+        "Browsing optimization",
+        "Content recommendation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "SMS Messages App",
+      "ai_impact_score": 4,
+      "confidence": "low",
+      "reasoning": "Standard messaging variant with common AI text enhancements. Minimal differentiation in commoditized SMS market.",
+      "key_drivers": [
+        "Spam filtering",
+        "Reply suggestions"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because generic SMS apps have very limited AI differentiation surface."
+    },
+    {
+      "name": "Proton Mail: Encrypted Email",
+      "ai_impact_score": 6,
+      "confidence": "high",
+      "reasoning": "Privacy constraints require on-device AI architectures. Local LLMs can modernize encrypted email with summarization, but zero-knowledge requirements significantly limit AI scope compared to Gmail.",
+      "key_drivers": [
+        "Local AI models",
+        "On-device search",
+        "Summarization"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 7 → 6 because Proton's zero-knowledge encryption fundamentally limits the depth of AI features compared to cloud-based email services."
+    },
+    {
+      "name": "My Tracfone: Account Manager",
+      "ai_impact_score": 5,
+      "confidence": "medium",
+      "reasoning": "Basic tier-1 troubleshooting replaced by smart chatbots, representing noticeable value for prepaid carrier logistics.",
+      "key_drivers": [
+        "Virtual support agents",
+        "Diagnostic troubleshooting"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Messenger SMS - Text Messages",
+      "ai_impact_score": 4,
+      "confidence": "low",
+      "reasoning": "Standard SMS interface with parity AI typing and filtering enhancements. Minimal differentiation.",
+      "key_drivers": [
+        "Text generation",
+        "Spam filtering"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 for consistency with other generic SMS app assessments."
+    },
+    {
+      "name": "Call Blocker - Block Numbers",
+      "ai_impact_score": 6,
+      "confidence": "medium",
+      "reasoning": "Spam blocking efficiency is driven by ML models predicting bad actors. AI handles this automatically without user reporting.",
+      "key_drivers": [
+        "Machine learning spam filters",
+        "Behavioral classification"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Messages: SMS Messaging App",
+      "ai_impact_score": 4,
+      "confidence": "low",
+      "reasoning": "Standard texting improvements powered by NLP. Commoditized SMS space with limited AI differentiation.",
+      "key_drivers": [
+        "Thread summarization",
+        "Quick responses"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 for consistency with other generic SMS app assessments."
+    },
+    {
+      "name": "LINE: Calls & Messages",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "As a super-app, generative AI enables custom sticker creation, instant chat translation, and complex branded service bots natively.",
+      "key_drivers": [
+        "Generative stickers",
+        "AI customer service bots",
+        "Live translation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Shipt: Shopper and Driver",
+      "ai_impact_score": 4,
+      "confidence": "high",
+      "reasoning": "Gig economy driver app using AI for delivery timing and item substitution suggestions. However, the core physical shopping and delivery task is insulated from AI replacement.",
+      "key_drivers": [
+        "Route optimization",
+        "Predictive substitution",
+        "Support automation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 6 → 4 and disruption_type from automation → enhancement because Shipt involves physical grocery shopping, which is heavily insulated from AI disruption similar to other gig delivery apps."
+    },
+    {
+      "name": "Package Tracker - pkge Mobile",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "Logistics tracking relies mostly on deterministic APIs. AI helps parse tracking emails and predict delays, but core utility is data aggregation.",
+      "key_drivers": [
+        "Predictive arrival times",
+        "Logistical parsing"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "iNaturalist",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Core experience of identifying flora and fauna was completely transformed by AI computer vision, replacing manual field guide lookups with instant photo identification.",
+      "key_drivers": [
+        "Advanced computer vision",
+        "Automated taxonomy classification"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Duolingo: Language Lessons",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Duolingo deeply leverages AI for conversational practice and personalized curriculum. However, its brand, gamification, and community create a strong moat against generic AI tutors.",
+      "key_drivers": [
+        "Conversational roleplay",
+        "Generative curriculum",
+        "Speech assessment"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 9 → 8 because Duolingo's gamification layers, streak mechanics, brand recognition, and community provide strong defensibility against generic AI language tutors."
+    },
+    {
+      "name": "Finelo: Master Trading",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "Trading education with chart analysis benefits from AI reasoning models. However, the educational and simulation aspects provide defensibility beyond just chart analysis.",
+      "key_drivers": [
+        "Automated chart analysis",
+        "Predictive market synthesis",
+        "Financial tutoring"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 and disruption_type from automation → enhancement because trading education has curated content and simulation features that AI enhances rather than replaces."
+    },
+    {
+      "name": "Learn English, Spanish: Learna",
+      "ai_impact_score": 9,
+      "confidence": "high",
+      "reasoning": "Explicitly AI-native language tutor using LLMs for unscripted speaking practice. Highly exposed to competition from general-purpose AI tutors.",
+      "key_drivers": [
+        "Voice-native AI tutors",
+        "Dynamic curriculum generation"
+      ],
+      "disruption_type": "new-AI-native-competition",
+      "changes_made": "Disruption_type corrected from replacement → new-AI-native-competition because as an AI-native app, the threat is other AI platforms offering the same capability, not traditional replacement."
+    },
+    {
+      "name": "PictureThis - Plant Identifier",
+      "ai_impact_score": 8,
+      "confidence": "high",
+      "reasoning": "Core utility is computer vision plant identification — pure AI automation. However, the curated botanical database, care guides, and community provide meaningful value beyond raw identification.",
+      "key_drivers": [
+        "Image recognition",
+        "Disease diagnosis via CV",
+        "Care guidance"
+      ],
+      "disruption_type": "automation",
+      "changes_made": "Score adjusted from 9 → 8 because while plant identification is AI-native, PictureThis offers curated care guides, disease treatment, and community features that Google Lens alone doesn't replicate."
+    },
+    {
+      "name": "ABCmouse: Kids Learning Games",
+      "ai_impact_score": 7,
+      "confidence": "high",
+      "reasoning": "AI can personalize learning paths for children and dynamically generate exercises. However, the curated 13,000+ activities and trusted brand create a strong content moat.",
+      "key_drivers": [
+        "Adaptive learning paths",
+        "Continuous assessment",
+        "Generative media"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 8 → 7 because ABCmouse's massive curated content library and established brand trust with parents provide significant defensibility."
+    },
+    {
+      "name": "PragerU",
+      "ai_impact_score": 4,
+      "confidence": "medium",
+      "reasoning": "Core value is specific political/editorial video content produced by humans. AI aids discovery and accessibility but the ideological content itself is not AI-replicable.",
+      "key_drivers": [
+        "Algorithm recommendation",
+        "Auto-translation and dubbing"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 5 → 4 because the core value is specific ideological editorial content that AI cannot meaningfully replicate or replace."
+    },
+    {
+      "name": "Simply Draw: Learn to Draw",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "Computer vision can analyze sketches through the camera and provide real-time feedback, highly enhancing physical art instruction.",
+      "key_drivers": [
+        "Visual feedback via CV",
+        "Generative outlines",
+        "Skill assessment"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "Lingokids - Play and Learn",
+      "ai_impact_score": 7,
+      "confidence": "medium",
+      "reasoning": "AI tutors and adaptive gameplay allow educational mini-games to adjust dynamically to children's explicit errors, enhancing remote learning.",
+      "key_drivers": [
+        "Adaptive difficulty",
+        "Audio generation",
+        "Tutor assistance"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    },
+    {
+      "name": "PBS KIDS Video",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Traditional media catalog app where AI primarily surfaces relevant episodes. Core value is pre-rendered, human-produced television content for children.",
+      "key_drivers": [
+        "Recommendation engines",
+        "Content safety curation"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "Score adjusted from 4 → 3 because children's TV content is highly curated, brand-trusted, and cannot be meaningfully replaced by AI-generated content."
+    },
+    {
+      "name": "Stellarium Mobile - Star Map",
+      "ai_impact_score": 3,
+      "confidence": "high",
+      "reasoning": "Planetary maps rely on physical sensor data and static astronomical catalogs. AI disruption is marginal because celestial data is deterministic.",
+      "key_drivers": [
+        "Sensor fusion",
+        "Minor AR alignment"
+      ],
+      "disruption_type": "enhancement",
+      "changes_made": "No change"
+    }
+  ]
+}
